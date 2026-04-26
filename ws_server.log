@@ -1,0 +1,1565 @@
+[07:23:00] Generating TTS: 我听不懂
+[07:23:02] Generated 26 Opus frames (1.6s)
+[07:23:02] WebSocket server listening on 0.0.0.0:8001
+[07:24:06] [+] Connected: ('10.0.0.117', 56032)
+[07:24:06]   hello: version=1 session=
+[07:24:06]   >> hello sent
+[07:24:06]   << listen state=start mode=realtime data={"session_id": "", "type": "listen", "state": "start", "mode": "realtime"}
+[07:24:06]   Audio started, mode=realtime
+[07:24:07]   Max frames (25) -> responding
+[07:24:07]   >> tts start (v1)
+[07:24:09]   >> tts stop
+[07:24:09]   Audio started, mode=realtime
+[07:24:09]   Max frames (25) -> responding
+[07:24:09]   >> tts start (v1)
+[07:24:11]   >> tts stop
+[07:24:11]   Audio started, mode=realtime
+[07:24:11]   Max frames (25) -> responding
+[07:24:11]   >> tts start (v1)
+[07:24:12]   >> tts stop
+[07:24:12]   Audio started, mode=realtime
+[07:24:12]   Max frames (25) -> responding
+[07:24:12]   >> tts start (v1)
+[07:24:14]   >> tts stop
+[07:24:14]   Audio started, mode=realtime
+[07:24:14]   Max frames (25) -> responding
+[07:24:14]   >> tts start (v1)
+[07:24:15]   >> tts stop
+[07:24:15]   Audio started, mode=realtime
+[07:24:15]   Max frames (25) -> responding
+[07:24:15]   >> tts start (v1)
+[07:24:17]   >> tts stop
+[07:24:17]   Audio started, mode=realtime
+[07:24:17]   Max frames (25) -> responding
+[07:24:17]   >> tts start (v1)
+[07:24:19]   >> tts stop
+[07:24:19]   Audio started, mode=realtime
+[07:24:19]   Max frames (25) -> responding
+[07:24:19]   >> tts start (v1)
+[07:24:20]   >> tts stop
+[07:24:20]   Audio started, mode=realtime
+[07:24:20]   Max frames (25) -> responding
+[07:24:20]   >> tts start (v1)
+[07:24:22]   >> tts stop
+[07:24:22]   Audio started, mode=realtime
+[07:24:22]   Max frames (25) -> responding
+[07:24:22]   >> tts start (v1)
+[07:24:23]   >> tts stop
+[07:24:23]   Audio started, mode=realtime
+[07:24:23]   Max frames (25) -> responding
+[07:24:23]   >> tts start (v1)
+[07:24:25]   >> tts stop
+[07:24:25]   Audio started, mode=realtime
+[07:24:25]   Max frames (25) -> responding
+[07:24:25]   >> tts start (v1)
+[07:24:27]   >> tts stop
+[07:24:27]   Audio started, mode=realtime
+[07:24:27]   Max frames (25) -> responding
+[07:24:27]   >> tts start (v1)
+[07:24:28]   >> tts stop
+[07:24:28]   Audio started, mode=realtime
+[07:24:28]   Max frames (25) -> responding
+[07:24:28]   >> tts start (v1)
+[07:24:30]   >> tts stop
+[07:24:30]   Audio started, mode=realtime
+[07:24:30]   Max frames (25) -> responding
+[07:24:30]   >> tts start (v1)
+[07:24:31]   >> tts stop
+[07:24:31]   Audio started, mode=realtime
+[07:24:31]   Max frames (25) -> responding
+[07:24:31]   >> tts start (v1)
+[07:24:33]   >> tts stop
+[07:24:33]   Audio started, mode=realtime
+[07:24:33]   Max frames (25) -> responding
+[07:24:33]   >> tts start (v1)
+[07:24:34]   >> tts stop
+[07:24:34]   Audio started, mode=realtime
+[07:24:34]   Max frames (25) -> responding
+[07:24:34]   >> tts start (v1)
+[07:24:36]   >> tts stop
+[07:24:36]   Audio started, mode=realtime
+[07:24:36]   Max frames (25) -> responding
+[07:24:36]   >> tts start (v1)
+[07:24:38]   >> tts stop
+[07:24:38]   Audio started, mode=realtime
+[07:24:38]   Max frames (25) -> responding
+[07:24:38]   >> tts start (v1)
+[07:24:39]   >> tts stop
+[07:24:39]   Audio started, mode=realtime
+[07:24:39]   Max frames (25) -> responding
+[07:24:39]   >> tts start (v1)
+[07:24:41]   >> tts stop
+[07:24:41]   Audio started, mode=realtime
+[07:24:41]   Max frames (25) -> responding
+[07:24:41]   >> tts start (v1)
+[07:24:42]   >> tts stop
+[07:24:42]   Audio started, mode=realtime
+[07:24:42]   Max frames (25) -> responding
+[07:24:42]   >> tts start (v1)
+[07:24:44]   >> tts stop
+[07:24:44]   Audio started, mode=realtime
+[07:24:44]   Max frames (25) -> responding
+[07:24:44]   >> tts start (v1)
+[07:24:46]   >> tts stop
+[07:24:46]   Audio started, mode=realtime
+[07:24:46]   Max frames (25) -> responding
+[07:24:46]   >> tts start (v1)
+[07:24:47]   >> tts stop
+[07:24:47]   Audio started, mode=realtime
+[07:24:47]   Max frames (25) -> responding
+[07:24:47]   >> tts start (v1)
+[07:24:49]   >> tts stop
+[07:24:49]   Audio started, mode=realtime
+[07:24:49]   Max frames (25) -> responding
+[07:24:49]   >> tts start (v1)
+[07:24:50]   >> tts stop
+[07:24:50]   Audio started, mode=realtime
+[07:24:50]   Max frames (25) -> responding
+[07:24:50]   >> tts start (v1)
+[07:24:52]   >> tts stop
+[07:24:52]   Audio started, mode=realtime
+[07:24:52]   Max frames (25) -> responding
+[07:24:52]   >> tts start (v1)
+[07:24:53]   >> tts stop
+[07:24:53]   Audio started, mode=realtime
+[07:24:53]   Max frames (25) -> responding
+[07:24:53]   >> tts start (v1)
+[07:24:55]   >> tts stop
+[07:24:55]   Audio started, mode=realtime
+[07:24:55]   Max frames (25) -> responding
+[07:24:55]   >> tts start (v1)
+[07:24:57]   >> tts stop
+[07:24:57]   Audio started, mode=realtime
+[07:24:57]   Max frames (25) -> responding
+[07:24:57]   >> tts start (v1)
+[07:24:58]   >> tts stop
+[07:24:58]   Audio started, mode=realtime
+[07:24:58]   Max frames (25) -> responding
+[07:24:58]   >> tts start (v1)
+[07:25:00]   >> tts stop
+[07:25:00]   Audio started, mode=realtime
+[07:25:00]   Max frames (25) -> responding
+[07:25:00]   >> tts start (v1)
+[07:25:01]   >> tts stop
+[07:25:01]   Audio started, mode=realtime
+[07:25:01]   Max frames (25) -> responding
+[07:25:01]   >> tts start (v1)
+[07:25:03]   >> tts stop
+[07:25:03]   Audio started, mode=realtime
+[07:25:03]   Max frames (25) -> responding
+[07:25:03]   >> tts start (v1)
+[07:25:04]   >> tts stop
+[07:25:04]   Audio started, mode=realtime
+[07:25:04]   Max frames (25) -> responding
+[07:25:04]   >> tts start (v1)
+[07:25:06]   >> tts stop
+[07:25:06]   Audio started, mode=realtime
+[07:25:06]   Max frames (25) -> responding
+[07:25:06]   >> tts start (v1)
+[07:25:08]   >> tts stop
+[07:25:08]   Audio started, mode=realtime
+[07:25:08]   Max frames (25) -> responding
+[07:25:08]   >> tts start (v1)
+[07:25:09]   >> tts stop
+[07:25:09]   Audio started, mode=realtime
+[07:25:09]   Max frames (25) -> responding
+[07:25:09]   >> tts start (v1)
+[07:25:11]   >> tts stop
+[07:25:11]   Audio started, mode=realtime
+[07:25:11]   Max frames (25) -> responding
+[07:25:11]   >> tts start (v1)
+[07:25:12]   >> tts stop
+[07:25:12]   Audio started, mode=realtime
+[07:25:12]   Max frames (25) -> responding
+[07:25:12]   >> tts start (v1)
+[07:25:14]   >> tts stop
+[07:25:14]   Audio started, mode=realtime
+[07:25:14]   Max frames (25) -> responding
+[07:25:14]   >> tts start (v1)
+[07:25:15]   >> tts stop
+[07:25:15]   Audio started, mode=realtime
+[07:25:15]   Max frames (25) -> responding
+[07:25:15]   >> tts start (v1)
+[07:25:17]   >> tts stop
+[07:25:17]   Audio started, mode=realtime
+[07:25:17]   Max frames (25) -> responding
+[07:25:17]   >> tts start (v1)
+[07:25:18]   >> tts stop
+[07:25:18]   Audio started, mode=realtime
+[07:25:18]   Max frames (25) -> responding
+[07:25:18]   >> tts start (v1)
+[07:25:20]   >> tts stop
+[07:25:20]   Audio started, mode=realtime
+[07:25:20]   Max frames (25) -> responding
+[07:25:20]   >> tts start (v1)
+[07:25:22]   >> tts stop
+[07:25:22]   Audio started, mode=realtime
+[07:25:22]   Max frames (25) -> responding
+[07:25:22]   >> tts start (v1)
+[07:25:23]   >> tts stop
+[07:25:23]   Audio started, mode=realtime
+[07:25:23]   Max frames (25) -> responding
+[07:25:23]   >> tts start (v1)
+[07:25:25]   >> tts stop
+[07:25:25]   Audio started, mode=realtime
+[07:25:25]   Max frames (25) -> responding
+[07:25:25]   >> tts start (v1)
+[07:25:26]   >> tts stop
+[07:25:26]   Audio started, mode=realtime
+[07:25:26]   Max frames (25) -> responding
+[07:25:26]   >> tts start (v1)
+[07:25:28]   >> tts stop
+[07:25:28]   Audio started, mode=realtime
+[07:25:28]   Max frames (25) -> responding
+[07:25:28]   >> tts start (v1)
+[07:25:30]   >> tts stop
+[07:25:30]   Audio started, mode=realtime
+[07:25:30]   Max frames (25) -> responding
+[07:25:30]   >> tts start (v1)
+[07:25:31]   >> tts stop
+[07:25:31]   Audio started, mode=realtime
+[07:25:31]   Max frames (25) -> responding
+[07:25:31]   >> tts start (v1)
+[07:25:33]   >> tts stop
+[07:25:33]   Audio started, mode=realtime
+[07:25:33]   Max frames (25) -> responding
+[07:25:33]   >> tts start (v1)
+[07:25:34]   >> tts stop
+[07:25:34]   Audio started, mode=realtime
+[07:25:34]   Max frames (25) -> responding
+[07:25:34]   >> tts start (v1)
+[07:25:36]   >> tts stop
+[07:25:36]   Audio started, mode=realtime
+[07:25:36]   Max frames (25) -> responding
+[07:25:36]   >> tts start (v1)
+[07:25:38]   >> tts stop
+[07:25:38]   Audio started, mode=realtime
+[07:25:38]   Max frames (25) -> responding
+[07:25:38]   >> tts start (v1)
+[07:25:39]   >> tts stop
+[07:25:39]   Audio started, mode=realtime
+[07:25:39]   Max frames (25) -> responding
+[07:25:39]   >> tts start (v1)
+[07:25:41]   >> tts stop
+[07:25:41]   Audio started, mode=realtime
+[07:25:41]   Max frames (25) -> responding
+[07:25:41]   >> tts start (v1)
+[07:25:42]   >> tts stop
+[07:25:42]   Audio started, mode=realtime
+[07:25:42]   Max frames (25) -> responding
+[07:25:42]   >> tts start (v1)
+[07:25:44]   >> tts stop
+[07:25:44]   Audio started, mode=realtime
+[07:25:44]   Max frames (25) -> responding
+[07:25:44]   >> tts start (v1)
+[07:25:46]   >> tts stop
+[07:25:46]   Audio started, mode=realtime
+[07:25:46]   Max frames (25) -> responding
+[07:25:46]   >> tts start (v1)
+[07:25:47]   >> tts stop
+[07:25:47]   Audio started, mode=realtime
+[07:25:47]   Max frames (25) -> responding
+[07:25:47]   >> tts start (v1)
+[07:25:49]   >> tts stop
+[07:25:49]   Audio started, mode=realtime
+[07:25:49]   Max frames (25) -> responding
+[07:25:49]   >> tts start (v1)
+[07:25:51]   >> tts stop
+[07:25:51]   Audio started, mode=realtime
+[07:25:51]   Max frames (25) -> responding
+[07:25:51]   >> tts start (v1)
+[07:25:52]   >> tts stop
+[07:25:52]   Audio started, mode=realtime
+[07:25:52]   Max frames (25) -> responding
+[07:25:52]   >> tts start (v1)
+[07:25:54]   >> tts stop
+[07:25:54]   Audio started, mode=realtime
+[07:25:54]   Max frames (25) -> responding
+[07:25:54]   >> tts start (v1)
+[07:25:55]   >> tts stop
+[07:25:55]   Audio started, mode=realtime
+[07:25:55]   Max frames (25) -> responding
+[07:25:55]   >> tts start (v1)
+[07:25:57]   >> tts stop
+[07:25:57]   Audio started, mode=realtime
+[07:25:57]   Max frames (25) -> responding
+[07:25:57]   >> tts start (v1)
+[07:25:58]   >> tts stop
+[07:25:58]   Audio started, mode=realtime
+[07:25:58]   Max frames (25) -> responding
+[07:25:58]   >> tts start (v1)
+[07:26:00]   >> tts stop
+[07:26:00]   Audio started, mode=realtime
+[07:26:00]   Max frames (25) -> responding
+[07:26:00]   >> tts start (v1)
+[07:26:01]   >> tts stop
+[07:26:01]   Audio started, mode=realtime
+[07:26:01]   Max frames (25) -> responding
+[07:26:01]   >> tts start (v1)
+[07:26:03]   >> tts stop
+[07:26:03]   Audio started, mode=realtime
+[07:26:03]   Max frames (25) -> responding
+[07:26:03]   >> tts start (v1)
+[07:26:05]   >> tts stop
+[07:26:05]   Audio started, mode=realtime
+[07:26:05]   Max frames (25) -> responding
+[07:26:05]   >> tts start (v1)
+[07:26:06]   >> tts stop
+[07:26:06]   Audio started, mode=realtime
+[07:26:06]   Max frames (25) -> responding
+[07:26:06]   >> tts start (v1)
+[07:26:08]   >> tts stop
+[07:26:08]   Audio started, mode=realtime
+[07:26:08]   Max frames (25) -> responding
+[07:26:08]   >> tts start (v1)
+[07:26:09]   >> tts stop
+[07:26:09]   Audio started, mode=realtime
+[07:26:09]   Max frames (25) -> responding
+[07:26:09]   >> tts start (v1)
+[07:26:11]   >> tts stop
+[07:26:11]   Audio started, mode=realtime
+[07:26:11]   Max frames (25) -> responding
+[07:26:11]   >> tts start (v1)
+[07:26:12]   >> tts stop
+[07:26:12]   Audio started, mode=realtime
+[07:26:12]   Max frames (25) -> responding
+[07:26:12]   >> tts start (v1)
+[07:26:14]   >> tts stop
+[07:26:14]   Audio started, mode=realtime
+[07:26:14]   Max frames (25) -> responding
+[07:26:14]   >> tts start (v1)
+[07:26:16]   >> tts stop
+[07:26:16]   Audio started, mode=realtime
+[07:26:16]   Max frames (25) -> responding
+[07:26:16]   >> tts start (v1)
+[07:26:17]   >> tts stop
+[07:26:17]   Audio started, mode=realtime
+[07:26:17]   Max frames (25) -> responding
+[07:26:17]   >> tts start (v1)
+[07:26:19]   >> tts stop
+[07:26:19]   Audio started, mode=realtime
+[07:26:19]   Max frames (25) -> responding
+[07:26:19]   >> tts start (v1)
+[07:26:20]   >> tts stop
+[07:26:20]   Audio started, mode=realtime
+[07:26:20]   Max frames (25) -> responding
+[07:26:20]   >> tts start (v1)
+[07:26:22]   >> tts stop
+[07:26:22]   Audio started, mode=realtime
+[07:26:22]   Max frames (25) -> responding
+[07:26:22]   >> tts start (v1)
+[07:26:23]   >> tts stop
+[07:26:23]   Audio started, mode=realtime
+[07:26:23]   Max frames (25) -> responding
+[07:26:23]   >> tts start (v1)
+[07:26:25]   >> tts stop
+[07:26:25]   Audio started, mode=realtime
+[07:26:25]   Max frames (25) -> responding
+[07:26:25]   >> tts start (v1)
+[07:26:27]   >> tts stop
+[07:26:27]   Audio started, mode=realtime
+[07:26:27]   Max frames (25) -> responding
+[07:26:27]   >> tts start (v1)
+[07:26:28]   >> tts stop
+[07:26:28]   Audio started, mode=realtime
+[07:26:28]   Max frames (25) -> responding
+[07:26:28]   >> tts start (v1)
+[07:26:30]   >> tts stop
+[07:26:30]   Audio started, mode=realtime
+[07:26:30]   Max frames (25) -> responding
+[07:26:30]   >> tts start (v1)
+[07:26:31]   >> tts stop
+[07:26:31]   Audio started, mode=realtime
+[07:26:31]   Max frames (25) -> responding
+[07:26:31]   >> tts start (v1)
+[07:26:33]   >> tts stop
+[07:26:33]   Audio started, mode=realtime
+[07:26:33]   Max frames (25) -> responding
+[07:26:33]   >> tts start (v1)
+[07:26:35]   >> tts stop
+[07:26:35]   Audio started, mode=realtime
+[07:26:35]   Max frames (25) -> responding
+[07:26:35]   >> tts start (v1)
+[07:26:36]   >> tts stop
+[07:26:36]   Audio started, mode=realtime
+[07:26:36]   Max frames (25) -> responding
+[07:26:36]   >> tts start (v1)
+[07:26:38]   >> tts stop
+[07:26:38]   Audio started, mode=realtime
+[07:26:38]   Max frames (25) -> responding
+[07:26:38]   >> tts start (v1)
+[07:26:39]   >> tts stop
+[07:26:39]   Audio started, mode=realtime
+[07:26:39]   Max frames (25) -> responding
+[07:26:39]   >> tts start (v1)
+[07:26:41]   >> tts stop
+[07:26:41]   Audio started, mode=realtime
+[07:26:41]   Max frames (25) -> responding
+[07:26:41]   >> tts start (v1)
+[07:26:42]   >> tts stop
+[07:26:42]   Audio started, mode=realtime
+[07:26:42]   Max frames (25) -> responding
+[07:26:42]   >> tts start (v1)
+[07:26:46] Generating TTS: 我是温哥华小智
+[07:26:47] Generated 35 Opus frames (2.1s)
+[07:26:47] WebSocket server listening on 0.0.0.0:8001
+[07:26:55] [+] Connected: ('10.0.0.117', 56033)
+[07:26:55]   hello: version=1 session=
+[07:26:55]   >> hello sent
+[07:26:55]   << listen state=start mode=realtime data={"session_id": "", "type": "listen", "state": "start", "mode": "realtime"}
+[07:26:56]   Audio started, mode=realtime
+[07:26:57]   Max frames (25) -> responding
+[07:26:57]   >> tts start (v1)
+[07:26:59]   >> tts stop
+[07:26:59]   Audio started, mode=realtime
+[07:26:59]   Max frames (25) -> responding
+[07:26:59]   >> tts start (v1)
+[07:27:01]   >> tts stop
+[07:27:01]   Audio started, mode=realtime
+[07:27:01]   Max frames (25) -> responding
+[07:27:01]   >> tts start (v1)
+[07:27:03]   >> tts stop
+[07:27:03]   Audio started, mode=realtime
+[07:27:03]   Max frames (25) -> responding
+[07:27:03]   >> tts start (v1)
+[07:27:06]   >> tts stop
+[07:27:06]   Audio started, mode=realtime
+[07:27:06]   Max frames (25) -> responding
+[07:27:06]   >> tts start (v1)
+[07:27:08]   >> tts stop
+[07:27:08]   Audio started, mode=realtime
+[07:27:08]   Max frames (25) -> responding
+[07:27:08]   >> tts start (v1)
+[07:27:10]   >> tts stop
+[07:27:10]   Audio started, mode=realtime
+[07:27:10]   Max frames (25) -> responding
+[07:27:10]   >> tts start (v1)
+[07:27:12]   >> tts stop
+[07:27:12]   Audio started, mode=realtime
+[07:27:12]   Max frames (25) -> responding
+[07:27:12]   >> tts start (v1)
+[07:27:14]   >> tts stop
+[07:27:14]   Audio started, mode=realtime
+[07:27:14]   Max frames (25) -> responding
+[07:27:14]   >> tts start (v1)
+[07:27:16]   >> tts stop
+[07:27:16]   Audio started, mode=realtime
+[07:27:16]   Max frames (25) -> responding
+[07:27:16]   >> tts start (v1)
+[07:27:18]   >> tts stop
+[07:27:18]   Audio started, mode=realtime
+[07:27:18]   Max frames (25) -> responding
+[07:27:18]   >> tts start (v1)
+[07:27:20]   >> tts stop
+[07:27:20]   Audio started, mode=realtime
+[07:27:20]   Max frames (25) -> responding
+[07:27:20]   >> tts start (v1)
+[07:27:22]   >> tts stop
+[07:27:22]   Audio started, mode=realtime
+[07:27:22]   Max frames (25) -> responding
+[07:27:22]   >> tts start (v1)
+[07:27:24]   >> tts stop
+[07:27:24]   Audio started, mode=realtime
+[07:27:24]   Max frames (25) -> responding
+[07:27:24]   >> tts start (v1)
+[07:27:26]   >> tts stop
+[07:27:26]   Audio started, mode=realtime
+[07:27:26]   Max frames (25) -> responding
+[07:27:26]   >> tts start (v1)
+[07:27:29]   >> tts stop
+[07:27:29]   Audio started, mode=realtime
+[07:27:29]   Max frames (25) -> responding
+[07:27:29]   >> tts start (v1)
+[07:27:31]   >> tts stop
+[07:27:31]   Audio started, mode=realtime
+[07:27:31]   Max frames (25) -> responding
+[07:27:31]   >> tts start (v1)
+[07:27:33]   >> tts stop
+[07:27:33]   Audio started, mode=realtime
+[07:27:33]   Max frames (25) -> responding
+[07:27:33]   >> tts start (v1)
+[07:27:35]   >> tts stop
+[07:27:35]   Audio started, mode=realtime
+[07:27:35]   Max frames (25) -> responding
+[07:27:35]   >> tts start (v1)
+[07:27:37]   >> tts stop
+[07:27:37]   Audio started, mode=realtime
+[07:27:37]   Max frames (25) -> responding
+[07:27:37]   >> tts start (v1)
+[07:27:39]   >> tts stop
+[07:27:39]   Audio started, mode=realtime
+[07:27:39]   Max frames (25) -> responding
+[07:27:39]   >> tts start (v1)
+[07:27:41]   >> tts stop
+[07:27:41]   Audio started, mode=realtime
+[07:27:41]   Max frames (25) -> responding
+[07:27:41]   >> tts start (v1)
+[07:27:43]   >> tts stop
+[07:27:43]   Audio started, mode=realtime
+[07:27:43]   Max frames (25) -> responding
+[07:27:43]   >> tts start (v1)
+[07:27:45]   >> tts stop
+[07:27:45]   Audio started, mode=realtime
+[07:27:45]   Max frames (25) -> responding
+[07:27:45]   >> tts start (v1)
+[07:27:47]   >> tts stop
+[07:27:47]   Audio started, mode=realtime
+[07:27:47]   Max frames (25) -> responding
+[07:27:47]   >> tts start (v1)
+[07:27:50]   >> tts stop
+[07:27:50]   Audio started, mode=realtime
+[07:27:50]   Max frames (25) -> responding
+[07:27:50]   >> tts start (v1)
+[07:27:52]   >> tts stop
+[07:27:52]   Audio started, mode=realtime
+[07:27:52]   Max frames (25) -> responding
+[07:27:52]   >> tts start (v1)
+[07:27:54]   >> tts stop
+[07:27:54]   Audio started, mode=realtime
+[07:27:54]   Max frames (25) -> responding
+[07:27:54]   >> tts start (v1)
+[07:27:56]   >> tts stop
+[07:27:56]   Audio started, mode=realtime
+[07:27:56]   Max frames (25) -> responding
+[07:27:56]   >> tts start (v1)
+[07:27:58]   >> tts stop
+[07:27:58]   Audio started, mode=realtime
+[07:27:58]   Max frames (25) -> responding
+[07:27:58]   >> tts start (v1)
+[07:28:00]   >> tts stop
+[07:28:00]   Audio started, mode=realtime
+[07:28:00]   Max frames (25) -> responding
+[07:28:00]   >> tts start (v1)
+[07:28:02]   >> tts stop
+[07:28:02]   Audio started, mode=realtime
+[07:28:02]   Max frames (25) -> responding
+[07:28:02]   >> tts start (v1)
+[07:28:05]   >> tts stop
+[07:28:05]   Audio started, mode=realtime
+[07:28:05]   Max frames (25) -> responding
+[07:28:05]   >> tts start (v1)
+[07:28:07]   >> tts stop
+[07:28:07]   Audio started, mode=realtime
+[07:28:07]   Max frames (25) -> responding
+[07:28:07]   >> tts start (v1)
+[07:28:09]   >> tts stop
+[07:28:09]   Audio started, mode=realtime
+[07:28:09]   Max frames (25) -> responding
+[07:28:09]   >> tts start (v1)
+[07:28:11]   >> tts stop
+[07:28:11]   Audio started, mode=realtime
+[07:28:11]   Max frames (25) -> responding
+[07:28:11]   >> tts start (v1)
+[07:28:13]   >> tts stop
+[07:28:13]   Audio started, mode=realtime
+[07:28:13]   Max frames (25) -> responding
+[07:28:13]   >> tts start (v1)
+[07:28:15]   >> tts stop
+[07:28:15]   Audio started, mode=realtime
+[07:28:15]   Max frames (25) -> responding
+[07:28:15]   >> tts start (v1)
+[07:28:17]   >> tts stop
+[07:28:17]   Audio started, mode=realtime
+[07:28:17]   Max frames (25) -> responding
+[07:28:17]   >> tts start (v1)
+[07:28:19]   >> tts stop
+[07:28:19]   Audio started, mode=realtime
+[07:28:19]   Max frames (25) -> responding
+[07:28:19]   >> tts start (v1)
+[07:28:22]   >> tts stop
+[07:28:22]   Audio started, mode=realtime
+[07:28:22]   Max frames (25) -> responding
+[07:28:22]   >> tts start (v1)
+[07:28:24]   >> tts stop
+[07:28:24]   Audio started, mode=realtime
+[07:28:24]   Max frames (25) -> responding
+[07:28:24]   >> tts start (v1)
+[07:28:26]   >> tts stop
+[07:28:26]   Audio started, mode=realtime
+[07:28:26]   Max frames (25) -> responding
+[07:28:26]   >> tts start (v1)
+[07:28:28]   >> tts stop
+[07:28:28]   Audio started, mode=realtime
+[07:28:28]   Max frames (25) -> responding
+[07:28:28]   >> tts start (v1)
+[07:28:30]   >> tts stop
+[07:28:30]   Audio started, mode=realtime
+[07:28:30]   Max frames (25) -> responding
+[07:28:30]   >> tts start (v1)
+[07:28:32]   >> tts stop
+[07:28:32]   Audio started, mode=realtime
+[07:28:32]   Max frames (25) -> responding
+[07:28:32]   >> tts start (v1)
+[07:28:34]   >> tts stop
+[07:28:34]   Audio started, mode=realtime
+[07:28:34]   Max frames (25) -> responding
+[07:28:34]   >> tts start (v1)
+[07:28:45] [-] Disconnected: ('10.0.0.117', 56033)
+[07:28:45] [+] Connected: ('10.0.0.117', 56034)
+[07:28:45]   hello: version=1 session=
+[07:28:45]   >> hello sent
+[07:28:45]   << listen state=start mode=realtime data={"session_id": "", "type": "listen", "state": "start", "mode": "realtime"}
+[07:28:45]   Audio started, mode=realtime
+[07:28:47]   Max frames (25) -> responding
+[07:28:47]   >> tts start (v1)
+[07:28:49]   >> tts stop
+[07:28:49]   Audio started, mode=realtime
+[07:28:49]   Max frames (25) -> responding
+[07:28:49]   >> tts start (v1)
+[07:28:51]   >> tts stop
+[07:28:51]   Audio started, mode=realtime
+[07:28:51]   Max frames (25) -> responding
+[07:28:51]   >> tts start (v1)
+[07:28:53]   >> tts stop
+[07:28:53]   Audio started, mode=realtime
+[07:28:53]   Max frames (25) -> responding
+[07:28:53]   >> tts start (v1)
+[07:28:55]   >> tts stop
+[07:28:55]   Audio started, mode=realtime
+[07:28:55]   Max frames (25) -> responding
+[07:28:55]   >> tts start (v1)
+[07:28:58]   >> tts stop
+[07:28:58]   Audio started, mode=realtime
+[07:28:58]   Max frames (25) -> responding
+[07:28:58]   >> tts start (v1)
+[07:29:00]   >> tts stop
+[07:29:00]   Audio started, mode=realtime
+[07:29:00]   Max frames (25) -> responding
+[07:29:00]   >> tts start (v1)
+[07:29:02]   >> tts stop
+[07:29:02]   Audio started, mode=realtime
+[07:29:02]   Max frames (25) -> responding
+[07:29:02]   >> tts start (v1)
+[07:29:04]   >> tts stop
+[07:29:04]   Audio started, mode=realtime
+[07:29:04]   Max frames (25) -> responding
+[07:29:04]   >> tts start (v1)
+[07:29:06]   >> tts stop
+[07:29:06]   Audio started, mode=realtime
+[07:29:06]   Max frames (25) -> responding
+[07:29:06]   >> tts start (v1)
+[07:29:08]   >> tts stop
+[07:29:08]   Audio started, mode=realtime
+[07:29:08]   Max frames (25) -> responding
+[07:29:08]   >> tts start (v1)
+[07:29:10]   >> tts stop
+[07:29:10]   Audio started, mode=realtime
+[07:29:10]   Max frames (25) -> responding
+[07:29:10]   >> tts start (v1)
+[07:29:13]   >> tts stop
+[07:29:13]   Audio started, mode=realtime
+[07:29:13]   Max frames (25) -> responding
+[07:29:13]   >> tts start (v1)
+[07:29:15]   >> tts stop
+[07:29:15]   Audio started, mode=realtime
+[07:29:15]   Max frames (25) -> responding
+[07:29:15]   >> tts start (v1)
+[07:29:17]   >> tts stop
+[07:29:17]   Audio started, mode=realtime
+[07:29:17]   Max frames (25) -> responding
+[07:29:17]   >> tts start (v1)
+[07:29:19]   >> tts stop
+[07:29:19]   Audio started, mode=realtime
+[07:29:19]   Max frames (25) -> responding
+[07:29:19]   >> tts start (v1)
+[07:29:21]   >> tts stop
+[07:29:21]   Audio started, mode=realtime
+[07:29:21]   Max frames (25) -> responding
+[07:29:21]   >> tts start (v1)
+[07:29:23]   >> tts stop
+[07:29:23]   Audio started, mode=realtime
+[07:29:23]   Max frames (25) -> responding
+[07:29:23]   >> tts start (v1)
+[07:29:25]   >> tts stop
+[07:29:25]   Audio started, mode=realtime
+[07:29:25]   Max frames (25) -> responding
+[07:29:25]   >> tts start (v1)
+[07:29:28]   >> tts stop
+[07:29:28]   Audio started, mode=realtime
+[07:29:28]   Max frames (25) -> responding
+[07:29:28]   >> tts start (v1)
+[07:29:30]   >> tts stop
+[07:29:30]   Audio started, mode=realtime
+[07:29:30]   Max frames (25) -> responding
+[07:29:30]   >> tts start (v1)
+[07:29:32]   >> tts stop
+[07:29:32]   Audio started, mode=realtime
+[07:29:32]   Max frames (25) -> responding
+[07:29:32]   >> tts start (v1)
+[07:29:34]   >> tts stop
+[07:29:34]   Audio started, mode=realtime
+[07:29:34]   Max frames (25) -> responding
+[07:29:34]   >> tts start (v1)
+[07:29:36]   >> tts stop
+[07:29:36]   Audio started, mode=realtime
+[07:29:36]   Max frames (25) -> responding
+[07:29:36]   >> tts start (v1)
+[07:29:38]   >> tts stop
+[07:29:38]   Audio started, mode=realtime
+[07:29:38]   Max frames (25) -> responding
+[07:29:38]   >> tts start (v1)
+[07:29:40]   >> tts stop
+[07:29:40]   Audio started, mode=realtime
+[07:29:40]   Max frames (25) -> responding
+[07:29:40]   >> tts start (v1)
+[07:29:42]   >> tts stop
+[07:29:42]   Audio started, mode=realtime
+[07:29:42]   Max frames (25) -> responding
+[07:29:42]   >> tts start (v1)
+[07:29:45]   >> tts stop
+[07:29:45]   Audio started, mode=realtime
+[07:29:45]   Max frames (25) -> responding
+[07:29:45]   >> tts start (v1)
+[07:29:47]   >> tts stop
+[07:29:47]   Audio started, mode=realtime
+[07:29:47]   Max frames (25) -> responding
+[07:29:47]   >> tts start (v1)
+[07:29:49]   >> tts stop
+[07:29:49]   Audio started, mode=realtime
+[07:29:49]   Max frames (25) -> responding
+[07:29:49]   >> tts start (v1)
+[07:29:51]   >> tts stop
+[07:29:51]   Audio started, mode=realtime
+[07:29:51]   Max frames (25) -> responding
+[07:29:51]   >> tts start (v1)
+[07:29:53]   >> tts stop
+[07:29:53]   Audio started, mode=realtime
+[07:29:53]   Max frames (25) -> responding
+[07:29:53]   >> tts start (v1)
+[07:29:55]   >> tts stop
+[07:29:55]   Audio started, mode=realtime
+[07:29:55]   Max frames (25) -> responding
+[07:29:55]   >> tts start (v1)
+[07:29:57]   >> tts stop
+[07:29:57]   Audio started, mode=realtime
+[07:29:57]   Max frames (25) -> responding
+[07:29:57]   >> tts start (v1)
+[07:30:00]   >> tts stop
+[07:30:00]   Audio started, mode=realtime
+[07:30:00]   Max frames (25) -> responding
+[07:30:00]   >> tts start (v1)
+[07:30:02]   >> tts stop
+[07:30:02]   Audio started, mode=realtime
+[07:30:02]   Max frames (25) -> responding
+[07:30:02]   >> tts start (v1)
+[07:30:04]   >> tts stop
+[07:30:04]   Audio started, mode=realtime
+[07:30:04]   Max frames (25) -> responding
+[07:30:04]   >> tts start (v1)
+[07:30:06]   >> tts stop
+[07:30:06]   Audio started, mode=realtime
+[07:30:06]   Max frames (25) -> responding
+[07:30:06]   >> tts start (v1)
+[07:30:08]   >> tts stop
+[07:30:08]   Audio started, mode=realtime
+[07:30:08]   Max frames (25) -> responding
+[07:30:08]   >> tts start (v1)
+[07:30:10]   >> tts stop
+[07:30:10]   Audio started, mode=realtime
+[07:30:10]   Max frames (25) -> responding
+[07:30:10]   >> tts start (v1)
+[07:30:12]   >> tts stop
+[07:30:12]   Audio started, mode=realtime
+[07:30:12]   Max frames (25) -> responding
+[07:30:12]   >> tts start (v1)
+[07:30:15]   >> tts stop
+[07:30:15]   Audio started, mode=realtime
+[07:30:15]   Max frames (25) -> responding
+[07:30:15]   >> tts start (v1)
+[07:30:17]   >> tts stop
+[07:30:17]   Audio started, mode=realtime
+[07:30:17]   Max frames (25) -> responding
+[07:30:17]   >> tts start (v1)
+[07:30:19]   >> tts stop
+[07:30:19]   Audio started, mode=realtime
+[07:30:19]   Max frames (25) -> responding
+[07:30:19]   >> tts start (v1)
+[07:30:21]   >> tts stop
+[07:30:21]   Audio started, mode=realtime
+[07:30:21]   Max frames (25) -> responding
+[07:30:21]   >> tts start (v1)
+[07:30:23]   >> tts stop
+[07:30:23]   Audio started, mode=realtime
+[07:30:23]   Max frames (25) -> responding
+[07:30:23]   >> tts start (v1)
+[07:30:25]   >> tts stop
+[07:30:25]   Audio started, mode=realtime
+[07:30:25]   Max frames (25) -> responding
+[07:30:25]   >> tts start (v1)
+[07:30:37] [-] Disconnected: ('10.0.0.117', 56034)
+[07:47:39] [+] Connected: ('10.0.0.117', 56035)
+[07:47:39]   hello: version=1 session=
+[07:47:39]   >> hello sent
+[07:47:39]   << listen state=start mode=realtime data={"session_id": "", "type": "listen", "state": "start", "mode": "realtime"}
+[07:47:39]   Audio started, mode=realtime
+[07:47:41]   Max frames (25) -> responding
+[07:47:41]   >> tts start (v1)
+[07:47:43]   >> tts stop
+[07:47:43]   Audio started, mode=realtime
+[07:47:43]   Max frames (25) -> responding
+[07:47:43]   >> tts start (v1)
+[07:47:45]   >> tts stop
+[07:47:45]   Audio started, mode=realtime
+[07:47:45]   Max frames (25) -> responding
+[07:47:45]   >> tts start (v1)
+[07:47:47]   >> tts stop
+[07:47:47]   Audio started, mode=realtime
+[07:47:47]   Max frames (25) -> responding
+[07:47:47]   >> tts start (v1)
+[07:47:50]   >> tts stop
+[07:47:50]   Audio started, mode=realtime
+[07:47:50]   Max frames (25) -> responding
+[07:47:50]   >> tts start (v1)
+[07:47:52]   >> tts stop
+[07:47:52]   Audio started, mode=realtime
+[07:47:52]   Max frames (25) -> responding
+[07:47:52]   >> tts start (v1)
+[07:47:54]   >> tts stop
+[07:47:54]   Audio started, mode=realtime
+[07:47:54]   Max frames (25) -> responding
+[07:47:54]   >> tts start (v1)
+[07:47:56]   >> tts stop
+[07:47:56]   Audio started, mode=realtime
+[07:47:56]   Max frames (25) -> responding
+[07:47:56]   >> tts start (v1)
+[07:47:58]   >> tts stop
+[07:47:58]   Audio started, mode=realtime
+[07:47:58]   Max frames (25) -> responding
+[07:47:58]   >> tts start (v1)
+[07:48:00]   >> tts stop
+[07:48:00]   Audio started, mode=realtime
+[07:48:00]   Max frames (25) -> responding
+[07:48:00]   >> tts start (v1)
+[07:48:02]   >> tts stop
+[07:48:02]   Audio started, mode=realtime
+[07:48:02]   Max frames (25) -> responding
+[07:48:02]   >> tts start (v1)
+[07:48:04]   >> tts stop
+[07:48:04]   Audio started, mode=realtime
+[07:48:04]   Max frames (25) -> responding
+[07:48:04]   >> tts start (v1)
+[07:48:06]   >> tts stop
+[07:48:06]   Audio started, mode=realtime
+[07:48:06]   Max frames (25) -> responding
+[07:48:06]   >> tts start (v1)
+[07:48:08]   >> tts stop
+[07:48:08]   Audio started, mode=realtime
+[07:48:08]   Max frames (25) -> responding
+[07:48:08]   >> tts start (v1)
+[07:48:10]   >> tts stop
+[07:48:10]   Audio started, mode=realtime
+[07:48:10]   Max frames (25) -> responding
+[07:48:10]   >> tts start (v1)
+[07:48:13]   >> tts stop
+[07:48:13]   Audio started, mode=realtime
+[07:48:13]   Max frames (25) -> responding
+[07:48:13]   >> tts start (v1)
+[07:48:15]   >> tts stop
+[07:48:15]   Audio started, mode=realtime
+[07:48:15]   Max frames (25) -> responding
+[07:48:15]   >> tts start (v1)
+[07:48:17]   >> tts stop
+[07:48:17]   Audio started, mode=realtime
+[07:48:17]   Max frames (25) -> responding
+[07:48:17]   >> tts start (v1)
+[07:48:19]   >> tts stop
+[07:48:19]   Audio started, mode=realtime
+[07:48:19]   Max frames (25) -> responding
+[07:48:19]   >> tts start (v1)
+[07:48:21]   >> tts stop
+[07:48:21]   Audio started, mode=realtime
+[07:48:21]   Max frames (25) -> responding
+[07:48:21]   >> tts start (v1)
+[07:48:23]   >> tts stop
+[07:48:23]   Audio started, mode=realtime
+[07:48:23]   Max frames (25) -> responding
+[07:48:23]   >> tts start (v1)
+[07:48:25]   >> tts stop
+[07:48:25]   Audio started, mode=realtime
+[07:48:25]   Max frames (25) -> responding
+[07:48:25]   >> tts start (v1)
+[07:48:27]   >> tts stop
+[07:48:27]   Audio started, mode=realtime
+[07:48:27]   Max frames (25) -> responding
+[07:48:27]   >> tts start (v1)
+[07:48:30]   >> tts stop
+[07:48:30]   Audio started, mode=realtime
+[07:48:30]   Max frames (25) -> responding
+[07:48:30]   >> tts start (v1)
+[07:48:32]   >> tts stop
+[07:48:32]   Audio started, mode=realtime
+[07:48:32]   Max frames (25) -> responding
+[07:48:32]   >> tts start (v1)
+[07:48:34]   >> tts stop
+[07:48:34]   Audio started, mode=realtime
+[07:48:34]   Max frames (25) -> responding
+[07:48:34]   >> tts start (v1)
+[07:48:36]   >> tts stop
+[07:48:36]   Audio started, mode=realtime
+[07:48:36]   Max frames (25) -> responding
+[07:48:36]   >> tts start (v1)
+[07:48:38]   >> tts stop
+[07:48:38]   Audio started, mode=realtime
+[07:48:38]   Max frames (25) -> responding
+[07:48:38]   >> tts start (v1)
+[07:48:40]   >> tts stop
+[07:48:40]   Audio started, mode=realtime
+[07:48:40]   Max frames (25) -> responding
+[07:48:40]   >> tts start (v1)
+[07:48:43]   >> tts stop
+[07:48:43]   Audio started, mode=realtime
+[07:48:43]   Max frames (25) -> responding
+[07:48:43]   >> tts start (v1)
+[07:48:45]   >> tts stop
+[07:48:45]   Audio started, mode=realtime
+[07:48:45]   Max frames (25) -> responding
+[07:48:45]   >> tts start (v1)
+[07:48:47]   >> tts stop
+[07:48:47]   Audio started, mode=realtime
+[07:48:47]   Max frames (25) -> responding
+[07:48:47]   >> tts start (v1)
+[07:48:49]   >> tts stop
+[07:48:49]   Audio started, mode=realtime
+[07:48:49]   Max frames (25) -> responding
+[07:48:49]   >> tts start (v1)
+[07:48:51]   >> tts stop
+[07:48:51]   Audio started, mode=realtime
+[07:48:51]   Max frames (25) -> responding
+[07:48:51]   >> tts start (v1)
+[07:48:53]   >> tts stop
+[07:48:53]   Audio started, mode=realtime
+[07:48:53]   Max frames (25) -> responding
+[07:48:53]   >> tts start (v1)
+[07:48:55]   >> tts stop
+[07:48:55]   Audio started, mode=realtime
+[07:48:55]   Max frames (25) -> responding
+[07:48:55]   >> tts start (v1)
+[07:48:57]   >> tts stop
+[07:48:57]   Audio started, mode=realtime
+[07:48:57]   Max frames (25) -> responding
+[07:48:57]   >> tts start (v1)
+[07:49:00]   >> tts stop
+[07:49:00]   Audio started, mode=realtime
+[07:49:00]   Max frames (25) -> responding
+[07:49:00]   >> tts start (v1)
+[07:49:02]   >> tts stop
+[07:49:02]   Audio started, mode=realtime
+[07:49:02]   Max frames (25) -> responding
+[07:49:02]   >> tts start (v1)
+[07:49:04]   >> tts stop
+[07:49:04]   Audio started, mode=realtime
+[07:49:04]   Max frames (25) -> responding
+[07:49:04]   >> tts start (v1)
+[07:49:06]   >> tts stop
+[07:49:06]   Audio started, mode=realtime
+[07:49:06]   Max frames (25) -> responding
+[07:49:06]   >> tts start (v1)
+[07:49:08]   >> tts stop
+[07:49:08]   Audio started, mode=realtime
+[07:49:08]   Max frames (25) -> responding
+[07:49:08]   >> tts start (v1)
+[07:49:10]   >> tts stop
+[07:49:10]   Audio started, mode=realtime
+[07:49:10]   Max frames (25) -> responding
+[07:49:10]   >> tts start (v1)
+[07:49:12]   >> tts stop
+[07:49:12]   Audio started, mode=realtime
+[07:49:12]   Max frames (25) -> responding
+[07:49:12]   >> tts start (v1)
+[07:49:15]   >> tts stop
+[07:49:15]   Audio started, mode=realtime
+[07:49:15]   Max frames (25) -> responding
+[07:49:15]   >> tts start (v1)
+[07:49:17]   >> tts stop
+[07:49:17]   Audio started, mode=realtime
+[07:49:17]   Max frames (25) -> responding
+[07:49:17]   >> tts start (v1)
+[07:49:19]   >> tts stop
+[07:49:19]   Audio started, mode=realtime
+[07:49:19]   Max frames (25) -> responding
+[07:49:19]   >> tts start (v1)
+[07:49:30] [-] Disconnected: ('10.0.0.117', 56035)
+[08:07:01] [+] Connected: ('10.0.0.117', 56036)
+[08:07:01]   hello: version=1 session=
+[08:07:01]   >> hello sent
+[08:07:01]   << listen state=start mode=realtime data={"session_id": "", "type": "listen", "state": "start", "mode": "realtime"}
+[08:07:02]   Audio started, mode=realtime
+[08:07:03]   Max frames (25) -> responding
+[08:07:03]   >> tts start (v1)
+[08:07:05]   >> tts stop
+[08:07:05]   Audio started, mode=realtime
+[08:07:05]   Max frames (25) -> responding
+[08:07:05]   >> tts start (v1)
+[08:07:07]   >> tts stop
+[08:07:07]   Audio started, mode=realtime
+[08:07:07]   Max frames (25) -> responding
+[08:07:07]   >> tts start (v1)
+[08:07:09]   >> tts stop
+[08:07:09]   Audio started, mode=realtime
+[08:07:09]   Max frames (25) -> responding
+[08:07:09]   >> tts start (v1)
+[08:07:12]   >> tts stop
+[08:07:12]   Audio started, mode=realtime
+[08:07:12]   Max frames (25) -> responding
+[08:07:12]   >> tts start (v1)
+[08:07:14]   >> tts stop
+[08:07:14]   Audio started, mode=realtime
+[08:07:14]   Max frames (25) -> responding
+[08:07:14]   >> tts start (v1)
+[08:07:16]   >> tts stop
+[08:07:16]   Audio started, mode=realtime
+[08:07:16]   Max frames (25) -> responding
+[08:07:16]   >> tts start (v1)
+[08:07:18]   >> tts stop
+[08:07:18]   Audio started, mode=realtime
+[08:07:18]   Max frames (25) -> responding
+[08:07:18]   >> tts start (v1)
+[08:07:20]   >> tts stop
+[08:07:20]   Audio started, mode=realtime
+[08:07:20]   Max frames (25) -> responding
+[08:07:20]   >> tts start (v1)
+[08:07:22]   >> tts stop
+[08:07:22]   Audio started, mode=realtime
+[08:07:22]   Max frames (25) -> responding
+[08:07:22]   >> tts start (v1)
+[08:07:24]   >> tts stop
+[08:07:24]   Audio started, mode=realtime
+[08:07:24]   Max frames (25) -> responding
+[08:07:24]   >> tts start (v1)
+[08:07:26]   >> tts stop
+[08:07:26]   Audio started, mode=realtime
+[08:07:26]   Max frames (25) -> responding
+[08:07:26]   >> tts start (v1)
+[08:07:28]   >> tts stop
+[08:07:28]   Audio started, mode=realtime
+[08:07:28]   Max frames (25) -> responding
+[08:07:28]   >> tts start (v1)
+[08:07:31]   >> tts stop
+[08:07:31]   Audio started, mode=realtime
+[08:07:31]   Max frames (25) -> responding
+[08:07:31]   >> tts start (v1)
+[08:07:33]   >> tts stop
+[08:07:33]   Audio started, mode=realtime
+[08:07:33]   Max frames (25) -> responding
+[08:07:33]   >> tts start (v1)
+[08:07:35]   >> tts stop
+[08:07:35]   Audio started, mode=realtime
+[08:07:35]   Max frames (25) -> responding
+[08:07:35]   >> tts start (v1)
+[08:07:37]   >> tts stop
+[08:07:37]   Audio started, mode=realtime
+[08:07:37]   Max frames (25) -> responding
+[08:07:37]   >> tts start (v1)
+[08:07:39]   >> tts stop
+[08:07:39]   Audio started, mode=realtime
+[08:07:39]   Max frames (25) -> responding
+[08:07:39]   >> tts start (v1)
+[08:07:41]   >> tts stop
+[08:07:41]   Audio started, mode=realtime
+[08:07:41]   Max frames (25) -> responding
+[08:07:41]   >> tts start (v1)
+[08:07:43]   >> tts stop
+[08:07:43]   Audio started, mode=realtime
+[08:07:43]   Max frames (25) -> responding
+[08:07:43]   >> tts start (v1)
+[08:07:46]   >> tts stop
+[08:07:46]   Audio started, mode=realtime
+[08:07:46]   Max frames (25) -> responding
+[08:07:46]   >> tts start (v1)
+[08:07:48]   >> tts stop
+[08:07:48]   Audio started, mode=realtime
+[08:07:48]   Max frames (25) -> responding
+[08:07:48]   >> tts start (v1)
+[08:07:50]   >> tts stop
+[08:07:50]   Audio started, mode=realtime
+[08:07:50]   Max frames (25) -> responding
+[08:07:50]   >> tts start (v1)
+[08:07:52]   >> tts stop
+[08:07:52]   Audio started, mode=realtime
+[08:07:52]   Max frames (25) -> responding
+[08:07:52]   >> tts start (v1)
+[08:07:54]   >> tts stop
+[08:07:54]   Audio started, mode=realtime
+[08:07:54]   Max frames (25) -> responding
+[08:07:54]   >> tts start (v1)
+[08:07:56]   >> tts stop
+[08:07:56]   Audio started, mode=realtime
+[08:07:56]   Max frames (25) -> responding
+[08:07:56]   >> tts start (v1)
+[08:07:58]   >> tts stop
+[08:07:58]   Audio started, mode=realtime
+[08:07:58]   Max frames (25) -> responding
+[08:07:58]   >> tts start (v1)
+[08:08:01]   >> tts stop
+[08:08:01]   Audio started, mode=realtime
+[08:08:01]   Max frames (25) -> responding
+[08:08:01]   >> tts start (v1)
+[08:08:03]   >> tts stop
+[08:08:03]   Audio started, mode=realtime
+[08:08:03]   Max frames (25) -> responding
+[08:08:03]   >> tts start (v1)
+[08:08:05]   >> tts stop
+[08:08:05]   Audio started, mode=realtime
+[08:08:05]   Max frames (25) -> responding
+[08:08:05]   >> tts start (v1)
+[08:08:07]   >> tts stop
+[08:08:07]   Audio started, mode=realtime
+[08:08:07]   Max frames (25) -> responding
+[08:08:07]   >> tts start (v1)
+[08:08:09]   >> tts stop
+[08:08:09]   Audio started, mode=realtime
+[08:08:09]   Max frames (25) -> responding
+[08:08:09]   >> tts start (v1)
+[08:08:11]   >> tts stop
+[08:08:11]   Audio started, mode=realtime
+[08:08:11]   Max frames (25) -> responding
+[08:08:11]   >> tts start (v1)
+[08:08:13]   >> tts stop
+[08:08:13]   Audio started, mode=realtime
+[08:08:13]   Max frames (25) -> responding
+[08:08:13]   >> tts start (v1)
+[08:08:16]   >> tts stop
+[08:08:16]   Audio started, mode=realtime
+[08:08:16]   Max frames (25) -> responding
+[08:08:16]   >> tts start (v1)
+[08:08:18]   >> tts stop
+[08:08:18]   Audio started, mode=realtime
+[08:08:18]   Max frames (25) -> responding
+[08:08:18]   >> tts start (v1)
+[08:08:20]   >> tts stop
+[08:08:20]   Audio started, mode=realtime
+[08:08:20]   Max frames (25) -> responding
+[08:08:20]   >> tts start (v1)
+[08:08:22]   >> tts stop
+[08:08:22]   Audio started, mode=realtime
+[08:08:22]   Max frames (25) -> responding
+[08:08:22]   >> tts start (v1)
+[08:08:24]   >> tts stop
+[08:08:24]   Audio started, mode=realtime
+[08:08:24]   Max frames (25) -> responding
+[08:08:24]   >> tts start (v1)
+[08:08:26]   >> tts stop
+[08:08:26]   Audio started, mode=realtime
+[08:08:26]   Max frames (25) -> responding
+[08:08:26]   >> tts start (v1)
+[08:08:28]   >> tts stop
+[08:08:28]   Audio started, mode=realtime
+[08:08:28]   Max frames (25) -> responding
+[08:08:28]   >> tts start (v1)
+[08:08:30]   >> tts stop
+[08:08:30]   Audio started, mode=realtime
+[08:08:30]   Max frames (25) -> responding
+[08:08:30]   >> tts start (v1)
+[08:08:33]   >> tts stop
+[08:08:33]   Audio started, mode=realtime
+[08:08:33]   Max frames (25) -> responding
+[08:08:33]   >> tts start (v1)
+[08:08:35]   >> tts stop
+[08:08:35]   Audio started, mode=realtime
+[08:08:35]   Max frames (25) -> responding
+[08:08:35]   >> tts start (v1)
+[08:08:37]   >> tts stop
+[08:08:37]   Audio started, mode=realtime
+[08:08:37]   Max frames (25) -> responding
+[08:08:37]   >> tts start (v1)
+[08:08:39]   >> tts stop
+[08:08:39]   Audio started, mode=realtime
+[08:08:39]   Max frames (25) -> responding
+[08:08:39]   >> tts start (v1)
+[08:08:41]   >> tts stop
+[08:08:41]   Audio started, mode=realtime
+[08:08:41]   Max frames (25) -> responding
+[08:08:41]   >> tts start (v1)
+[08:08:43]   >> tts stop
+[08:08:43]   Audio started, mode=realtime
+[08:08:43]   Max frames (25) -> responding
+[08:08:43]   >> tts start (v1)
+[08:08:46]   >> tts stop
+[08:08:46]   Audio started, mode=realtime
+[08:08:46]   Max frames (25) -> responding
+[08:08:46]   >> tts start (v1)
+[08:08:57] [-] Disconnected: ('10.0.0.117', 56036)
+[08:09:05] [+] Connected: ('10.0.0.117', 56037)
+[08:09:05]   hello: version=1 session=
+[08:09:05]   >> hello sent
+[08:09:05]   << listen state=start mode=realtime data={"session_id": "", "type": "listen", "state": "start", "mode": "realtime"}
+[08:09:06]   Audio started, mode=realtime
+[08:09:07]   Max frames (25) -> responding
+[08:09:07]   >> tts start (v1)
+[08:09:09]   >> tts stop
+[08:09:09]   Audio started, mode=realtime
+[08:09:09]   Max frames (25) -> responding
+[08:09:09]   >> tts start (v1)
+[08:09:11]   >> tts stop
+[08:09:11]   Audio started, mode=realtime
+[08:09:11]   Max frames (25) -> responding
+[08:09:11]   >> tts start (v1)
+[08:09:13]   >> tts stop
+[08:09:13]   Audio started, mode=realtime
+[08:09:13]   Max frames (25) -> responding
+[08:09:13]   >> tts start (v1)
+[08:09:16]   >> tts stop
+[08:09:16]   Audio started, mode=realtime
+[08:09:16]   Max frames (25) -> responding
+[08:09:16]   >> tts start (v1)
+[08:09:18]   >> tts stop
+[08:09:18]   Audio started, mode=realtime
+[08:09:18]   Max frames (25) -> responding
+[08:09:18]   >> tts start (v1)
+[08:09:20]   >> tts stop
+[08:09:20]   Audio started, mode=realtime
+[08:09:20]   Max frames (25) -> responding
+[08:09:20]   >> tts start (v1)
+[08:09:22]   >> tts stop
+[08:09:22]   Audio started, mode=realtime
+[08:09:22]   Max frames (25) -> responding
+[08:09:22]   >> tts start (v1)
+[08:09:24]   >> tts stop
+[08:09:24]   Audio started, mode=realtime
+[08:09:24]   Max frames (25) -> responding
+[08:09:24]   >> tts start (v1)
+[08:09:26]   >> tts stop
+[08:09:26]   Audio started, mode=realtime
+[08:09:26]   Max frames (25) -> responding
+[08:09:26]   >> tts start (v1)
+[08:09:28]   >> tts stop
+[08:09:28]   Audio started, mode=realtime
+[08:09:28]   Max frames (25) -> responding
+[08:09:28]   >> tts start (v1)
+[08:09:31]   >> tts stop
+[08:09:31]   Audio started, mode=realtime
+[08:09:31]   Max frames (25) -> responding
+[08:09:31]   >> tts start (v1)
+[08:09:33]   >> tts stop
+[08:09:33]   Audio started, mode=realtime
+[08:09:33]   Max frames (25) -> responding
+[08:09:33]   >> tts start (v1)
+[08:09:35]   >> tts stop
+[08:09:35]   Audio started, mode=realtime
+[08:09:35]   Max frames (25) -> responding
+[08:09:35]   >> tts start (v1)
+[08:09:37]   >> tts stop
+[08:09:37]   Audio started, mode=realtime
+[08:09:37]   Max frames (25) -> responding
+[08:09:37]   >> tts start (v1)
+[08:09:39]   >> tts stop
+[08:09:39]   Audio started, mode=realtime
+[08:09:39]   Max frames (25) -> responding
+[08:09:39]   >> tts start (v1)
+[08:09:41]   >> tts stop
+[08:09:41]   Audio started, mode=realtime
+[08:09:41]   Max frames (25) -> responding
+[08:09:41]   >> tts start (v1)
+[08:09:43]   >> tts stop
+[08:09:43]   Audio started, mode=realtime
+[08:09:43]   Max frames (25) -> responding
+[08:09:43]   >> tts start (v1)
+[08:09:46]   >> tts stop
+[08:09:46]   Audio started, mode=realtime
+[08:09:46]   Max frames (25) -> responding
+[08:09:46]   >> tts start (v1)
+[08:09:48]   >> tts stop
+[08:09:48]   Audio started, mode=realtime
+[08:09:48]   Max frames (25) -> responding
+[08:09:48]   >> tts start (v1)
+[08:09:50]   >> tts stop
+[08:09:50]   Audio started, mode=realtime
+[08:09:50]   Max frames (25) -> responding
+[08:09:50]   >> tts start (v1)
+[08:09:52]   >> tts stop
+[08:09:52]   Audio started, mode=realtime
+[08:09:52]   Max frames (25) -> responding
+[08:09:52]   >> tts start (v1)
+[08:09:54]   >> tts stop
+[08:09:54]   Audio started, mode=realtime
+[08:09:54]   Max frames (25) -> responding
+[08:09:54]   >> tts start (v1)
+[08:09:56]   >> tts stop
+[08:09:56]   Audio started, mode=realtime
+[08:09:56]   Max frames (25) -> responding
+[08:09:56]   >> tts start (v1)
+[08:09:58]   >> tts stop
+[08:09:58]   Audio started, mode=realtime
+[08:09:58]   Max frames (25) -> responding
+[08:09:58]   >> tts start (v1)
+[08:10:00]   >> tts stop
+[08:10:00]   Audio started, mode=realtime
+[08:10:00]   Max frames (25) -> responding
+[08:10:00]   >> tts start (v1)
+[08:10:03]   >> tts stop
+[08:10:03]   Audio started, mode=realtime
+[08:10:03]   Max frames (25) -> responding
+[08:10:03]   >> tts start (v1)
+[08:10:05]   >> tts stop
+[08:10:05]   Audio started, mode=realtime
+[08:10:05]   Max frames (25) -> responding
+[08:10:05]   >> tts start (v1)
+[08:10:07]   >> tts stop
+[08:10:07]   Audio started, mode=realtime
+[08:10:07]   Max frames (25) -> responding
+[08:10:07]   >> tts start (v1)
+[08:10:09]   >> tts stop
+[08:10:09]   Audio started, mode=realtime
+[08:10:09]   Max frames (25) -> responding
+[08:10:09]   >> tts start (v1)
+[08:10:11]   >> tts stop
+[08:10:11]   Audio started, mode=realtime
+[08:10:11]   Max frames (25) -> responding
+[08:10:11]   >> tts start (v1)
+[08:10:13]   >> tts stop
+[08:10:13]   Audio started, mode=realtime
+[08:10:13]   Max frames (25) -> responding
+[08:10:13]   >> tts start (v1)
+[08:10:16]   >> tts stop
+[08:10:16]   Audio started, mode=realtime
+[08:10:16]   Max frames (25) -> responding
+[08:10:16]   >> tts start (v1)
+[08:10:18]   >> tts stop
+[08:10:18]   Audio started, mode=realtime
+[08:10:18]   Max frames (25) -> responding
+[08:10:18]   >> tts start (v1)
+[08:10:20]   >> tts stop
+[08:10:20]   Audio started, mode=realtime
+[08:10:20]   Max frames (25) -> responding
+[08:10:20]   >> tts start (v1)
+[08:10:22]   >> tts stop
+[08:10:22]   Audio started, mode=realtime
+[08:10:22]   Max frames (25) -> responding
+[08:10:22]   >> tts start (v1)
+[08:10:24]   >> tts stop
+[08:10:24]   Audio started, mode=realtime
+[08:10:24]   Max frames (25) -> responding
+[08:10:24]   >> tts start (v1)
+[08:10:26]   >> tts stop
+[08:10:26]   Audio started, mode=realtime
+[08:10:26]   Max frames (25) -> responding
+[08:10:26]   >> tts start (v1)
+[08:10:28]   >> tts stop
+[08:10:28]   Audio started, mode=realtime
+[08:10:28]   Max frames (25) -> responding
+[08:10:28]   >> tts start (v1)
+[08:10:31]   >> tts stop
+[08:10:31]   Audio started, mode=realtime
+[08:10:31]   Max frames (25) -> responding
+[08:10:31]   >> tts start (v1)
+[08:10:33]   >> tts stop
+[08:10:33]   Audio started, mode=realtime
+[08:10:33]   Max frames (25) -> responding
+[08:10:33]   >> tts start (v1)
+[08:10:35]   >> tts stop
+[08:10:35]   Audio started, mode=realtime
+[08:10:35]   Max frames (25) -> responding
+[08:10:35]   >> tts start (v1)
+[08:10:37]   >> tts stop
+[08:10:37]   Audio started, mode=realtime
+[08:10:37]   Max frames (25) -> responding
+[08:10:37]   >> tts start (v1)
+[08:10:39]   >> tts stop
+[08:10:39]   Audio started, mode=realtime
+[08:10:39]   Max frames (25) -> responding
+[08:10:39]   >> tts start (v1)
+[08:10:42]   >> tts stop
+[08:10:42]   Audio started, mode=realtime
+[08:10:42]   Max frames (25) -> responding
+[08:10:42]   >> tts start (v1)
+[08:10:44]   >> tts stop
+[08:10:44]   Audio started, mode=realtime
+[08:10:44]   Max frames (25) -> responding
+[08:10:44]   >> tts start (v1)
+[08:10:46]   >> tts stop
+[08:10:46]   Audio started, mode=realtime
+[08:10:46]   Max frames (25) -> responding
+[08:10:46]   >> tts start (v1)
+[08:10:57] [-] Disconnected: ('10.0.0.117', 56037)
+[08:17:44] [+] Connected: ('10.0.0.117', 56038)
+[08:17:44]   hello: version=1 session=
+[08:17:44]   >> hello sent
+[08:17:44]   << listen state=start mode=realtime data={"session_id": "", "type": "listen", "state": "start", "mode": "realtime"}
+[08:17:44]   Audio started, mode=realtime
+[08:17:45]   Max frames (25) -> responding
+[08:17:45]   >> tts start (v1)
+[08:17:47]   >> tts stop
+[08:17:47]   Audio started, mode=realtime
+[08:17:47]   Max frames (25) -> responding
+[08:17:47]   >> tts start (v1)
+[08:17:50]   >> tts stop
+[08:17:50]   Audio started, mode=realtime
+[08:17:50]   Max frames (25) -> responding
+[08:17:50]   >> tts start (v1)
+[08:17:52]   >> tts stop
+[08:17:52]   Audio started, mode=realtime
+[08:17:52]   Max frames (25) -> responding
+[08:17:52]   >> tts start (v1)
+[08:17:54]   >> tts stop
+[08:17:54]   Audio started, mode=realtime
+[08:17:54]   Max frames (25) -> responding
+[08:17:54]   >> tts start (v1)
+[08:17:56]   >> tts stop
+[08:17:56]   Audio started, mode=realtime
+[08:17:56]   Max frames (25) -> responding
+[08:17:56]   >> tts start (v1)
+[08:17:58]   >> tts stop
+[08:17:58]   Audio started, mode=realtime
+[08:17:58]   Max frames (25) -> responding
+[08:17:58]   >> tts start (v1)
+[08:18:00]   >> tts stop
+[08:18:00]   Audio started, mode=realtime
+[08:18:00]   Max frames (25) -> responding
+[08:18:00]   >> tts start (v1)
+[08:18:02]   >> tts stop
+[08:18:02]   Audio started, mode=realtime
+[08:18:02]   Max frames (25) -> responding
+[08:18:02]   >> tts start (v1)
+[08:18:04]   >> tts stop
+[08:18:04]   Audio started, mode=realtime
+[08:18:04]   Max frames (25) -> responding
+[08:18:04]   >> tts start (v1)
+[08:18:06]   >> tts stop
+[08:18:06]   Audio started, mode=realtime
+[08:18:06]   Max frames (25) -> responding
+[08:18:06]   >> tts start (v1)
+[08:18:09]   >> tts stop
+[08:18:09]   Audio started, mode=realtime
+[08:18:09]   Max frames (25) -> responding
+[08:18:09]   >> tts start (v1)
+[08:18:11]   >> tts stop
+[08:18:11]   Audio started, mode=realtime
+[08:18:11]   Max frames (25) -> responding
+[08:18:11]   >> tts start (v1)
+[08:18:13]   >> tts stop
+[08:18:13]   Audio started, mode=realtime
+[08:18:13]   Max frames (25) -> responding
+[08:18:13]   >> tts start (v1)
+[08:18:15]   >> tts stop
+[08:18:15]   Audio started, mode=realtime
+[08:18:15]   Max frames (25) -> responding
+[08:18:15]   >> tts start (v1)
+[08:18:17]   >> tts stop
+[08:18:17]   Audio started, mode=realtime
+[08:18:17]   Max frames (25) -> responding
+[08:18:17]   >> tts start (v1)
+[08:18:20]   >> tts stop
+[08:18:20]   Audio started, mode=realtime
+[08:18:20]   Max frames (25) -> responding
+[08:18:20]   >> tts start (v1)
+[08:18:22]   >> tts stop
+[08:18:22]   Audio started, mode=realtime
+[08:18:22]   Max frames (25) -> responding
+[08:18:22]   >> tts start (v1)
+[08:18:24]   >> tts stop
+[08:18:24]   Audio started, mode=realtime
+[08:18:24]   Max frames (25) -> responding
+[08:18:24]   >> tts start (v1)
+[08:18:26]   >> tts stop
+[08:18:26]   Audio started, mode=realtime
+[08:18:26]   Max frames (25) -> responding
+[08:18:26]   >> tts start (v1)
+[08:18:28]   >> tts stop
+[08:18:28]   Audio started, mode=realtime
+[08:18:28]   Max frames (25) -> responding
+[08:18:28]   >> tts start (v1)
+[08:18:30]   >> tts stop
+[08:18:30]   Audio started, mode=realtime
+[08:18:30]   Max frames (25) -> responding
+[08:18:30]   >> tts start (v1)
+[08:18:32]   >> tts stop
+[08:18:32]   Audio started, mode=realtime
+[08:18:32]   Max frames (25) -> responding
+[08:18:32]   >> tts start (v1)
+[08:18:35]   >> tts stop
+[08:18:35]   Audio started, mode=realtime
+[08:18:35]   Max frames (25) -> responding
+[08:18:35]   >> tts start (v1)
+[08:18:37]   >> tts stop
+[08:18:37]   Audio started, mode=realtime
+[08:18:37]   Max frames (25) -> responding
+[08:18:37]   >> tts start (v1)
+[08:18:39]   >> tts stop
+[08:18:39]   Audio started, mode=realtime
+[08:18:39]   Max frames (25) -> responding
+[08:18:39]   >> tts start (v1)
+[08:18:41]   >> tts stop
+[08:18:41]   Audio started, mode=realtime
+[08:18:41]   Max frames (25) -> responding
+[08:18:41]   >> tts start (v1)
+[08:18:43]   >> tts stop
+[08:18:43]   Audio started, mode=realtime
+[08:18:43]   Max frames (25) -> responding
+[08:18:43]   >> tts start (v1)
+[08:18:45]   >> tts stop
+[08:18:45]   Audio started, mode=realtime
+[08:18:45]   Max frames (25) -> responding
+[08:18:45]   >> tts start (v1)
+[08:18:47]   >> tts stop
+[08:18:47]   Audio started, mode=realtime
+[08:18:47]   Max frames (25) -> responding
+[08:18:47]   >> tts start (v1)
+[08:18:49]   >> tts stop
+[08:18:49]   Audio started, mode=realtime
+[08:18:49]   Max frames (25) -> responding
+[08:18:49]   >> tts start (v1)
+[08:18:52]   >> tts stop
+[08:18:52]   Audio started, mode=realtime
+[08:18:52]   Max frames (25) -> responding
+[08:18:52]   >> tts start (v1)
+[08:18:54]   >> tts stop
+[08:18:54]   Audio started, mode=realtime
+[08:18:54]   Max frames (25) -> responding
+[08:18:54]   >> tts start (v1)
+[08:18:56]   >> tts stop
+[08:18:56]   Audio started, mode=realtime
+[08:18:56]   Max frames (25) -> responding
+[08:18:56]   >> tts start (v1)
+[08:18:58]   >> tts stop
+[08:18:58]   Audio started, mode=realtime
+[08:18:58]   Max frames (25) -> responding
+[08:18:58]   >> tts start (v1)
+[08:19:00]   >> tts stop
+[08:19:00]   Audio started, mode=realtime
+[08:19:00]   Max frames (25) -> responding
+[08:19:00]   >> tts start (v1)
+[08:19:02]   >> tts stop
+[08:19:02]   Audio started, mode=realtime
+[08:19:02]   Max frames (25) -> responding
+[08:19:02]   >> tts start (v1)
+[08:19:04]   >> tts stop
+[08:19:04]   Audio started, mode=realtime
+[08:19:04]   Max frames (25) -> responding
+[08:19:04]   >> tts start (v1)
+[08:19:07]   >> tts stop
+[08:19:07]   Audio started, mode=realtime
+[08:19:07]   Max frames (25) -> responding
+[08:19:07]   >> tts start (v1)
+[08:19:09]   >> tts stop
+[08:19:09]   Audio started, mode=realtime
+[08:19:09]   Max frames (25) -> responding
+[08:19:09]   >> tts start (v1)
+[08:19:11]   >> tts stop
+[08:19:11]   Audio started, mode=realtime
+[08:19:11]   Max frames (25) -> responding
+[08:19:11]   >> tts start (v1)
+[08:19:13]   >> tts stop
+[08:19:13]   Audio started, mode=realtime
+[08:19:13]   Max frames (25) -> responding
+[08:19:13]   >> tts start (v1)
+[08:19:15]   >> tts stop
+[08:19:15]   Audio started, mode=realtime
+[08:19:15]   Max frames (25) -> responding
+[08:19:15]   >> tts start (v1)
+[08:19:17]   >> tts stop
+[08:19:17]   Audio started, mode=realtime
+[08:19:17]   Max frames (25) -> responding
+[08:19:17]   >> tts start (v1)
+[08:19:20]   >> tts stop
+[08:19:20]   Audio started, mode=realtime
+[08:19:20]   Max frames (25) -> responding
+[08:19:20]   >> tts start (v1)
+[08:19:22]   >> tts stop
+[08:19:22]   Audio started, mode=realtime
+[08:19:22]   Max frames (25) -> responding
+[08:19:22]   >> tts start (v1)
+[08:19:24]   >> tts stop
+[08:19:24]   Audio started, mode=realtime
+[08:19:24]   Max frames (25) -> responding
+[08:19:24]   >> tts start (v1)
+[08:19:35] [-] Disconnected: ('10.0.0.117', 56038)
