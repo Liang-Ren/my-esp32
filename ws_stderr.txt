@@ -338,3 +338,50 @@ VAD filter removed 00:00.000 of audio
 [16:02:59]   [31e36de9] LLM (mode=normal)…
 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 [16:03:00]   [31e36de9] AI: '我不知道你具体在哪里，但我可以帮你查找一些信息或者提供建议。你想知道哪里？'
+[16:03:13]   [31e36de9] Error: sent 1011 (internal error) keepalive ping timeout; no close frame received
+[16:03:13] [-] Disconnected: ('10.0.0.117', 56236)
+connection closed
+connection open
+[16:03:31] [+] Connected: ('10.0.0.117', 56237)
+[16:03:31]   hello v1 session= device=device_10_0_0_117
+[16:03:31]   >> hello sent
+[16:03:31]   << listen state=start mode=realtime
+[16:03:31]   Audio started (mode=realtime)
+[16:03:32]   Max frames → processing
+[16:03:32]   [6003ec71] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:00.000 of audio
+[16:03:33]   [6003ec71] User: '你能记住我的话吗'
+[16:03:33]   [6003ec71] LLM (mode=normal)…
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[16:03:35]   [6003ec71] AI: '我不能记住之前的对话，每次聊天我都是从头开始。你可以随时告诉我你想说的。'
+{"ts": "2026-04-27T23:03:44.172409", "req": "6003ec71", "device": "device_10_0_0_117", "user": "你能记住我的话吗", "resp": "我不能记住之前的对话，每次聊天我都是从头开始。你可以随时告诉我你想说的。", "model": "gpt-4o-mini-2024-07-18", "latency_ms": 11322, "tokens": 246}
+[16:03:44]   Audio started (mode=realtime)
+[16:03:44]   Max frames → processing
+[16:03:44]   [d8d34955] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:00.000 of audio
+[16:03:45]   [d8d34955] User: '你可以'
+[16:03:45]   [d8d34955] LLM (mode=normal)…
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[16:03:46]   [d8d34955] AI: '其实我不能记住之前的对话，每次都是新的开始。不过你可以随时告诉我你的问题或想法！'
+{"ts": "2026-04-27T23:03:55.939721", "req": "d8d34955", "device": "device_10_0_0_117", "user": "你可以", "resp": "其实我不能记住之前的对话，每次都是新的开始。不过你可以随时告诉我你的问题或想法！", "model": "gpt-4o-mini-2024-07-18", "latency_ms": 11763, "tokens": 265}
+[16:03:55]   Audio started (mode=realtime)
+[16:03:55]   Max frames → processing
+[16:03:55]   [d126f085] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:00.000 of audio
+[16:03:57]   [d126f085] User: '记住我的话吗'
+[16:03:57]   [d126f085] LLM (mode=normal)…
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[16:03:58]   [d126f085] AI: '抱歉，我无法记住你的话。每次对话都是独立的。如果你有问题，随时可以告诉我！'
+{"ts": "2026-04-27T23:04:08.716798", "req": "d126f085", "device": "device_10_0_0_117", "user": "记住我的话吗", "resp": "抱歉，我无法记住你的话。每次对话都是独立的。如果你有问题，随时可以告诉我！", "model": "gpt-4o-mini-2024-07-18", "latency_ms": 12777, "tokens": 279}
+[16:04:08]   Audio started (mode=realtime)
+[16:04:08]   Max frames → processing
+[16:04:08]   [19ffd9f5] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[16:04:08]   [19ffd9f5] User: ''
+[16:04:21]   [19ffd9f5] Error: sent 1011 (internal error) keepalive ping timeout; no close frame received
+[16:04:21] [-] Disconnected: ('10.0.0.117', 56237)
+connection closed
