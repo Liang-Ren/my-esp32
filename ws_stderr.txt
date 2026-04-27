@@ -99,3 +99,14 @@ VAD filter removed 00:00.432 of audio
 Retrying request to /chat/completions in 0.416820 seconds
 Retrying request to /chat/completions in 0.936382 seconds
 [16:13:47]   [a57b45bd] AI: '抱歉，我现在遇到了一点问题，请稍后再试。'
+{"ts": "2026-04-27T23:13:52.980835", "req": "a57b45bd", "device": "device_10_0_0_117", "user": "字幕by索兰娅", "resp": "抱歉，我现在遇到了一点问题，请稍后再试。", "model": "gpt-4o-mini", "latency_ms": 7860, "tokens": null, "error": "Connection error."}
+[16:13:52]   Audio started (mode=realtime)
+[16:13:52]   Max frames → processing
+[16:13:52]   [3acb56c9] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:00.240 of audio
+[16:13:54]   [3acb56c9] User: '你能知道我'
+[16:13:54]   [3acb56c9] LLM (mode=normal)…
+Retrying request to /chat/completions in 0.418800 seconds
+Retrying request to /chat/completions in 0.932314 seconds
+[16:13:55]   [3acb56c9] AI: '抱歉，我现在遇到了一点问题，请稍后再试。'
