@@ -270,3 +270,71 @@ HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 [16:02:13]   [949e0104] ASR (25 frames)…
 Processing audio with duration 00:01.500
 VAD filter removed 00:00.000 of audio
+[16:02:14]   [949e0104] User: '你好'
+[16:02:14]   [949e0104] LLM (mode=normal)…
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[16:02:19]   [949e0104] AI: '你好！有什么我可以帮助你的吗？'
+[16:02:23]   [949e0104] Error: sent 1011 (internal error) keepalive ping timeout; no close frame received
+[16:02:23] [-] Disconnected: ('10.0.0.117', 56235)
+connection closed
+connection open
+[16:02:23] [+] Connected: ('10.0.0.117', 56236)
+[16:02:23]   hello v1 session= device=device_10_0_0_117
+[16:02:23]   >> hello sent
+[16:02:23]   << listen state=start mode=realtime
+[16:02:23]   Audio started (mode=realtime)
+[16:02:25]   Max frames → processing
+[16:02:25]   [943e7336] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:00.592 of audio
+[16:02:26]   [943e7336] User: '能不能'
+[16:02:26]   [943e7336] LLM (mode=normal)…
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[16:02:27]   [943e7336] AI: '当然可以，你想问什么呢？'
+{"ts": "2026-04-27T23:02:31.070578", "req": "943e7336", "device": "device_10_0_0_117", "user": "能不能", "resp": "当然可以，你想问什么呢？", "model": "gpt-4o-mini-2024-07-18", "latency_ms": 5618, "tokens": 228}
+[16:02:31]   Audio started (mode=realtime)
+[16:02:31]   Max frames → processing
+[16:02:31]   [06eef422] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:00.000 of audio
+[16:02:32]   [06eef422] User: '我说话吗'
+[16:02:32]   [06eef422] LLM (mode=normal)…
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[16:02:34]   [06eef422] AI: '当然可以，你可以随时说话，我在这里听着呢！'
+{"ts": "2026-04-27T23:02:40.229204", "req": "06eef422", "device": "device_10_0_0_117", "user": "我说话吗", "resp": "当然可以，你可以随时说话，我在这里听着呢！", "model": "gpt-4o-mini-2024-07-18", "latency_ms": 9159, "tokens": 214}
+[16:02:40]   Audio started (mode=realtime)
+[16:02:40]   Max frames → processing
+[16:02:40]   [98cfb49d] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:00.528 of audio
+[16:02:41]   [98cfb49d] User: '能听到我说'
+[16:02:41]   [98cfb49d] LLM (mode=normal)…
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[16:02:42]   [98cfb49d] AI: '我可以听到你说话，你有什么想聊的呢？'
+{"ts": "2026-04-27T23:02:46.535473", "req": "98cfb49d", "device": "device_10_0_0_117", "user": "能听到我说", "resp": "我可以听到你说话，你有什么想聊的呢？", "model": "gpt-4o-mini-2024-07-18", "latency_ms": 6304, "tokens": 215}
+[16:02:46]   Audio started (mode=realtime)
+[16:02:46]   Max frames → processing
+[16:02:46]   [584af25d] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:00.000 of audio
+[16:02:48]   [584af25d] User: '好'
+[16:02:48]   [584af25d] LLM (mode=normal)…
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[16:02:49]   [584af25d] AI: '太好了！有什么问题或者需要帮忙的地方吗？'
+{"ts": "2026-04-27T23:02:55.631513", "req": "584af25d", "device": "device_10_0_0_117", "user": "好", "resp": "太好了！有什么问题或者需要帮忙的地方吗？", "model": "gpt-4o-mini-2024-07-18", "latency_ms": 9094, "tokens": 220}
+[16:02:55]   Audio started (mode=realtime)
+[16:02:55]   Max frames → processing
+[16:02:55]   [080417e7] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[16:02:55]   [080417e7] User: ''
+{"ts": "2026-04-27T23:02:58.607394", "req": "080417e7", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2973}
+[16:02:58]   Audio started (mode=realtime)
+[16:02:58]   Max frames → processing
+[16:02:58]   [31e36de9] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:00.000 of audio
+[16:02:59]   [31e36de9] User: '我在哪里'
+[16:02:59]   [31e36de9] LLM (mode=normal)…
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[16:03:00]   [31e36de9] AI: '我不知道你具体在哪里，但我可以帮你查找一些信息或者提供建议。你想知道哪里？'
