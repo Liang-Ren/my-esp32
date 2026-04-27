@@ -10,6 +10,19 @@ SAMPLE_RATE = 16000
 CHANNELS = 1
 FRAME_SAMPLES = 960  # 60ms at 16kHz
 
+_whisper_model = None
+
+
+def _get_model():
+    global _whisper_model
+    if _whisper_model is None:
+        from faster_whisper import WhisperModel
+        from logger import log
+        log("Loading Whisper model (first time may download ~500MB)...")
+        _whisper_model = WhisperModel("small", device="cpu", compute_type="int8")
+        log("Whisper model ready")
+    return _whisper_model
+
 
 def decode_opus_frames(frames: list[bytes]) -> bytes:
     """Decode raw Opus frames to raw PCM16LE bytes."""
@@ -23,11 +36,10 @@ def decode_opus_frames(frames: list[bytes]) -> bytes:
 
     for frame in frames:
         in_data = (c_ubyte * len(frame))(*frame)
-        n = opus_decode(dec, in_data, len(frame), out_buf, FRAME_SAMPLES, 0)
+        in_ptr = ctypes.cast(in_data, ctypes.POINTER(c_ubyte))
+        n = opus_decode(dec, in_ptr, ctypes.c_long(len(frame)), out_buf, ctypes.c_long(FRAME_SAMPLES), ctypes.c_long(0))
         if n > 0:
-            chunk = bytearray(n * 2)
-            ctypes.memmove(chunk, out_buf, n * 2)
-            all_pcm.extend(chunk)
+            all_pcm += bytes(out_buf)[:n * 2]
 
     opus_decoder_destroy(dec)
     return bytes(all_pcm)
@@ -45,8 +57,8 @@ def pcm_to_wav(pcm: bytes) -> bytes:
     return buf.read()
 
 
-async def transcribe(frames: list[bytes], client) -> str:
-    """Decode Opus frames and transcribe with OpenAI Whisper.
+async def transcribe(frames: list[bytes], client=None) -> str:
+    """Decode Opus frames and transcribe with local Whisper.
 
     Returns empty string if frames is empty or transcription fails.
     """
@@ -54,14 +66,20 @@ async def transcribe(frames: list[bytes], client) -> str:
         return ""
     try:
         pcm = decode_opus_frames(frames)
+        if not pcm:
+            return ""
         wav = pcm_to_wav(pcm)
-        resp = await client.audio.transcriptions.create(
-            model="whisper-1",
-            file=("audio.wav", io.BytesIO(wav), "audio/wav"),
+        model = _get_model()
+        segments, _ = model.transcribe(
+            io.BytesIO(wav),
             language="zh",
+            beam_size=5,
+            vad_filter=True,
         )
-        return resp.text.strip()
+        text = "".join(seg.text for seg in segments).strip()
+        return text
     except Exception as e:
+        import traceback
         from logger import log
-        log(f"ASR error: {e}")
+        log(f"ASR error: {e}\n{traceback.format_exc()}")
         return ""

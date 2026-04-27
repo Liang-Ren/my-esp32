@@ -1,0 +1,2152 @@
+[20:46:14] Fallback TTS ready (48 frames)
+[20:46:14] WebSocket server listening on 0.0.0.0:8001
+server listening on 0.0.0.0:8001
+connection open
+[20:47:09] [+] Connected: ('10.0.0.117', 55421)
+[20:47:09]   hello v1 session= device=device_10_0_0_117
+[20:47:09]   >> hello sent
+[20:47:09]   << listen state=start mode=realtime
+[20:47:10]   Audio started (mode=realtime)
+[20:47:11]   Max frames → processing
+[20:47:11]   [208c6df6] ASR (25 frames)…
+[20:47:11] ASR error: argument 1: TypeError: wrong type
+[20:47:11]   [208c6df6] User: ''
+{"ts": "2026-04-27T03:47:14.535789", "req": "208c6df6", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 3032}
+[20:47:14]   Audio started (mode=realtime)
+[20:47:14]   Max frames → processing
+[20:47:14]   [4d35b75b] ASR (25 frames)…
+[20:47:14] ASR error: argument 1: TypeError: wrong type
+[20:47:14]   [4d35b75b] User: ''
+{"ts": "2026-04-27T03:47:17.540621", "req": "4d35b75b", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 3005}
+[20:47:17]   Audio started (mode=realtime)
+[20:47:17]   Max frames → processing
+[20:47:17]   [ed525679] ASR (25 frames)…
+[20:47:17] ASR error: argument 1: TypeError: wrong type
+[20:47:17]   [ed525679] User: ''
+{"ts": "2026-04-27T03:47:20.501329", "req": "ed525679", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2961}
+[20:47:20]   Audio started (mode=realtime)
+[20:47:20]   Max frames → processing
+[20:47:20]   [900db43e] ASR (25 frames)…
+[20:47:20] ASR error: argument 1: TypeError: wrong type
+[20:47:20]   [900db43e] User: ''
+{"ts": "2026-04-27T03:47:23.436032", "req": "900db43e", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2935}
+[20:47:23]   Audio started (mode=realtime)
+[20:47:23]   Max frames → processing
+[20:47:23]   [6419b209] ASR (25 frames)…
+[20:47:23] ASR error: argument 1: TypeError: wrong type
+[20:47:23]   [6419b209] User: ''
+{"ts": "2026-04-27T03:47:26.256020", "req": "6419b209", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2820}
+[20:47:26]   Audio started (mode=realtime)
+[20:47:26]   Max frames → processing
+[20:47:26]   [ff65bafb] ASR (25 frames)…
+[20:47:26] ASR error: argument 1: TypeError: wrong type
+[20:47:26]   [ff65bafb] User: ''
+{"ts": "2026-04-27T03:47:29.224424", "req": "ff65bafb", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2968}
+[20:47:29]   Audio started (mode=realtime)
+[20:47:29]   Max frames → processing
+[20:47:29]   [fd5fda0a] ASR (25 frames)…
+[20:47:29] ASR error: argument 1: TypeError: wrong type
+[20:47:29]   [fd5fda0a] User: ''
+{"ts": "2026-04-27T03:47:32.111416", "req": "fd5fda0a", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2887}
+[20:47:32]   Audio started (mode=realtime)
+[20:47:32]   Max frames → processing
+[20:47:32]   [3657029e] ASR (25 frames)…
+[20:47:32] ASR error: argument 1: TypeError: wrong type
+[20:47:32]   [3657029e] User: ''
+{"ts": "2026-04-27T03:47:35.059408", "req": "3657029e", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2948}
+[20:47:35]   Audio started (mode=realtime)
+[20:47:35]   Max frames → processing
+[20:47:35]   [7cb87c11] ASR (25 frames)…
+[20:47:35] ASR error: argument 1: TypeError: wrong type
+[20:47:35]   [7cb87c11] User: ''
+{"ts": "2026-04-27T03:47:37.986764", "req": "7cb87c11", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2927}
+[20:47:37]   Audio started (mode=realtime)
+[20:47:37]   Max frames → processing
+[20:47:37]   [55867a37] ASR (25 frames)…
+[20:47:37] ASR error: argument 1: TypeError: wrong type
+[20:47:37]   [55867a37] User: ''
+{"ts": "2026-04-27T03:47:40.912946", "req": "55867a37", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2926}
+[20:47:40]   Audio started (mode=realtime)
+[20:47:40]   Max frames → processing
+[20:47:40]   [3227214a] ASR (25 frames)…
+[20:47:40] ASR error: argument 1: TypeError: wrong type
+[20:47:40]   [3227214a] User: ''
+{"ts": "2026-04-27T03:47:43.800898", "req": "3227214a", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2888}
+[20:47:43]   Audio started (mode=realtime)
+[20:47:43]   Max frames → processing
+[20:47:43]   [3ecdc118] ASR (25 frames)…
+[20:47:43] ASR error: argument 1: TypeError: wrong type
+[20:47:43]   [3ecdc118] User: ''
+{"ts": "2026-04-27T03:47:46.758463", "req": "3ecdc118", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2958}
+[20:47:46]   Audio started (mode=realtime)
+[20:47:46]   Max frames → processing
+[20:47:46]   [f00a16fa] ASR (25 frames)…
+[20:47:46] ASR error: argument 1: TypeError: wrong type
+[20:47:46]   [f00a16fa] User: ''
+{"ts": "2026-04-27T03:47:49.623097", "req": "f00a16fa", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2865}
+[20:47:49]   Audio started (mode=realtime)
+[20:47:49]   Max frames → processing
+[20:47:49]   [6457aa74] ASR (25 frames)…
+[20:47:49] ASR error: argument 1: TypeError: wrong type
+[20:47:49]   [6457aa74] User: ''
+{"ts": "2026-04-27T03:47:52.612846", "req": "6457aa74", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2990}
+[20:47:52]   Audio started (mode=realtime)
+[20:47:52]   Max frames → processing
+[20:47:52]   [526b2ae0] ASR (25 frames)…
+[20:47:52] ASR error: argument 1: TypeError: wrong type
+[20:47:52]   [526b2ae0] User: ''
+{"ts": "2026-04-27T03:47:55.543126", "req": "526b2ae0", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2930}
+[20:47:55]   Audio started (mode=realtime)
+[20:47:55]   Max frames → processing
+[20:47:55]   [02b07b12] ASR (25 frames)…
+[20:47:55] ASR error: argument 1: TypeError: wrong type
+[20:47:55]   [02b07b12] User: ''
+{"ts": "2026-04-27T03:47:58.502012", "req": "02b07b12", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2955}
+[20:47:58]   Audio started (mode=realtime)
+[20:47:58]   Max frames → processing
+[20:47:58]   [45ddf7e9] ASR (25 frames)…
+[20:47:58] ASR error: argument 1: TypeError: wrong type
+[20:47:58]   [45ddf7e9] User: ''
+{"ts": "2026-04-27T03:48:01.555360", "req": "45ddf7e9", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 3053}
+[20:48:01]   Audio started (mode=realtime)
+[20:48:01]   Max frames → processing
+[20:48:01]   [bd87eeae] ASR (25 frames)…
+[20:48:01] ASR error: argument 1: TypeError: wrong type
+[20:48:01]   [bd87eeae] User: ''
+{"ts": "2026-04-27T03:48:04.620827", "req": "bd87eeae", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 3065}
+[20:48:04]   Audio started (mode=realtime)
+[20:48:04]   Max frames → processing
+[20:48:04]   [8bf39153] ASR (25 frames)…
+[20:48:04] ASR error: argument 1: TypeError: wrong type
+[20:48:04]   [8bf39153] User: ''
+{"ts": "2026-04-27T03:48:07.749579", "req": "8bf39153", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 3129}
+[20:48:07]   Audio started (mode=realtime)
+[20:48:07]   Max frames → processing
+[20:48:07]   [e7cccb16] ASR (25 frames)…
+[20:48:07] ASR error: argument 1: TypeError: wrong type
+[20:48:07]   [e7cccb16] User: ''
+{"ts": "2026-04-27T03:48:10.851612", "req": "e7cccb16", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 3102}
+[20:48:10]   Audio started (mode=realtime)
+[20:48:10]   Max frames → processing
+[20:48:10]   [ff59bfe8] ASR (25 frames)…
+[20:48:10] ASR error: argument 1: TypeError: wrong type
+[20:48:10]   [ff59bfe8] User: ''
+{"ts": "2026-04-27T03:48:13.966977", "req": "ff59bfe8", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 3115}
+[20:48:13]   Audio started (mode=realtime)
+[20:48:13]   Max frames → processing
+[20:48:13]   [76fedcdb] ASR (25 frames)…
+[20:48:13] ASR error: argument 1: TypeError: wrong type
+[20:48:13]   [76fedcdb] User: ''
+{"ts": "2026-04-27T03:48:17.074035", "req": "76fedcdb", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 3107}
+[20:48:17]   Audio started (mode=realtime)
+[20:48:17]   Max frames → processing
+[20:48:17]   [2b06e6a5] ASR (25 frames)…
+[20:48:17] ASR error: argument 1: TypeError: wrong type
+[20:48:17]   [2b06e6a5] User: ''
+[20:48:18]   [2b06e6a5] Error: no close frame received or sent
+[20:48:18] [-] Disconnected: ('10.0.0.117', 55421)
+connection closed
+connection open
+[20:53:29] [+] Connected: ('10.0.0.117', 63797)
+[20:53:29]   hello v1 session= device=device_10_0_0_117
+[20:53:29]   >> hello sent
+[20:53:29]   << listen state=start mode=realtime
+[20:53:29]   Audio started (mode=realtime)
+[20:53:31]   Max frames → processing
+[20:53:31]   [6f4e19ad] ASR (25 frames)…
+[20:53:31] ASR error: argument 1: TypeError: wrong type
+[20:53:31]   [6f4e19ad] User: ''
+{"ts": "2026-04-27T03:53:34.054400", "req": "6f4e19ad", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2944}
+[20:53:34]   Audio started (mode=realtime)
+[20:53:34]   Max frames → processing
+[20:53:34]   [5f08fbee] ASR (25 frames)…
+[20:53:34] ASR error: argument 1: TypeError: wrong type
+[20:53:34]   [5f08fbee] User: ''
+{"ts": "2026-04-27T03:53:37.129240", "req": "5f08fbee", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 3075}
+[20:53:37]   Audio started (mode=realtime)
+[20:53:37]   Max frames → processing
+[20:53:37]   [53cc07e1] ASR (25 frames)…
+[20:53:37] ASR error: argument 1: TypeError: wrong type
+[20:53:37]   [53cc07e1] User: ''
+{"ts": "2026-04-27T03:53:40.228652", "req": "53cc07e1", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 3099}
+[20:53:40]   Audio started (mode=realtime)
+data transfer failed
+Traceback (most recent call last):
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\websockets\legacy\protocol.py", line 963, in transfer_data
+    message = await self.read_message()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\websockets\legacy\protocol.py", line 1033, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\websockets\legacy\protocol.py", line 1108, in read_data_frame
+    frame = await self.read_frame(max_size)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\websockets\legacy\protocol.py", line 1165, in read_frame
+    frame = await Frame.read(
+            ^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\websockets\legacy\framing.py", line 68, in read
+    data = await reader(2)
+           ^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\streams.py", line 750, in readexactly
+    await self._wait_for_data('readexactly')
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\streams.py", line 543, in _wait_for_data
+    await self._waiter
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\proactor_events.py", line 286, in _loop_reading
+    length = fut.result()
+             ^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 854, in _poll
+    value = callback(transferred, key, ov)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py", line 494, in finish_recv
+    return ov.getresult()
+           ^^^^^^^^^^^^^^
+OSError: [WinError 121] 信号灯超时时间已到
+[20:53:54] [-] Disconnected: ('10.0.0.117', 63797)
+connection closed
+[20:55:17] Fallback TTS ready (48 frames)
+[20:55:17] WebSocket server listening on 0.0.0.0:8001
+[20:57:51] Fallback TTS ready (48 frames)
+[20:57:51] WebSocket server listening on 0.0.0.0:8001
+server listening on 0.0.0.0:8001
+[20:59:06] Fallback TTS ready (48 frames)
+[20:59:06] WebSocket server listening on 0.0.0.0:8001
+server listening on 0.0.0.0:8001
+connection open
+[21:00:15] [+] Connected: ('10.0.0.117', 65049)
+[21:00:15]   hello v1 session= device=device_10_0_0_117
+[21:00:15]   >> hello sent
+[21:00:15]   << listen state=start mode=realtime
+[21:00:15]   Audio started (mode=realtime)
+[21:00:17]   Max frames → processing
+[21:00:17]   [21926b74] ASR (25 frames)…
+[21:00:17] ASR error: argument 1: TypeError: wrong type
+[21:00:17]   [21926b74] User: ''
+{"ts": "2026-04-27T04:00:20.052480", "req": "21926b74", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 3003}
+[21:00:20]   Audio started (mode=realtime)
+[21:00:20]   Max frames → processing
+[21:00:20]   [33ed9399] ASR (25 frames)…
+[21:00:20] ASR error: argument 1: TypeError: wrong type
+[21:00:20]   [33ed9399] User: ''
+{"ts": "2026-04-27T04:00:22.956463", "req": "33ed9399", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2893}
+[21:00:22]   Audio started (mode=realtime)
+[21:00:22]   Max frames → processing
+[21:00:22]   [511d50ce] ASR (25 frames)…
+[21:00:22] ASR error: argument 1: TypeError: wrong type
+[21:00:22]   [511d50ce] User: ''
+{"ts": "2026-04-27T04:00:25.988154", "req": "511d50ce", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 3014}
+[21:00:25]   Audio started (mode=realtime)
+[21:00:25]   Max frames → processing
+[21:00:25]   [89beec84] ASR (25 frames)…
+[21:00:25] ASR error: argument 1: TypeError: wrong type
+[21:00:25]   [89beec84] User: ''
+{"ts": "2026-04-27T04:00:28.952520", "req": "89beec84", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2964}
+[21:00:28]   Audio started (mode=realtime)
+[21:00:28]   Max frames → processing
+[21:00:28]   [baeb6fd0] ASR (25 frames)…
+[21:00:28] ASR error: argument 1: TypeError: wrong type
+[21:00:28]   [baeb6fd0] User: ''
+{"ts": "2026-04-27T04:00:31.898388", "req": "baeb6fd0", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2946}
+[21:00:31]   Audio started (mode=realtime)
+[21:00:31]   Max frames → processing
+[21:00:31]   [9b9f8ee9] ASR (25 frames)…
+[21:00:31] ASR error: argument 1: TypeError: wrong type
+[21:00:31]   [9b9f8ee9] User: ''
+{"ts": "2026-04-27T04:00:34.871375", "req": "9b9f8ee9", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2971}
+[21:00:34]   Audio started (mode=realtime)
+[21:00:34]   Max frames → processing
+[21:00:34]   [5fb46865] ASR (25 frames)…
+[21:00:34] ASR error: argument 1: TypeError: wrong type
+[21:00:34]   [5fb46865] User: ''
+{"ts": "2026-04-27T04:00:37.723284", "req": "5fb46865", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2852}
+[21:00:37]   Audio started (mode=realtime)
+[21:00:37]   Max frames → processing
+[21:00:37]   [48852119] ASR (25 frames)…
+[21:00:37] ASR error: argument 1: TypeError: wrong type
+[21:00:37]   [48852119] User: ''
+{"ts": "2026-04-27T04:00:40.569029", "req": "48852119", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2844}
+[21:00:40]   Audio started (mode=realtime)
+[21:00:40]   Max frames → processing
+[21:00:40]   [1013218a] ASR (25 frames)…
+[21:00:40] ASR error: argument 1: TypeError: wrong type
+[21:00:40]   [1013218a] User: ''
+{"ts": "2026-04-27T04:00:43.494548", "req": "1013218a", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2926}
+[21:00:43]   Audio started (mode=realtime)
+[21:00:43]   Max frames → processing
+[21:00:43]   [0a41bdf2] ASR (25 frames)…
+[21:00:43] ASR error: argument 1: TypeError: wrong type
+[21:00:43]   [0a41bdf2] User: ''
+{"ts": "2026-04-27T04:00:46.450961", "req": "0a41bdf2", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2956}
+[21:00:46]   Audio started (mode=realtime)
+[21:00:46]   Max frames → processing
+[21:00:46]   [978729be] ASR (25 frames)…
+[21:00:46] ASR error: argument 1: TypeError: wrong type
+[21:00:46]   [978729be] User: ''
+{"ts": "2026-04-27T04:00:49.431488", "req": "978729be", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2981}
+[21:00:49]   Audio started (mode=realtime)
+[21:00:49]   Max frames → processing
+[21:00:49]   [6427d1eb] ASR (25 frames)…
+[21:00:49] ASR error: argument 1: TypeError: wrong type
+[21:00:49]   [6427d1eb] User: ''
+{"ts": "2026-04-27T04:00:52.239208", "req": "6427d1eb", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2806}
+[21:00:52]   Audio started (mode=realtime)
+[21:00:52]   Max frames → processing
+[21:00:52]   [fe4d879b] ASR (25 frames)…
+[21:00:52] ASR error: argument 1: TypeError: wrong type
+[21:00:52]   [fe4d879b] User: ''
+{"ts": "2026-04-27T04:00:55.172651", "req": "fe4d879b", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2933}
+[21:00:55]   Audio started (mode=realtime)
+[21:00:55]   Max frames → processing
+[21:00:55]   [96d0e012] ASR (25 frames)…
+[21:00:55] ASR error: argument 1: TypeError: wrong type
+[21:00:55]   [96d0e012] User: ''
+{"ts": "2026-04-27T04:00:58.236406", "req": "96d0e012", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 3064}
+[21:00:58]   Audio started (mode=realtime)
+[21:00:58]   Max frames → processing
+[21:00:58]   [462fd190] ASR (25 frames)…
+[21:00:58] ASR error: argument 1: TypeError: wrong type
+[21:00:58]   [462fd190] User: ''
+{"ts": "2026-04-27T04:01:01.300054", "req": "462fd190", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 3064}
+[21:01:01]   Audio started (mode=realtime)
+[21:01:01]   Max frames → processing
+[21:01:01]   [bdf118fb] ASR (25 frames)…
+[21:01:01] ASR error: argument 1: TypeError: wrong type
+[21:01:01]   [bdf118fb] User: ''
+[05:01:20] Fallback TTS ready (48 frames)
+[05:01:20] WebSocket server listening on 0.0.0.0:8001
+server listening on 0.0.0.0:8001
+connection open
+[15:17:54] [+] Connected: ('10.0.0.117', 62824)
+[15:17:55]   hello v1 session= device=device_10_0_0_117
+[15:17:55]   >> hello sent
+[15:17:55]   << listen state=start mode=realtime
+[15:17:55]   Audio started (mode=realtime)
+[15:17:56]   Max frames → processing
+[15:17:56]   [cd360fb3] ASR (25 frames)…
+[15:17:56] ASR error: argument 1: TypeError: wrong type
+[15:17:56]   [cd360fb3] User: ''
+{"ts": "2026-04-27T22:17:59.631776", "req": "cd360fb3", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2858}
+[15:17:59]   Audio started (mode=realtime)
+[15:17:59]   Max frames → processing
+[15:17:59]   [cfcd55b5] ASR (25 frames)…
+[15:17:59] ASR error: argument 1: TypeError: wrong type
+[15:17:59]   [cfcd55b5] User: ''
+{"ts": "2026-04-27T22:18:02.605684", "req": "cfcd55b5", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2958}
+[15:18:02]   Audio started (mode=realtime)
+[15:18:02]   Max frames → processing
+[15:18:02]   [e1efc03c] ASR (25 frames)…
+[15:18:02] ASR error: argument 1: TypeError: wrong type
+[15:18:02]   [e1efc03c] User: ''
+{"ts": "2026-04-27T22:18:05.544481", "req": "e1efc03c", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2937}
+[15:18:05]   Audio started (mode=realtime)
+[15:18:05]   Max frames → processing
+[15:18:05]   [7aae06ee] ASR (25 frames)…
+[15:18:05] ASR error: argument 1: TypeError: wrong type
+[15:18:05]   [7aae06ee] User: ''
+{"ts": "2026-04-27T22:18:08.441173", "req": "7aae06ee", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2895}
+[15:18:08]   Audio started (mode=realtime)
+[15:18:08]   Max frames → processing
+[15:18:08]   [36c76c01] ASR (25 frames)…
+[15:18:08] ASR error: argument 1: TypeError: wrong type
+[15:18:08]   [36c76c01] User: ''
+{"ts": "2026-04-27T22:18:11.408245", "req": "36c76c01", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2967}
+[15:18:11]   Audio started (mode=realtime)
+[15:18:11]   Max frames → processing
+[15:18:11]   [fb76dc82] ASR (25 frames)…
+[15:18:11] ASR error: argument 1: TypeError: wrong type
+[15:18:11]   [fb76dc82] User: ''
+{"ts": "2026-04-27T22:18:14.305917", "req": "fb76dc82", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2892}
+[15:18:14]   Audio started (mode=realtime)
+[15:18:14]   Max frames → processing
+[15:18:14]   [3f3a2616] ASR (25 frames)…
+[15:18:14] ASR error: argument 1: TypeError: wrong type
+[15:18:14]   [3f3a2616] User: ''
+{"ts": "2026-04-27T22:18:17.220755", "req": "3f3a2616", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2915}
+[15:18:17]   Audio started (mode=realtime)
+[15:18:17]   Max frames → processing
+[15:18:17]   [0f097e35] ASR (25 frames)…
+[15:18:17] ASR error: argument 1: TypeError: wrong type
+[15:18:17]   [0f097e35] User: ''
+{"ts": "2026-04-27T22:18:20.137556", "req": "0f097e35", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2917}
+[15:18:20]   Audio started (mode=realtime)
+[15:18:20]   Max frames → processing
+[15:18:20]   [59995530] ASR (25 frames)…
+[15:18:20] ASR error: argument 1: TypeError: wrong type
+[15:18:20]   [59995530] User: ''
+{"ts": "2026-04-27T22:18:23.154958", "req": "59995530", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 3017}
+[15:18:23]   Audio started (mode=realtime)
+[15:18:23]   Max frames → processing
+[15:18:23]   [e6dc33e4] ASR (25 frames)…
+[15:18:23] ASR error: argument 1: TypeError: wrong type
+[15:18:23]   [e6dc33e4] User: ''
+{"ts": "2026-04-27T22:18:26.067982", "req": "e6dc33e4", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2909}
+[15:18:26]   Audio started (mode=realtime)
+[15:18:26]   Max frames → processing
+[15:18:26]   [3e1aeae6] ASR (25 frames)…
+[15:18:26] ASR error: argument 1: TypeError: wrong type
+[15:18:26]   [3e1aeae6] User: ''
+{"ts": "2026-04-27T22:18:28.989260", "req": "3e1aeae6", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2913}
+[15:18:28]   Audio started (mode=realtime)
+[15:18:28]   Max frames → processing
+[15:18:28]   [c5e5fbac] ASR (25 frames)…
+[15:18:28] ASR error: argument 1: TypeError: wrong type
+[15:18:28]   [c5e5fbac] User: ''
+{"ts": "2026-04-27T22:18:31.934520", "req": "c5e5fbac", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2940}
+[15:18:31]   Audio started (mode=realtime)
+[15:18:31]   Max frames → processing
+[15:18:31]   [c6d9e3ee] ASR (25 frames)…
+[15:18:31] ASR error: argument 1: TypeError: wrong type
+[15:18:31]   [c6d9e3ee] User: ''
+{"ts": "2026-04-27T22:18:34.821062", "req": "c6d9e3ee", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2873}
+[15:18:34]   Audio started (mode=realtime)
+[15:18:34]   Max frames → processing
+[15:18:34]   [c9f4eeae] ASR (25 frames)…
+[15:18:34] ASR error: argument 1: TypeError: wrong type
+[15:18:34]   [c9f4eeae] User: ''
+{"ts": "2026-04-27T22:18:37.720226", "req": "c9f4eeae", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2899}
+[15:18:37]   Audio started (mode=realtime)
+[15:18:37]   Max frames → processing
+[15:18:37]   [b3ab38ad] ASR (25 frames)…
+[15:18:37] ASR error: argument 1: TypeError: wrong type
+[15:18:37]   [b3ab38ad] User: ''
+{"ts": "2026-04-27T22:18:40.639417", "req": "b3ab38ad", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2919}
+[15:18:40]   Audio started (mode=realtime)
+[15:18:40]   Max frames → processing
+[15:18:40]   [6a1575dc] ASR (25 frames)…
+[15:18:40] ASR error: argument 1: TypeError: wrong type
+[15:18:40]   [6a1575dc] User: ''
+{"ts": "2026-04-27T22:18:43.638691", "req": "6a1575dc", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2994}
+[15:18:43]   Audio started (mode=realtime)
+[15:18:43]   Max frames → processing
+[15:18:43]   [5db654fc] ASR (25 frames)…
+[15:18:43] ASR error: argument 1: TypeError: wrong type
+[15:18:43]   [5db654fc] User: ''
+{"ts": "2026-04-27T22:18:46.520369", "req": "5db654fc", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2866}
+[15:18:46]   Audio started (mode=realtime)
+[15:18:46]   Max frames → processing
+[15:18:46]   [d06ac596] ASR (25 frames)…
+[15:18:46] ASR error: argument 1: TypeError: wrong type
+[15:18:46]   [d06ac596] User: ''
+{"ts": "2026-04-27T22:18:49.404110", "req": "d06ac596", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2880}
+[15:18:49]   Audio started (mode=realtime)
+[15:18:49]   Max frames → processing
+[15:18:49]   [136acc6a] ASR (25 frames)…
+[15:18:49] ASR error: argument 1: TypeError: wrong type
+[15:18:49]   [136acc6a] User: ''
+{"ts": "2026-04-27T22:18:52.223421", "req": "136acc6a", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2819}
+[15:18:52]   Audio started (mode=realtime)
+[15:18:52]   Max frames → processing
+[15:18:52]   [542226ea] ASR (25 frames)…
+[15:18:52] ASR error: argument 1: TypeError: wrong type
+[15:18:52]   [542226ea] User: ''
+{"ts": "2026-04-27T22:18:55.337285", "req": "542226ea", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2877}
+[15:18:55]   Audio started (mode=realtime)
+[15:18:55]   Max frames → processing
+[15:18:55]   [d804833a] ASR (25 frames)…
+[15:18:55] ASR error: argument 1: TypeError: wrong type
+[15:18:55]   [d804833a] User: ''
+{"ts": "2026-04-27T22:18:58.274707", "req": "d804833a", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2937}
+[15:18:58]   Audio started (mode=realtime)
+[15:18:58]   Max frames → processing
+[15:18:58]   [cf6dcb00] ASR (25 frames)…
+[15:18:58] ASR error: argument 1: TypeError: wrong type
+[15:18:58]   [cf6dcb00] User: ''
+{"ts": "2026-04-27T22:19:01.278971", "req": "cf6dcb00", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 3001}
+[15:19:01]   Audio started (mode=realtime)
+[15:19:01]   Max frames → processing
+[15:19:01]   [3497fb6a] ASR (25 frames)…
+[15:19:01] ASR error: argument 1: TypeError: wrong type
+[15:19:01]   [3497fb6a] User: ''
+{"ts": "2026-04-27T22:19:04.222937", "req": "3497fb6a", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2935}
+[15:19:04]   Audio started (mode=realtime)
+[15:19:04]   Max frames → processing
+[15:19:04]   [8f5e8984] ASR (25 frames)…
+[15:19:04] ASR error: argument 1: TypeError: wrong type
+[15:19:04]   [8f5e8984] User: ''
+{"ts": "2026-04-27T22:19:07.151372", "req": "8f5e8984", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2926}
+[15:19:07]   Audio started (mode=realtime)
+[15:19:07]   Max frames → processing
+[15:19:07]   [e21d94ba] ASR (25 frames)…
+[15:19:07] ASR error: argument 1: TypeError: wrong type
+[15:19:07]   [e21d94ba] User: ''
+[15:19:19]   [e21d94ba] Error: sent 1011 (internal error) keepalive ping timeout; no close frame received
+[15:19:19] [-] Disconnected: ('10.0.0.117', 62824)
+connection closed
+connection open
+[15:20:05] [+] Connected: ('10.0.0.117', 62825)
+[15:20:05]   hello v1 session= device=device_10_0_0_117
+[15:20:05]   >> hello sent
+[15:20:05]   << listen state=start mode=realtime
+[15:20:05]   Audio started (mode=realtime)
+[15:20:06]   Max frames → processing
+[15:20:06]   [e0c1f8e2] ASR (25 frames)…
+[15:20:06] ASR error: argument 1: TypeError: wrong type
+[15:20:06]   [e0c1f8e2] User: ''
+{"ts": "2026-04-27T22:20:09.753700", "req": "e0c1f8e2", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2812}
+[15:20:09]   Audio started (mode=realtime)
+[15:20:09]   Max frames → processing
+[15:20:09]   [776d6622] ASR (25 frames)…
+[15:20:09] ASR error: argument 1: TypeError: wrong type
+[15:20:09]   [776d6622] User: ''
+{"ts": "2026-04-27T22:20:12.600636", "req": "776d6622", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2844}
+[15:20:12]   Audio started (mode=realtime)
+[15:20:12]   Max frames → processing
+[15:20:12]   [e73d16e6] ASR (25 frames)…
+[15:20:12] ASR error: argument 1: TypeError: wrong type
+[15:20:12]   [e73d16e6] User: ''
+{"ts": "2026-04-27T22:20:15.572801", "req": "e73d16e6", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2966}
+[15:20:15]   Audio started (mode=realtime)
+[15:20:15]   Max frames → processing
+[15:20:15]   [952998f3] ASR (25 frames)…
+[15:20:15] ASR error: argument 1: TypeError: wrong type
+[15:20:15]   [952998f3] User: ''
+{"ts": "2026-04-27T22:20:18.467492", "req": "952998f3", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2891}
+[15:20:18]   Audio started (mode=realtime)
+[15:20:18]   Max frames → processing
+[15:20:18]   [c2e8054e] ASR (25 frames)…
+[15:20:18] ASR error: argument 1: TypeError: wrong type
+[15:20:18]   [c2e8054e] User: ''
+{"ts": "2026-04-27T22:20:21.392025", "req": "c2e8054e", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2923}
+[15:20:21]   Audio started (mode=realtime)
+[15:20:21]   Max frames → processing
+[15:20:21]   [12ca94cf] ASR (25 frames)…
+[15:20:21] ASR error: argument 1: TypeError: wrong type
+[15:20:21]   [12ca94cf] User: ''
+{"ts": "2026-04-27T22:20:24.307031", "req": "12ca94cf", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2915}
+[15:20:24]   Audio started (mode=realtime)
+[15:20:24]   Max frames → processing
+[15:20:24]   [0fc90faf] ASR (25 frames)…
+[15:20:24] ASR error: argument 1: TypeError: wrong type
+[15:20:24]   [0fc90faf] User: ''
+{"ts": "2026-04-27T22:20:27.204077", "req": "0fc90faf", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2897}
+[15:20:27]   Audio started (mode=realtime)
+[15:20:27]   Max frames → processing
+[15:20:27]   [33c1a585] ASR (25 frames)…
+[15:20:27] ASR error: argument 1: TypeError: wrong type
+[15:20:27]   [33c1a585] User: ''
+{"ts": "2026-04-27T22:20:30.100364", "req": "33c1a585", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2874}
+[15:20:30]   Audio started (mode=realtime)
+[15:20:30]   Max frames → processing
+[15:20:30]   [c9c3642b] ASR (25 frames)…
+[15:20:30] ASR error: argument 1: TypeError: wrong type
+[15:20:30]   [c9c3642b] User: ''
+{"ts": "2026-04-27T22:20:32.946003", "req": "c9c3642b", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2845}
+[15:20:32]   Audio started (mode=realtime)
+[15:20:32]   Max frames → processing
+[15:20:32]   [b7a9e127] ASR (25 frames)…
+[15:20:32] ASR error: argument 1: TypeError: wrong type
+[15:20:32]   [b7a9e127] User: ''
+{"ts": "2026-04-27T22:20:35.896954", "req": "b7a9e127", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2951}
+[15:20:35]   Audio started (mode=realtime)
+[15:20:35]   Max frames → processing
+[15:20:35]   [d1e0f292] ASR (25 frames)…
+[15:20:35] ASR error: argument 1: TypeError: wrong type
+[15:20:35]   [d1e0f292] User: ''
+{"ts": "2026-04-27T22:20:38.787198", "req": "d1e0f292", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2890}
+[15:20:38]   Audio started (mode=realtime)
+[15:20:38]   Max frames → processing
+[15:20:38]   [5c33ce50] ASR (25 frames)…
+[15:20:38] ASR error: argument 1: TypeError: wrong type
+[15:20:38]   [5c33ce50] User: ''
+{"ts": "2026-04-27T22:20:41.677999", "req": "5c33ce50", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2891}
+[15:20:41]   Audio started (mode=realtime)
+[15:20:41]   Max frames → processing
+[15:20:41]   [4eb47588] ASR (25 frames)…
+[15:20:41] ASR error: argument 1: TypeError: wrong type
+[15:20:41]   [4eb47588] User: ''
+{"ts": "2026-04-27T22:20:44.667305", "req": "4eb47588", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2983}
+[15:20:44]   Audio started (mode=realtime)
+[15:20:44]   Max frames → processing
+[15:20:44]   [00daf01d] ASR (25 frames)…
+[15:20:44] ASR error: argument 1: TypeError: wrong type
+[15:20:44]   [00daf01d] User: ''
+{"ts": "2026-04-27T22:20:47.552632", "req": "00daf01d", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2873}
+[15:20:47]   Audio started (mode=realtime)
+[15:20:47]   Max frames → processing
+[15:20:47]   [5a8611c1] ASR (25 frames)…
+[15:20:47] ASR error: argument 1: TypeError: wrong type
+[15:20:47]   [5a8611c1] User: ''
+{"ts": "2026-04-27T22:20:50.487331", "req": "5a8611c1", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2935}
+[15:20:50]   Audio started (mode=realtime)
+[15:20:50]   Max frames → processing
+[15:20:50]   [8bd30123] ASR (25 frames)…
+[15:20:50] ASR error: argument 1: TypeError: wrong type
+[15:20:50]   [8bd30123] User: ''
+{"ts": "2026-04-27T22:20:53.442060", "req": "8bd30123", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2948}
+[15:20:53]   Audio started (mode=realtime)
+[15:20:53]   Max frames → processing
+[15:20:53]   [2a82cf98] ASR (25 frames)…
+[15:20:53] ASR error: argument 1: TypeError: wrong type
+[15:20:53]   [2a82cf98] User: ''
+{"ts": "2026-04-27T22:20:56.254490", "req": "2a82cf98", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2812}
+[15:20:56]   Audio started (mode=realtime)
+[15:20:56]   Max frames → processing
+[15:20:56]   [fadda62a] ASR (25 frames)…
+[15:20:56] ASR error: argument 1: TypeError: wrong type
+[15:20:56]   [fadda62a] User: ''
+{"ts": "2026-04-27T22:20:59.139974", "req": "fadda62a", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2885}
+[15:20:59]   Audio started (mode=realtime)
+[15:20:59]   Max frames → processing
+[15:20:59]   [fe8f1547] ASR (25 frames)…
+[15:20:59] ASR error: argument 1: TypeError: wrong type
+[15:20:59]   [fe8f1547] User: ''
+{"ts": "2026-04-27T22:21:02.012537", "req": "fe8f1547", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2873}
+[15:21:02]   Audio started (mode=realtime)
+[15:21:02]   Max frames → processing
+[15:21:02]   [ca3c79d0] ASR (25 frames)…
+[15:21:02] ASR error: argument 1: TypeError: wrong type
+[15:21:02]   [ca3c79d0] User: ''
+{"ts": "2026-04-27T22:21:04.829058", "req": "ca3c79d0", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2811}
+[15:21:04]   Audio started (mode=realtime)
+[15:21:04]   Max frames → processing
+[15:21:04]   [3b901499] ASR (25 frames)…
+[15:21:04] ASR error: argument 1: TypeError: wrong type
+[15:21:04]   [3b901499] User: ''
+{"ts": "2026-04-27T22:21:07.829371", "req": "3b901499", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 3000}
+[15:21:07]   Audio started (mode=realtime)
+[15:21:07]   Max frames → processing
+[15:21:07]   [52dffdc6] ASR (25 frames)…
+[15:21:07] ASR error: argument 1: TypeError: wrong type
+[15:21:07]   [52dffdc6] User: ''
+{"ts": "2026-04-27T22:21:10.652676", "req": "52dffdc6", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2821}
+[15:21:10]   Audio started (mode=realtime)
+[15:21:10]   Max frames → processing
+[15:21:10]   [8f896fa6] ASR (25 frames)…
+[15:21:10] ASR error: argument 1: TypeError: wrong type
+[15:21:10]   [8f896fa6] User: ''
+{"ts": "2026-04-27T22:21:13.542255", "req": "8f896fa6", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2890}
+[15:21:13]   Audio started (mode=realtime)
+[15:21:13]   Max frames → processing
+[15:21:13]   [2180d29e] ASR (25 frames)…
+[15:21:13] ASR error: argument 1: TypeError: wrong type
+[15:21:13]   [2180d29e] User: ''
+{"ts": "2026-04-27T22:21:16.419811", "req": "2180d29e", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2874}
+[15:21:16]   Audio started (mode=realtime)
+[15:21:16]   Max frames → processing
+[15:21:16]   [aa5ec60c] ASR (25 frames)…
+[15:21:16] ASR error: argument 1: TypeError: wrong type
+[15:21:16]   [aa5ec60c] User: ''
+[15:21:28]   [aa5ec60c] Error: sent 1011 (internal error) keepalive ping timeout; no close frame received
+[15:21:28] [-] Disconnected: ('10.0.0.117', 62825)
+connection closed
+[15:28:01] Fallback TTS ready (48 frames)
+[15:28:01] WebSocket server listening on 0.0.0.0:8001
+server listening on 0.0.0.0:8001
+connection open
+[15:28:21] [+] Connected: ('10.0.0.117', 62826)
+[15:28:21]   hello v1 session= device=device_10_0_0_117
+[15:28:21]   >> hello sent
+[15:28:21]   << listen state=start mode=realtime
+[15:28:21]   Audio started (mode=realtime)
+[15:28:23]   Max frames → processing
+[15:28:23]   [5ecaf283] ASR (25 frames)…
+[15:28:23] ASR error: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 57, in transcribe
+    pcm = decode_opus_frames(frames)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 30, in decode_opus_frames
+    ctypes.memmove(chunk, out_buf, n * 2)
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+
+[15:28:23]   [5ecaf283] User: ''
+{"ts": "2026-04-27T22:28:26.026083", "req": "5ecaf283", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2905}
+[15:28:26]   Audio started (mode=realtime)
+[15:28:26]   Max frames → processing
+[15:28:26]   [9d739e5e] ASR (25 frames)…
+[15:28:26] ASR error: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 57, in transcribe
+    pcm = decode_opus_frames(frames)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 30, in decode_opus_frames
+    ctypes.memmove(chunk, out_buf, n * 2)
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+
+[15:28:26]   [9d739e5e] User: ''
+{"ts": "2026-04-27T22:28:28.987171", "req": "9d739e5e", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2961}
+[15:28:28]   Audio started (mode=realtime)
+[15:28:28]   Max frames → processing
+[15:28:28]   [a42a1996] ASR (25 frames)…
+[15:28:28] ASR error: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 57, in transcribe
+    pcm = decode_opus_frames(frames)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 30, in decode_opus_frames
+    ctypes.memmove(chunk, out_buf, n * 2)
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+
+[15:28:28]   [a42a1996] User: ''
+{"ts": "2026-04-27T22:28:31.845556", "req": "a42a1996", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2855}
+[15:28:31]   Audio started (mode=realtime)
+[15:28:31]   Max frames → processing
+[15:28:31]   [ef30bd17] ASR (25 frames)…
+[15:28:31] ASR error: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 57, in transcribe
+    pcm = decode_opus_frames(frames)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 30, in decode_opus_frames
+    ctypes.memmove(chunk, out_buf, n * 2)
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+
+[15:28:31]   [ef30bd17] User: ''
+{"ts": "2026-04-27T22:28:34.756385", "req": "ef30bd17", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2908}
+[15:28:34]   Audio started (mode=realtime)
+[15:28:34]   Max frames → processing
+[15:28:34]   [b7f7dfa0] ASR (25 frames)…
+[15:28:34] ASR error: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 57, in transcribe
+    pcm = decode_opus_frames(frames)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 30, in decode_opus_frames
+    ctypes.memmove(chunk, out_buf, n * 2)
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+
+[15:28:34]   [b7f7dfa0] User: ''
+{"ts": "2026-04-27T22:28:37.789549", "req": "b7f7dfa0", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 3033}
+[15:28:37]   Audio started (mode=realtime)
+[15:28:37]   Max frames → processing
+[15:28:37]   [70655b47] ASR (25 frames)…
+[15:28:37] ASR error: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 57, in transcribe
+    pcm = decode_opus_frames(frames)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 30, in decode_opus_frames
+    ctypes.memmove(chunk, out_buf, n * 2)
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+
+[15:28:37]   [70655b47] User: ''
+{"ts": "2026-04-27T22:28:40.892270", "req": "70655b47", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 3100}
+[15:28:40]   Audio started (mode=realtime)
+[15:28:40]   Max frames → processing
+[15:28:40]   [c83bb149] ASR (25 frames)…
+[15:28:40] ASR error: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 57, in transcribe
+    pcm = decode_opus_frames(frames)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 30, in decode_opus_frames
+    ctypes.memmove(chunk, out_buf, n * 2)
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+
+[15:28:40]   [c83bb149] User: ''
+{"ts": "2026-04-27T22:28:43.979632", "req": "c83bb149", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 3087}
+[15:28:43]   Audio started (mode=realtime)
+[15:28:43]   Max frames → processing
+[15:28:43]   [e6b61335] ASR (25 frames)…
+[15:28:43] ASR error: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 57, in transcribe
+    pcm = decode_opus_frames(frames)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 30, in decode_opus_frames
+    ctypes.memmove(chunk, out_buf, n * 2)
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+
+[15:28:43]   [e6b61335] User: ''
+{"ts": "2026-04-27T22:28:47.099641", "req": "e6b61335", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 3115}
+[15:28:47]   Audio started (mode=realtime)
+[15:28:47]   Max frames → processing
+[15:28:47]   [ddd61f7e] ASR (25 frames)…
+[15:28:47] ASR error: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 57, in transcribe
+    pcm = decode_opus_frames(frames)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 30, in decode_opus_frames
+    ctypes.memmove(chunk, out_buf, n * 2)
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+
+[15:28:47]   [ddd61f7e] User: ''
+[15:28:47]   [ddd61f7e] Error: no close frame received or sent
+[15:28:47] [-] Disconnected: ('10.0.0.117', 62826)
+connection closed
+connection open
+[15:28:59] [+] Connected: ('10.0.0.117', 51131)
+[15:28:59]   hello v1 session= device=device_10_0_0_117
+[15:28:59]   >> hello sent
+[15:28:59]   << listen state=start mode=realtime
+[15:29:00]   Audio started (mode=realtime)
+[15:29:01]   Max frames → processing
+[15:29:01]   [fb609670] ASR (25 frames)…
+[15:29:01] ASR error: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 57, in transcribe
+    pcm = decode_opus_frames(frames)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 30, in decode_opus_frames
+    ctypes.memmove(chunk, out_buf, n * 2)
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+
+[15:29:01]   [fb609670] User: ''
+{"ts": "2026-04-27T22:29:04.692930", "req": "fb609670", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2995}
+[15:29:04]   Audio started (mode=realtime)
+[15:29:04]   Max frames → processing
+[15:29:04]   [cbc64bce] ASR (25 frames)…
+[15:29:04] ASR error: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 57, in transcribe
+    pcm = decode_opus_frames(frames)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 30, in decode_opus_frames
+    ctypes.memmove(chunk, out_buf, n * 2)
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+
+[15:29:04]   [cbc64bce] User: ''
+{"ts": "2026-04-27T22:29:07.586777", "req": "cbc64bce", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2894}
+[15:29:07]   Audio started (mode=realtime)
+[15:29:07]   Max frames → processing
+[15:29:07]   [18e4092c] ASR (25 frames)…
+[15:29:07] ASR error: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 57, in transcribe
+    pcm = decode_opus_frames(frames)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 30, in decode_opus_frames
+    ctypes.memmove(chunk, out_buf, n * 2)
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+
+[15:29:07]   [18e4092c] User: ''
+{"ts": "2026-04-27T22:29:10.453854", "req": "18e4092c", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2862}
+[15:29:10]   Audio started (mode=realtime)
+[15:29:10]   Max frames → processing
+[15:29:10]   [8aea18b8] ASR (25 frames)…
+[15:29:10] ASR error: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 57, in transcribe
+    pcm = decode_opus_frames(frames)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 30, in decode_opus_frames
+    ctypes.memmove(chunk, out_buf, n * 2)
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+
+[15:29:10]   [8aea18b8] User: ''
+{"ts": "2026-04-27T22:29:13.405421", "req": "8aea18b8", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2948}
+[15:29:13]   Audio started (mode=realtime)
+[15:29:13]   Max frames → processing
+[15:29:13]   [ddb3a026] ASR (25 frames)…
+[15:29:13] ASR error: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 57, in transcribe
+    pcm = decode_opus_frames(frames)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 30, in decode_opus_frames
+    ctypes.memmove(chunk, out_buf, n * 2)
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+
+[15:29:13]   [ddb3a026] User: ''
+{"ts": "2026-04-27T22:29:16.275198", "req": "ddb3a026", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2870}
+[15:29:16]   Audio started (mode=realtime)
+[15:29:16]   Max frames → processing
+[15:29:16]   [08f5478a] ASR (25 frames)…
+[15:29:16] ASR error: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 57, in transcribe
+    pcm = decode_opus_frames(frames)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 30, in decode_opus_frames
+    ctypes.memmove(chunk, out_buf, n * 2)
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+
+[15:29:16]   [08f5478a] User: ''
+{"ts": "2026-04-27T22:29:19.227454", "req": "08f5478a", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2951}
+[15:29:19]   Audio started (mode=realtime)
+[15:29:19]   Max frames → processing
+[15:29:19]   [f0786f42] ASR (25 frames)…
+[15:29:19] ASR error: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 57, in transcribe
+    pcm = decode_opus_frames(frames)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 30, in decode_opus_frames
+    ctypes.memmove(chunk, out_buf, n * 2)
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+
+[15:29:19]   [f0786f42] User: ''
+{"ts": "2026-04-27T22:29:22.141506", "req": "f0786f42", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2912}
+[15:29:22]   Audio started (mode=realtime)
+[15:29:22]   Max frames → processing
+[15:29:22]   [5d159950] ASR (25 frames)…
+[15:29:22] ASR error: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 57, in transcribe
+    pcm = decode_opus_frames(frames)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 30, in decode_opus_frames
+    ctypes.memmove(chunk, out_buf, n * 2)
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+
+[15:29:22]   [5d159950] User: ''
+{"ts": "2026-04-27T22:29:25.007624", "req": "5d159950", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2862}
+[15:29:25]   Audio started (mode=realtime)
+[15:29:25]   Max frames → processing
+[15:29:25]   [eea90d50] ASR (25 frames)…
+[15:29:25] ASR error: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 57, in transcribe
+    pcm = decode_opus_frames(frames)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 30, in decode_opus_frames
+    ctypes.memmove(chunk, out_buf, n * 2)
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+
+[15:29:25]   [eea90d50] User: ''
+{"ts": "2026-04-27T22:29:27.937808", "req": "eea90d50", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2927}
+[15:29:27]   Audio started (mode=realtime)
+[15:29:27]   Max frames → processing
+[15:29:27]   [e084ecb9] ASR (25 frames)…
+[15:29:27] ASR error: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 57, in transcribe
+    pcm = decode_opus_frames(frames)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 30, in decode_opus_frames
+    ctypes.memmove(chunk, out_buf, n * 2)
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+
+[15:29:27]   [e084ecb9] User: ''
+{"ts": "2026-04-27T22:29:30.842886", "req": "e084ecb9", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2903}
+[15:29:30]   Audio started (mode=realtime)
+[15:29:30]   Max frames → processing
+[15:29:30]   [bb1848f4] ASR (25 frames)…
+[15:29:30] ASR error: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 57, in transcribe
+    pcm = decode_opus_frames(frames)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 30, in decode_opus_frames
+    ctypes.memmove(chunk, out_buf, n * 2)
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+
+[15:29:30]   [bb1848f4] User: ''
+{"ts": "2026-04-27T22:29:33.692005", "req": "bb1848f4", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2849}
+[15:29:33]   Audio started (mode=realtime)
+[15:29:33]   Max frames → processing
+[15:29:33]   [c86fec9b] ASR (25 frames)…
+[15:29:33] ASR error: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 57, in transcribe
+    pcm = decode_opus_frames(frames)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 30, in decode_opus_frames
+    ctypes.memmove(chunk, out_buf, n * 2)
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+
+[15:29:33]   [c86fec9b] User: ''
+{"ts": "2026-04-27T22:29:36.680468", "req": "c86fec9b", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2972}
+[15:29:36]   Audio started (mode=realtime)
+[15:29:36]   Max frames → processing
+[15:29:36]   [5e436d64] ASR (25 frames)…
+[15:29:36] ASR error: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 57, in transcribe
+    pcm = decode_opus_frames(frames)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 30, in decode_opus_frames
+    ctypes.memmove(chunk, out_buf, n * 2)
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+
+[15:29:36]   [5e436d64] User: ''
+{"ts": "2026-04-27T22:29:39.576321", "req": "5e436d64", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2885}
+[15:29:39]   Audio started (mode=realtime)
+[15:29:39]   Max frames → processing
+[15:29:39]   [8d19a696] ASR (25 frames)…
+[15:29:39] ASR error: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 57, in transcribe
+    pcm = decode_opus_frames(frames)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 30, in decode_opus_frames
+    ctypes.memmove(chunk, out_buf, n * 2)
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+
+[15:29:39]   [8d19a696] User: ''
+{"ts": "2026-04-27T22:29:42.493552", "req": "8d19a696", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2917}
+[15:29:42]   Audio started (mode=realtime)
+[15:29:42]   Max frames → processing
+[15:29:42]   [5a62edb6] ASR (25 frames)…
+[15:29:42] ASR error: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 57, in transcribe
+    pcm = decode_opus_frames(frames)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 30, in decode_opus_frames
+    ctypes.memmove(chunk, out_buf, n * 2)
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+
+[15:29:42]   [5a62edb6] User: ''
+{"ts": "2026-04-27T22:29:45.276350", "req": "5a62edb6", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2783}
+[15:29:45]   Audio started (mode=realtime)
+[15:29:45]   Max frames → processing
+[15:29:45]   [cfdb35ce] ASR (25 frames)…
+[15:29:45] ASR error: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 57, in transcribe
+    pcm = decode_opus_frames(frames)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 30, in decode_opus_frames
+    ctypes.memmove(chunk, out_buf, n * 2)
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+
+[15:29:45]   [cfdb35ce] User: ''
+{"ts": "2026-04-27T22:29:48.193332", "req": "cfdb35ce", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2913}
+[15:29:48]   Audio started (mode=realtime)
+[15:29:48]   Max frames → processing
+[15:29:48]   [b78027bf] ASR (25 frames)…
+[15:29:48] ASR error: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 57, in transcribe
+    pcm = decode_opus_frames(frames)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 30, in decode_opus_frames
+    ctypes.memmove(chunk, out_buf, n * 2)
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+
+[15:29:48]   [b78027bf] User: ''
+{"ts": "2026-04-27T22:29:51.136645", "req": "b78027bf", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2943}
+[15:29:51]   Audio started (mode=realtime)
+[15:29:51]   Max frames → processing
+[15:29:51]   [6cebcb52] ASR (25 frames)…
+[15:29:51] ASR error: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 57, in transcribe
+    pcm = decode_opus_frames(frames)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 30, in decode_opus_frames
+    ctypes.memmove(chunk, out_buf, n * 2)
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+
+[15:29:51]   [6cebcb52] User: ''
+{"ts": "2026-04-27T22:29:54.124447", "req": "6cebcb52", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2984}
+[15:29:54]   Audio started (mode=realtime)
+[15:29:54]   Max frames → processing
+[15:29:54]   [15afab0d] ASR (25 frames)…
+[15:29:54] ASR error: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 57, in transcribe
+    pcm = decode_opus_frames(frames)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 30, in decode_opus_frames
+    ctypes.memmove(chunk, out_buf, n * 2)
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+
+[15:29:54]   [15afab0d] User: ''
+{"ts": "2026-04-27T22:29:57.010414", "req": "15afab0d", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2886}
+[15:29:57]   Audio started (mode=realtime)
+[15:29:57]   Max frames → processing
+[15:29:57]   [ef2f7b89] ASR (25 frames)…
+[15:29:57] ASR error: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 57, in transcribe
+    pcm = decode_opus_frames(frames)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 30, in decode_opus_frames
+    ctypes.memmove(chunk, out_buf, n * 2)
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+
+[15:29:57]   [ef2f7b89] User: ''
+{"ts": "2026-04-27T22:29:59.918037", "req": "ef2f7b89", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2906}
+[15:29:59]   Audio started (mode=realtime)
+[15:29:59]   Max frames → processing
+[15:29:59]   [304e6309] ASR (25 frames)…
+[15:29:59] ASR error: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 57, in transcribe
+    resp = await client.audio.transcriptions.create(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 30, in decode_opus_frames
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+
+[15:29:59]   [304e6309] User: ''
+{"ts": "2026-04-27T22:30:02.794988", "req": "304e6309", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2873}
+[15:30:02]   Audio started (mode=realtime)
+[15:30:02]   Max frames → processing
+[15:30:02]   [43613bcc] ASR (25 frames)…
+[15:30:02] ASR error: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 57, in transcribe
+    resp = await client.audio.transcriptions.create(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 30, in decode_opus_frames
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+
+[15:30:02]   [43613bcc] User: ''
+{"ts": "2026-04-27T22:30:05.774790", "req": "43613bcc", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2978}
+[15:30:05]   Audio started (mode=realtime)
+[15:30:05]   Max frames → processing
+[15:30:05]   [ebc8fc8e] ASR (25 frames)…
+[15:30:05] ASR error: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 57, in transcribe
+    resp = await client.audio.transcriptions.create(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 30, in decode_opus_frames
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+
+[15:30:05]   [ebc8fc8e] User: ''
+{"ts": "2026-04-27T22:30:08.618398", "req": "ebc8fc8e", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2842}
+[15:30:08]   Audio started (mode=realtime)
+[15:30:08]   Max frames → processing
+[15:30:08]   [74acb910] ASR (25 frames)…
+[15:30:08] ASR error: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 57, in transcribe
+    resp = await client.audio.transcriptions.create(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 30, in decode_opus_frames
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+
+[15:30:08]   [74acb910] User: ''
+{"ts": "2026-04-27T22:30:11.542639", "req": "74acb910", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2924}
+[15:30:11]   Audio started (mode=realtime)
+[15:30:11]   Max frames → processing
+[15:30:11]   [aa0d82e0] ASR (25 frames)…
+[15:30:11] ASR error: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 57, in transcribe
+    resp = await client.audio.transcriptions.create(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 30, in decode_opus_frames
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+
+[15:30:11]   [aa0d82e0] User: ''
+[15:30:23]   [aa0d82e0] Error: sent 1011 (internal error) keepalive ping timeout; no close frame received
+[15:30:23] [-] Disconnected: ('10.0.0.117', 51131)
+connection closed
+[15:30:43] Fallback TTS ready (48 frames)
+[15:30:43] WebSocket server listening on 0.0.0.0:8001
+server listening on 0.0.0.0:8001
+connection open
+[15:31:20] [+] Connected: ('10.0.0.117', 51132)
+[15:31:20]   hello v1 session= device=device_10_0_0_117
+[15:31:20]   >> hello sent
+[15:31:20]   << listen state=start mode=realtime
+[15:31:21]   Audio started (mode=realtime)
+[15:31:22]   Max frames → processing
+[15:31:22]   [a2b2d99f] ASR (25 frames)…
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /audio/transcriptions in 0.496770 seconds
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /audio/transcriptions in 0.802622 seconds
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+[15:31:27] ASR error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 57, in transcribe
+    resp = await client.audio.transcriptions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\resources\audio\transcriptions.py", line 352, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1849, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1543, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1644, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+
+[15:31:27]   [a2b2d99f] User: ''
+{"ts": "2026-04-27T22:31:29.906106", "req": "a2b2d99f", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 7478}
+[15:31:29]   Audio started (mode=realtime)
+[15:31:29]   Max frames → processing
+[15:31:29]   [95e8eecc] ASR (25 frames)…
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /audio/transcriptions in 0.377292 seconds
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /audio/transcriptions in 0.769111 seconds
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+[15:31:32] ASR error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 57, in transcribe
+    resp = await client.audio.transcriptions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\resources\audio\transcriptions.py", line 352, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1849, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1543, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1644, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+
+[15:31:32]   [95e8eecc] User: ''
+{"ts": "2026-04-27T22:31:35.108749", "req": "95e8eecc", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 5200}
+[15:31:35]   Audio started (mode=realtime)
+[15:31:35]   Max frames → processing
+[15:31:35]   [6c331c1a] ASR (25 frames)…
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /audio/transcriptions in 0.426817 seconds
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /audio/transcriptions in 0.840375 seconds
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+[15:31:36] ASR error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 57, in transcribe
+    resp = await client.audio.transcriptions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\resources\audio\transcriptions.py", line 352, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1849, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1543, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1644, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+
+[15:31:36]   [6c331c1a] User: ''
+{"ts": "2026-04-27T22:31:39.814159", "req": "6c331c1a", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 4702}
+[15:31:39]   Audio started (mode=realtime)
+[15:31:39]   Max frames → processing
+[15:31:39]   [8fc6f3ab] ASR (25 frames)…
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /audio/transcriptions in 0.445772 seconds
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /audio/transcriptions in 0.760121 seconds
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+[15:31:41] ASR error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 57, in transcribe
+    resp = await client.audio.transcriptions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\resources\audio\transcriptions.py", line 352, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1849, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1543, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1644, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+
+[15:31:41]   [8fc6f3ab] User: ''
+{"ts": "2026-04-27T22:31:44.157784", "req": "8fc6f3ab", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 4344}
+[15:31:44]   Audio started (mode=realtime)
+[15:31:44]   Max frames → processing
+[15:31:44]   [18e60875] ASR (25 frames)…
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /audio/transcriptions in 0.446623 seconds
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /audio/transcriptions in 0.921941 seconds
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+[15:31:45] ASR error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 57, in transcribe
+    resp = await client.audio.transcriptions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\resources\audio\transcriptions.py", line 352, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1849, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1543, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1644, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+
+[15:31:45]   [18e60875] User: ''
+{"ts": "2026-04-27T22:31:48.907567", "req": "18e60875", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 4750}
+[15:31:48]   Audio started (mode=realtime)
+[15:31:48]   Max frames → processing
+[15:31:48]   [dca89fec] ASR (25 frames)…
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /audio/transcriptions in 0.473907 seconds
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /audio/transcriptions in 0.991489 seconds
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+[15:31:51] ASR error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 57, in transcribe
+    resp = await client.audio.transcriptions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\resources\audio\transcriptions.py", line 352, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1849, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1543, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1644, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+
+[15:31:51]   [dca89fec] User: ''
+{"ts": "2026-04-27T22:31:54.342577", "req": "dca89fec", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 5431}
+[15:31:54]   Audio started (mode=realtime)
+[15:31:54]   Max frames → processing
+[15:31:54]   [2bb2fde0] ASR (25 frames)…
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /audio/transcriptions in 0.389330 seconds
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /audio/transcriptions in 0.751308 seconds
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+[15:31:56] ASR error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 57, in transcribe
+    resp = await client.audio.transcriptions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\resources\audio\transcriptions.py", line 352, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1849, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1543, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1644, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+
+[15:31:56]   [2bb2fde0] User: ''
+{"ts": "2026-04-27T22:31:58.976378", "req": "2bb2fde0", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 4632}
+[15:31:58]   Audio started (mode=realtime)
+[15:31:58]   Max frames → processing
+[15:31:58]   [6eef4e09] ASR (25 frames)…
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /audio/transcriptions in 0.382547 seconds
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /audio/transcriptions in 0.996671 seconds
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+[15:32:00] ASR error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 57, in transcribe
+    resp = await client.audio.transcriptions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\resources\audio\transcriptions.py", line 352, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1849, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1543, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1644, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+
+[15:32:00]   [6eef4e09] User: ''
+[15:32:10]   [6eef4e09] Error: sent 1011 (internal error) keepalive ping timeout; no close frame received
+[15:32:10] [-] Disconnected: ('10.0.0.117', 51132)
+connection closed
+[15:42:06] Fallback TTS ready (48 frames)
+[15:42:06] WebSocket server listening on 0.0.0.0:8001
+server listening on 0.0.0.0:8001
+connection open
+[15:42:47] [+] Connected: ('10.0.0.117', 50139)
+[15:42:47]   hello v1 session= device=device_10_0_0_117
+[15:42:47]   >> hello sent
+[15:42:47]   << listen state=start mode=realtime
+[15:42:47]   Audio started (mode=realtime)
+[15:42:48]   Max frames → processing
+[15:42:48]   [3953b57d] ASR (25 frames)…
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /audio/transcriptions in 0.485207 seconds
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /audio/transcriptions in 0.944124 seconds
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+[15:42:50] ASR error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 57, in transcribe
+    resp = await client.audio.transcriptions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\resources\audio\transcriptions.py", line 352, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1849, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1543, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1644, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+
+[15:42:50]   [3953b57d] User: ''
+{"ts": "2026-04-27T22:42:53.639755", "req": "3953b57d", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 4764}
+[15:42:53]   Audio started (mode=realtime)
+[15:42:53]   Max frames → processing
+[15:42:53]   [c87ee906] ASR (25 frames)…
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /audio/transcriptions in 0.409898 seconds
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /audio/transcriptions in 0.980731 seconds
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+[15:42:55] ASR error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 57, in transcribe
+    resp = await client.audio.transcriptions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\resources\audio\transcriptions.py", line 352, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1849, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1543, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1644, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+
+[15:42:55]   [c87ee906] User: ''
+{"ts": "2026-04-27T22:42:58.164221", "req": "c87ee906", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 4524}
+[15:42:58]   Audio started (mode=realtime)
+[15:42:58]   Max frames → processing
+[15:42:58]   [0953c360] ASR (25 frames)…
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /audio/transcriptions in 0.389177 seconds
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /audio/transcriptions in 0.815285 seconds
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+[15:42:59] ASR error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 57, in transcribe
+    resp = await client.audio.transcriptions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\resources\audio\transcriptions.py", line 352, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1849, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1543, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1644, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+
+[15:42:59]   [0953c360] User: ''
+{"ts": "2026-04-27T22:43:02.690802", "req": "0953c360", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 4524}
+[15:43:02]   Audio started (mode=realtime)
+[15:43:02]   Max frames → processing
+[15:43:02]   [e60c2cdb] ASR (25 frames)…
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /audio/transcriptions in 0.386335 seconds
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /audio/transcriptions in 0.770060 seconds
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+[15:43:04] ASR error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 57, in transcribe
+    resp = await client.audio.transcriptions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\resources\audio\transcriptions.py", line 352, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1849, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1543, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1644, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+
+[15:43:04]   [e60c2cdb] User: ''
+{"ts": "2026-04-27T22:43:07.654214", "req": "e60c2cdb", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 4963}
+[15:43:07]   Audio started (mode=realtime)
+[15:43:07]   Max frames → processing
+[15:43:07]   [57de3bfb] ASR (25 frames)…
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /audio/transcriptions in 0.427940 seconds
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /audio/transcriptions in 0.776789 seconds
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+[15:43:09] ASR error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 57, in transcribe
+    resp = await client.audio.transcriptions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\resources\audio\transcriptions.py", line 352, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1849, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1543, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1644, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+
+[15:43:09]   [57de3bfb] User: ''
+{"ts": "2026-04-27T22:43:12.180410", "req": "57de3bfb", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 4524}
+[15:43:12]   Audio started (mode=realtime)
+[15:43:12]   Max frames → processing
+[15:43:12]   [29ac7d33] ASR (25 frames)…
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /audio/transcriptions in 0.477431 seconds
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /audio/transcriptions in 0.957037 seconds
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+[15:43:13] ASR error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 57, in transcribe
+    resp = await client.audio.transcriptions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\resources\audio\transcriptions.py", line 352, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1849, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1543, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1644, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+
+[15:43:13]   [29ac7d33] User: ''
+{"ts": "2026-04-27T22:43:16.766160", "req": "29ac7d33", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 4586}
+[15:43:16]   Audio started (mode=realtime)
+[15:43:16]   Max frames → processing
+[15:43:16]   [12cf1b3e] ASR (25 frames)…
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /audio/transcriptions in 0.441352 seconds
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /audio/transcriptions in 0.984617 seconds
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+[15:43:18] ASR error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 57, in transcribe
+    resp = await client.audio.transcriptions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\resources\audio\transcriptions.py", line 352, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1849, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1543, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1644, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+
+[15:43:18]   [12cf1b3e] User: ''
+{"ts": "2026-04-27T22:43:21.380416", "req": "12cf1b3e", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 4614}
+[15:43:21]   Audio started (mode=realtime)
+[15:43:21]   Max frames → processing
+[15:43:21]   [2b11ac45] ASR (25 frames)…
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /audio/transcriptions in 0.459893 seconds
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /audio/transcriptions in 0.787667 seconds
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+[15:43:22] ASR error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 57, in transcribe
+    resp = await client.audio.transcriptions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\resources\audio\transcriptions.py", line 352, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1849, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1543, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1644, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+
+[15:43:22]   [2b11ac45] User: ''
+{"ts": "2026-04-27T22:43:25.769004", "req": "2b11ac45", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 4389}
+[15:43:25]   Audio started (mode=realtime)
+[15:43:25]   Max frames → processing
+[15:43:25]   [38d4e1d7] ASR (25 frames)…
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /audio/transcriptions in 0.407016 seconds
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /audio/transcriptions in 0.997008 seconds
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 429 Too Many Requests"
+[15:43:27] ASR error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\liang\Copilot\.venv\xiaozhi\asr.py", line 57, in transcribe
+    resp = await client.audio.transcriptions.create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\resources\audio\transcriptions.py", line 352, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1849, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1543, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1629, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1676, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\liang\Copilot\.venv\Lib\site-packages\openai\_base_client.py", line 1644, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+
+[15:43:27]   [38d4e1d7] User: ''
+[15:43:37]   [38d4e1d7] Error: sent 1011 (internal error) keepalive ping timeout; no close frame received
+[15:43:37] [-] Disconnected: ('10.0.0.117', 50139)
+connection closed
+[15:47:03] Fallback TTS ready (48 frames)
+[15:47:03] WebSocket server listening on 0.0.0.0:8001
+server listening on 0.0.0.0:8001
+connection open
+[15:48:44] [+] Connected: ('10.0.0.117', 50140)
+[15:48:44]   hello v1 session= device=device_10_0_0_117
+[15:48:44]   >> hello sent
+[15:48:44]   << listen state=start mode=realtime
+[15:48:44]   Audio started (mode=realtime)
+[15:48:46]   Max frames → processing
+[15:48:46]   [3f9fe57c] ASR (25 frames)…
+[15:48:53] Loading Whisper model (first time may download ~500MB)...
+[15:48:58] Whisper model ready
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[15:48:58]   [3f9fe57c] User: ''
+{"ts": "2026-04-27T22:49:01.380030", "req": "3f9fe57c", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 15097}
+[15:49:01]   Audio started (mode=realtime)
+[15:49:01]   Max frames → processing
+[15:49:01]   [1e461275] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[15:49:01]   [1e461275] User: ''
+{"ts": "2026-04-27T22:49:04.371329", "req": "1e461275", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2988}
+[15:49:04]   Audio started (mode=realtime)
+[15:49:04]   Max frames → processing
+[15:49:04]   [685d1eca] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[15:49:04]   [685d1eca] User: ''
+{"ts": "2026-04-27T22:49:07.395597", "req": "685d1eca", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 3022}
+[15:49:07]   Audio started (mode=realtime)
+[15:49:07]   Max frames → processing
+[15:49:07]   [f7ef75ab] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:00.656 of audio
+[15:49:08]   [f7ef75ab] User: '你好'
+[15:49:08]   [f7ef75ab] LLM (mode=normal)…
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /chat/completions in 0.444773 seconds
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /chat/completions in 0.752815 seconds
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+[15:49:10]   [f7ef75ab] AI: '抱歉，我现在遇到了一点问题，请稍后再试。'
+{"ts": "2026-04-27T22:49:15.503461", "req": "f7ef75ab", "device": "device_10_0_0_117", "user": "你好", "resp": "抱歉，我现在遇到了一点问题，请稍后再试。", "model": "gpt-4o-mini", "latency_ms": 8105, "tokens": null, "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}"}
+[15:49:15]   Audio started (mode=realtime)
+[15:49:15]   Max frames → processing
+[15:49:15]   [820c4ebb] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[15:49:15]   [820c4ebb] User: ''
+{"ts": "2026-04-27T22:49:18.503826", "req": "820c4ebb", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 3000}
+[15:49:18]   Audio started (mode=realtime)
+[15:49:18]   Max frames → processing
+[15:49:18]   [58011e66] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:00.688 of audio
+[15:49:19]   [58011e66] User: '你好'
+[15:49:19]   [58011e66] LLM (mode=normal)…
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /chat/completions in 0.479893 seconds
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /chat/completions in 0.826101 seconds
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+[15:49:22]   [58011e66] AI: '抱歉，我现在遇到了一点问题，请稍后再试。'
+[15:49:34]   [58011e66] Error: sent 1011 (internal error) keepalive ping timeout; no close frame received
+[15:49:34] [-] Disconnected: ('10.0.0.117', 50140)
+connection closed
+[15:57:52] Fallback TTS ready (48 frames)
+[15:57:52] WebSocket server listening on 0.0.0.0:8001
+server listening on 0.0.0.0:8001
+connection open
+[15:58:33] [+] Connected: ('10.0.0.117', 56232)
+[15:58:33]   hello v1 session= device=device_10_0_0_117
+[15:58:33]   >> hello sent
+[15:58:33]   << listen state=start mode=realtime
+[15:58:34]   Audio started (mode=realtime)
+[15:58:35]   Max frames → processing
+[15:58:35]   [f2336203] ASR (25 frames)…
+[15:58:36] Loading Whisper model (first time may download ~500MB)...
+[15:58:37] Whisper model ready
+Processing audio with duration 00:01.500
+VAD filter removed 00:00.880 of audio
+[15:58:38]   [f2336203] User: '你好'
+[15:58:38]   [f2336203] LLM (mode=normal)…
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[15:58:40]   [f2336203] AI: '你好！很高兴和你聊天，有什么我可以帮助你的吗？'
+{"ts": "2026-04-27T22:58:46.897400", "req": "f2336203", "device": "device_10_0_0_117", "user": "你好", "resp": "你好！很高兴和你聊天，有什么我可以帮助你的吗？", "model": "gpt-4o-mini-2024-07-18", "latency_ms": 11249, "tokens": 149}
+[15:58:46]   Audio started (mode=realtime)
+[15:58:46]   Max frames → processing
+[15:58:46]   [240f65f4] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:00.000 of audio
+[15:58:47]   [240f65f4] User: '好'
+[15:58:47]   [240f65f4] LLM (mode=normal)…
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[15:58:49]   [240f65f4] AI: '很好！今天有什么特别的计划吗？'
+{"ts": "2026-04-27T22:58:54.197832", "req": "240f65f4", "device": "device_10_0_0_117", "user": "好", "resp": "很好！今天有什么特别的计划吗？", "model": "gpt-4o-mini-2024-07-18", "latency_ms": 7298, "tokens": 167}
+[15:58:54]   Audio started (mode=realtime)
+[15:58:54]   Max frames → processing
+[15:58:54]   [11367590] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[15:58:54]   [11367590] User: ''
+{"ts": "2026-04-27T22:58:57.182051", "req": "11367590", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2984}
+[15:58:57]   Audio started (mode=realtime)
+[15:58:57]   Max frames → processing
+[15:58:57]   [68a0a31b] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:00.000 of audio
+[15:58:58]   [68a0a31b] User: '你好你们听到我说'
+[15:58:58]   [68a0a31b] LLM (mode=normal)…
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[15:58:59]   [68a0a31b] AI: '听到了！请问你有什么想说的或者需要帮助的吗？'
+{"ts": "2026-04-27T22:59:05.529899", "req": "68a0a31b", "device": "device_10_0_0_117", "user": "你好你们听到我说", "resp": "听到了！请问你有什么想说的或者需要帮助的吗？", "model": "gpt-4o-mini-2024-07-18", "latency_ms": 8347, "tokens": 197}
+[15:59:05]   Audio started (mode=realtime)
+[15:59:05]   Max frames → processing
+[15:59:05]   [779ebad5] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:00.000 of audio
+[15:59:07]   [779ebad5] User: '我忘了'
+[15:59:07]   [779ebad5] LLM (mode=normal)…
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[15:59:09]   [779ebad5] AI: '没关系，如果想起来了，随时告诉我！我在这儿帮你。'
+[15:59:17]   [779ebad5] Error: sent 1011 (internal error) keepalive ping timeout; no close frame received
+[15:59:17] [-] Disconnected: ('10.0.0.117', 56232)
+connection closed
+connection open
+[15:59:17] [+] Connected: ('10.0.0.117', 56233)
+[15:59:17]   hello v1 session= device=device_10_0_0_117
+[15:59:17]   >> hello sent
+[15:59:17]   << listen state=start mode=realtime
+[15:59:17]   Audio started (mode=realtime)
+[15:59:19]   Max frames → processing
+[15:59:19]   [f9abbd46] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.072 of audio
+[15:59:20]   [f9abbd46] User: '字幕by索兰娅'
+[15:59:20]   [f9abbd46] LLM (mode=normal)…
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[15:59:20]   [f9abbd46] AI: '听起来你在提到字幕或某个视频内容。想聊聊相关的内容吗？'
+{"ts": "2026-04-27T22:59:28.280243", "req": "f9abbd46", "device": "device_10_0_0_117", "user": "字幕by索兰娅", "resp": "听起来你在提到字幕或某个视频内容。想聊聊相关的内容吗？", "model": "gpt-4o-mini-2024-07-18", "latency_ms": 9277, "tokens": 238}
+[15:59:28]   Audio started (mode=realtime)
+[15:59:28]   Max frames → processing
+[15:59:28]   [c6e83b08] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:00.000 of audio
+[15:59:29]   [c6e83b08] User: '你知道我叫什么吗'
+[15:59:29]   [c6e83b08] LLM (mode=normal)…
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[15:59:30]   [c6e83b08] AI: '抱歉，我不知道你的名字。如果你愿意，可以告诉我！'
+{"ts": "2026-04-27T22:59:37.178929", "req": "c6e83b08", "device": "device_10_0_0_117", "user": "你知道我叫什么吗", "resp": "抱歉，我不知道你的名字。如果你愿意，可以告诉我！", "model": "gpt-4o-mini-2024-07-18", "latency_ms": 8896, "tokens": 241}
+[15:59:37]   Audio started (mode=realtime)
+[15:59:37]   Max frames → processing
+[15:59:37]   [868672a3] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[15:59:37]   [868672a3] User: ''
+{"ts": "2026-04-27T22:59:40.171095", "req": "868672a3", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2992}
+[15:59:40]   Audio started (mode=realtime)
+[15:59:40]   Max frames → processing
+[15:59:40]   [b893dd0d] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[15:59:40]   [b893dd0d] User: ''
+{"ts": "2026-04-27T22:59:43.160421", "req": "b893dd0d", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2989}
+[15:59:43]   Audio started (mode=realtime)
+[15:59:43]   Max frames → processing
+[15:59:43]   [81feee7c] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[15:59:43]   [81feee7c] User: ''
+{"ts": "2026-04-27T22:59:46.099204", "req": "81feee7c", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2939}
+[15:59:46]   Audio started (mode=realtime)
+[15:59:46]   Max frames → processing
+[15:59:46]   [8cfa800f] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[15:59:46]   [8cfa800f] User: ''
+{"ts": "2026-04-27T22:59:49.042319", "req": "8cfa800f", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2943}
+[15:59:49]   Audio started (mode=realtime)
+[15:59:49]   Max frames → processing
+[15:59:49]   [2cc9a746] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[15:59:49]   [2cc9a746] User: ''
+{"ts": "2026-04-27T22:59:52.099483", "req": "2cc9a746", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 3057}
+[15:59:52]   Audio started (mode=realtime)
+[15:59:52]   Max frames → processing
+[15:59:52]   [6655aea3] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:00.080 of audio
+[15:59:53]   [6655aea3] User: '你知道我叫什么吗'
+[15:59:53]   [6655aea3] LLM (mode=normal)…
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[15:59:54]   [6655aea3] AI: '我不知道你的名字，不过你可以告诉我，我会记住的！'
+[16:00:00]   [6655aea3] Error: sent 1011 (internal error) keepalive ping timeout; no close frame received
+[16:00:00] [-] Disconnected: ('10.0.0.117', 56233)
+connection closed
+connection open
+[16:00:00] [+] Connected: ('10.0.0.117', 56234)
+[16:00:00]   hello v1 session= device=device_10_0_0_117
+[16:00:00]   >> hello sent
+[16:00:00]   << listen state=start mode=realtime
+[16:00:00]   Audio started (mode=realtime)
+[16:00:01]   Max frames → processing
+[16:00:01]   [e0e86a7c] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[16:00:01]   [e0e86a7c] User: ''
+{"ts": "2026-04-27T23:00:04.861136", "req": "e0e86a7c", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 3072}
+[16:00:04]   Audio started (mode=realtime)
+[16:00:04]   Max frames → processing
+[16:00:04]   [87db7f38] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[16:00:04]   [87db7f38] User: ''
+{"ts": "2026-04-27T23:00:07.898384", "req": "87db7f38", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 3036}
+[16:00:07]   Audio started (mode=realtime)
+[16:00:07]   Max frames → processing
+[16:00:07]   [bd461f5c] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[16:00:07]   [bd461f5c] User: ''
+{"ts": "2026-04-27T23:00:10.865342", "req": "bd461f5c", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2967}
+[16:00:10]   Audio started (mode=realtime)
+[16:00:10]   Max frames → processing
+[16:00:10]   [86f459c2] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[16:00:10]   [86f459c2] User: ''
+{"ts": "2026-04-27T23:00:13.965149", "req": "86f459c2", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 3099}
+[16:00:13]   Audio started (mode=realtime)
+[16:00:13]   Max frames → processing
+[16:00:13]   [6b60bd04] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:00.912 of audio
+[16:00:15]   [6b60bd04] User: '字幕by索兰娅'
+[16:00:15]   [6b60bd04] LLM (mode=normal)…
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[16:00:16]   [6b60bd04] AI: '明白了，索兰娅是个很棒的名字！有什么想聊的或者需要帮忙的地方吗？'
+{"ts": "2026-04-27T23:00:24.914217", "req": "6b60bd04", "device": "device_10_0_0_117", "user": "字幕by索兰娅", "resp": "明白了，索兰娅是个很棒的名字！有什么想聊的或者需要帮忙的地方吗？", "model": "gpt-4o-mini-2024-07-18", "latency_ms": 10947, "tokens": 267}
+[16:00:24]   Audio started (mode=realtime)
+[16:00:24]   Max frames → processing
+[16:00:24]   [46628b76] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[16:00:24]   [46628b76] User: ''
+{"ts": "2026-04-27T23:00:27.909917", "req": "46628b76", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2994}
+[16:00:27]   Audio started (mode=realtime)
+[16:00:27]   Max frames → processing
+[16:00:27]   [cef761fa] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[16:00:27]   [cef761fa] User: ''
+{"ts": "2026-04-27T23:00:30.842157", "req": "cef761fa", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2932}
+[16:00:30]   Audio started (mode=realtime)
+[16:00:30]   Max frames → processing
+[16:00:30]   [25f807d1] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[16:00:30]   [25f807d1] User: ''
+{"ts": "2026-04-27T23:00:33.868565", "req": "25f807d1", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 3024}
+[16:00:33]   Audio started (mode=realtime)
+[16:00:33]   Max frames → processing
+[16:00:33]   [ea5d55c2] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[16:00:33]   [ea5d55c2] User: ''
+{"ts": "2026-04-27T23:00:36.915259", "req": "ea5d55c2", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 3046}
+[16:00:36]   Audio started (mode=realtime)
+[16:00:36]   Max frames → processing
+[16:00:36]   [13283db2] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[16:00:36]   [13283db2] User: ''
+{"ts": "2026-04-27T23:00:39.966847", "req": "13283db2", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 3052}
+[16:00:39]   Audio started (mode=realtime)
+[16:00:39]   Max frames → processing
+[16:00:39]   [f3287283] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[16:00:40]   [f3287283] User: ''
+[16:00:50]   [f3287283] Error: sent 1011 (internal error) keepalive ping timeout; no close frame received
+[16:00:50] [-] Disconnected: ('10.0.0.117', 56234)
+connection closed
+connection open
+[16:01:39] [+] Connected: ('10.0.0.117', 56235)
+[16:01:39]   hello v1 session= device=device_10_0_0_117
+[16:01:39]   >> hello sent
+[16:01:39]   << listen state=start mode=realtime
+[16:01:40]   Audio started (mode=realtime)
+[16:01:41]   Max frames → processing
+[16:01:41]   [087d2fd5] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[16:01:41]   [087d2fd5] User: ''
+{"ts": "2026-04-27T23:01:44.451448", "req": "087d2fd5", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2984}
+[16:01:44]   Audio started (mode=realtime)
+[16:01:44]   Max frames → processing
+[16:01:44]   [44bd15df] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[16:01:44]   [44bd15df] User: ''
+{"ts": "2026-04-27T23:01:47.532646", "req": "44bd15df", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 3066}
+[16:01:47]   Audio started (mode=realtime)
+[16:01:47]   Max frames → processing
+[16:01:47]   [bf2983e7] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:00.000 of audio
+[16:01:48]   [bf2983e7] User: '你好你好'
+[16:01:48]   [bf2983e7] LLM (mode=normal)…
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[16:01:49]   [bf2983e7] AI: '你好！很高兴和你聊天。有需要帮忙的地方吗？'
+{"ts": "2026-04-27T23:01:56.514518", "req": "bf2983e7", "device": "device_10_0_0_117", "user": "你好你好", "resp": "你好！很高兴和你聊天。有需要帮忙的地方吗？", "model": "gpt-4o-mini-2024-07-18", "latency_ms": 8982, "tokens": 263}
+[16:01:56]   Audio started (mode=realtime)
+[16:01:56]   Max frames → processing
+[16:01:56]   [31289de7] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:00.000 of audio
+[16:01:57]   [31289de7] User: '您好'
+[16:01:57]   [31289de7] LLM (mode=normal)…
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[16:01:58]   [31289de7] AI: '你好呀！今天过得怎么样？'
+{"ts": "2026-04-27T23:02:02.560287", "req": "31289de7", "device": "device_10_0_0_117", "user": "您好", "resp": "你好呀！今天过得怎么样？", "model": "gpt-4o-mini-2024-07-18", "latency_ms": 6046, "tokens": 250}
+[16:02:02]   Audio started (mode=realtime)
+[16:02:02]   Max frames → processing
+[16:02:02]   [428b797c] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:00.000 of audio
+[16:02:05]   [428b797c] User: '你不要浪漫'
+[16:02:05]   [428b797c] LLM (mode=normal)…
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[16:02:05]   [428b797c] AI: '好的，没问题！我们可以聊些实用的事情。你有什么想讨论的？'

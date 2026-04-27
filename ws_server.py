@@ -16,7 +16,7 @@ import websockets
 from dotenv import load_dotenv
 from openai import AsyncOpenAI
 
-load_dotenv(Path(__file__).parent / ".env")
+load_dotenv(Path(__file__).parent / ".env", override=True)
 
 from logger import log, log_request, new_request_id
 from memory import Memory

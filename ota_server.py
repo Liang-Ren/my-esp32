@@ -1,18 +1,15 @@
 #!/usr/bin/env python3
 """Minimal OTA server for Xiaozhi ESP32. Returns custom websocket config."""
 from http.server import HTTPServer, BaseHTTPRequestHandler
-import json, os
-from dotenv import load_dotenv
+import json
 
-load_dotenv(r"C:\Users\liang\OneDrive\文档\myPython\xiaozhi.me\backend-example\.env")
-
-MCP_ENDPOINT_URL = os.getenv("MCP_ENDPOINT_URL", "")
-MCP_TOKEN = os.getenv("MCP_TOKEN", "")
+WS_URL = "ws://10.0.0.113:8001"
+WS_TOKEN = "test"
 
 RESPONSE = json.dumps({
     "websocket": {
-        "url": MCP_ENDPOINT_URL,
-        "token": MCP_TOKEN
+        "url": WS_URL,
+        "token": WS_TOKEN
     }
 }).encode()
 
@@ -35,5 +32,5 @@ class OTAHandler(BaseHTTPRequestHandler):
 
 if __name__ == "__main__":
     print(f"OTA server starting on 0.0.0.0:8000")
-    print(f"Websocket URL: {MCP_ENDPOINT_URL}")
+    print(f"Websocket URL: {WS_URL}")
     HTTPServer(("0.0.0.0", 8000), OTAHandler).serve_forever()

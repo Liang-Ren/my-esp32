@@ -1,0 +1,7 @@
+.env
+__pycache__/
+*.pyc
+*.log
+memory.db
+ws_stdout.txt
+ws_stderr.txt

@@ -9,7 +9,7 @@ import asyncio
 from pathlib import Path
 from dotenv import load_dotenv
 
-load_dotenv(Path(__file__).parent / ".env")
+load_dotenv(Path(__file__).parent / ".env", override=True)
 
 from memory import Memory
 from prompt_builder import build_messages, detect_mode
