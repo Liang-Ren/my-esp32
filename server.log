@@ -2271,3 +2271,233 @@ VAD filter removed 00:01.500 of audio
 [16:04:21]   [19ffd9f5] Error: sent 1011 (internal error) keepalive ping timeout; no close frame received
 [16:04:21] [-] Disconnected: ('10.0.0.117', 56237)
 connection closed
+connection open
+[16:09:59] [+] Connected: ('10.0.0.117', 56238)
+[16:09:59]   hello v1 session= device=device_10_0_0_117
+[16:09:59]   >> hello sent
+[16:09:59]   << listen state=start mode=realtime
+[16:09:59]   Audio started (mode=realtime)
+[16:10:01]   Max frames → processing
+[16:10:01]   [f5e36547] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[16:10:01]   [f5e36547] User: ''
+{"ts": "2026-04-27T23:10:04.121452", "req": "f5e36547", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 3003}
+[16:10:04]   Audio started (mode=realtime)
+[16:10:04]   Max frames → processing
+[16:10:04]   [b027d2ed] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[16:10:04]   [b027d2ed] User: ''
+{"ts": "2026-04-27T23:10:07.181687", "req": "b027d2ed", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 3060}
+[16:10:07]   Audio started (mode=realtime)
+[16:10:07]   Max frames → processing
+[16:10:07]   [cf85b49b] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[16:10:07]   [cf85b49b] User: ''
+{"ts": "2026-04-27T23:10:10.141920", "req": "cf85b49b", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2952}
+[16:10:10]   Audio started (mode=realtime)
+[16:10:10]   Max frames → processing
+[16:10:10]   [8ca56076] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[16:10:10]   [8ca56076] User: ''
+{"ts": "2026-04-27T23:10:13.069127", "req": "8ca56076", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2925}
+[16:10:13]   Audio started (mode=realtime)
+[16:10:13]   Max frames → processing
+[16:10:13]   [46b1c252] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[16:10:13]   [46b1c252] User: ''
+{"ts": "2026-04-27T23:10:16.083048", "req": "46b1c252", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 3014}
+[16:10:16]   Audio started (mode=realtime)
+[16:10:16]   Max frames → processing
+[16:10:16]   [0fb157b9] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[16:10:16]   [0fb157b9] User: ''
+{"ts": "2026-04-27T23:10:19.066650", "req": "0fb157b9", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2984}
+[16:10:19]   Audio started (mode=realtime)
+[16:10:19]   Max frames → processing
+[16:10:19]   [020da2a7] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[16:10:19]   [020da2a7] User: ''
+{"ts": "2026-04-27T23:10:21.998487", "req": "020da2a7", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2931}
+[16:10:21]   Audio started (mode=realtime)
+[16:10:21]   Max frames → processing
+[16:10:21]   [54464e83] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[16:10:22]   [54464e83] User: ''
+{"ts": "2026-04-27T23:10:25.009727", "req": "54464e83", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 3011}
+[16:10:25]   Audio started (mode=realtime)
+[16:10:25]   Max frames → processing
+[16:10:25]   [02879761] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[16:10:25]   [02879761] User: ''
+{"ts": "2026-04-27T23:10:27.945049", "req": "02879761", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2935}
+[16:10:27]   Audio started (mode=realtime)
+[16:10:27]   Max frames → processing
+[16:10:27]   [5f909541] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[16:10:28]   [5f909541] User: ''
+{"ts": "2026-04-27T23:10:30.894294", "req": "5f909541", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2933}
+[16:10:30]   Audio started (mode=realtime)
+[16:10:30]   Max frames → processing
+[16:10:30]   [923b1868] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[16:10:30]   [923b1868] User: ''
+{"ts": "2026-04-27T23:10:33.853609", "req": "923b1868", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2959}
+[16:10:33]   Audio started (mode=realtime)
+[16:10:33]   Max frames → processing
+[16:10:33]   [965f2455] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[16:10:33]   [965f2455] User: ''
+{"ts": "2026-04-27T23:10:36.871453", "req": "965f2455", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 3018}
+[16:10:36]   Audio started (mode=realtime)
+[16:10:36]   Max frames → processing
+[16:10:36]   [ddd3e1a0] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[16:10:36]   [ddd3e1a0] User: ''
+{"ts": "2026-04-27T23:10:39.833630", "req": "ddd3e1a0", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2962}
+[16:10:39]   Audio started (mode=realtime)
+[16:10:39]   Max frames → processing
+[16:10:39]   [7e281b66] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[16:10:39]   [7e281b66] User: ''
+{"ts": "2026-04-27T23:10:42.787407", "req": "7e281b66", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2954}
+[16:10:42]   Audio started (mode=realtime)
+[16:10:42]   Max frames → processing
+[16:10:42]   [7fbb1765] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[16:10:42]   [7fbb1765] User: ''
+{"ts": "2026-04-27T23:10:45.736371", "req": "7fbb1765", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2949}
+[16:10:45]   Audio started (mode=realtime)
+[16:10:45]   Max frames → processing
+[16:10:45]   [e5d54dc9] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[16:10:45]   [e5d54dc9] User: ''
+{"ts": "2026-04-27T23:10:48.635931", "req": "e5d54dc9", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2900}
+[16:10:48]   Audio started (mode=realtime)
+[16:10:48]   Max frames → processing
+[16:10:48]   [fae252dd] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[16:10:48]   [fae252dd] User: ''
+{"ts": "2026-04-27T23:10:51.748471", "req": "fae252dd", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 3113}
+[16:10:51]   Audio started (mode=realtime)
+[16:10:51]   Max frames → processing
+[16:10:51]   [40a2e358] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[16:10:51]   [40a2e358] User: ''
+{"ts": "2026-04-27T23:10:54.662147", "req": "40a2e358", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2914}
+[16:10:54]   Audio started (mode=realtime)
+[16:10:54]   Max frames → processing
+[16:10:54]   [170dbd1e] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[16:10:54]   [170dbd1e] User: ''
+{"ts": "2026-04-27T23:10:57.599955", "req": "170dbd1e", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2938}
+[16:10:57]   Audio started (mode=realtime)
+[16:10:57]   Max frames → processing
+[16:10:57]   [45224b24] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[16:10:57]   [45224b24] User: ''
+{"ts": "2026-04-27T23:11:00.686023", "req": "45224b24", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 3084}
+[16:11:00]   Audio started (mode=realtime)
+[16:11:00]   Max frames → processing
+[16:11:00]   [92aaac07] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[16:11:00]   [92aaac07] User: ''
+{"ts": "2026-04-27T23:11:03.721596", "req": "92aaac07", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 3032}
+[16:11:03]   Audio started (mode=realtime)
+[16:11:03]   Max frames → processing
+[16:11:03]   [72bd8b59] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[16:11:03]   [72bd8b59] User: ''
+{"ts": "2026-04-27T23:11:06.716000", "req": "72bd8b59", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2992}
+[16:11:06]   Audio started (mode=realtime)
+[16:11:06]   Max frames → processing
+[16:11:06]   [dd6b0b3d] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[16:11:06]   [dd6b0b3d] User: ''
+{"ts": "2026-04-27T23:11:09.765111", "req": "dd6b0b3d", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 3048}
+[16:11:09]   Audio started (mode=realtime)
+[16:11:09]   Max frames → processing
+[16:11:09]   [fe2741bc] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[16:11:09]   [fe2741bc] User: ''
+{"ts": "2026-04-27T23:11:12.768723", "req": "fe2741bc", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 3001}
+[16:11:12]   Audio started (mode=realtime)
+[16:11:12]   Max frames → processing
+[16:11:12]   [fc5d9bad] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[16:11:12]   [fc5d9bad] User: ''
+[16:11:23]   [fc5d9bad] Error: sent 1011 (internal error) keepalive ping timeout; no close frame received
+[16:11:23] [-] Disconnected: ('10.0.0.117', 56238)
+connection closed
+[16:11:38] Fallback TTS ready (48 frames)
+[16:11:38] WebSocket server listening on 0.0.0.0:8001
+server listening on 0.0.0.0:8001
+connection open
+[16:12:35] [+] Connected: ('10.0.0.117', 56239)
+[16:12:35]   hello v1 session= device=device_10_0_0_117
+[16:12:35]   >> hello sent
+[16:12:35]   << listen state=start mode=realtime
+[16:12:36]   Audio started (mode=realtime)
+[16:12:37]   Max frames → processing
+[16:12:37]   [93dca559] ASR (25 frames)…
+[16:12:38] Loading Whisper model (first time may download ~500MB)...
+[16:12:39] Whisper model ready
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[16:12:39]   [93dca559] User: ''
+{"ts": "2026-04-27T23:12:42.793613", "req": "93dca559", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 5279}
+[16:12:42]   Audio started (mode=realtime)
+[16:12:42]   Max frames → processing
+[16:12:42]   [d42e8c07] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:00.000 of audio
+[16:12:43]   [d42e8c07] User: '你好'
+[16:12:43]   [d42e8c07] LLM (mode=normal)…
+Retrying request to /chat/completions in 0.445894 seconds
+Retrying request to /chat/completions in 0.897877 seconds
+[16:12:45]   [d42e8c07] AI: '抱歉，我现在遇到了一点问题，请稍后再试。'
+{"ts": "2026-04-27T23:12:50.814874", "req": "d42e8c07", "device": "device_10_0_0_117", "user": "你好", "resp": "抱歉，我现在遇到了一点问题，请稍后再试。", "model": "gpt-4o-mini", "latency_ms": 8021, "tokens": null, "error": "Connection error."}
+[16:12:50]   Audio started (mode=realtime)
+[16:12:50]   Max frames → processing
+[16:12:50]   [37e119fa] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[16:12:50]   [37e119fa] User: ''
+{"ts": "2026-04-27T23:12:53.984231", "req": "37e119fa", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 3169}
+[16:12:53]   Audio started (mode=realtime)
+[16:12:53]   Max frames → processing
+[16:12:53]   [34dbfa5b] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:00.720 of audio
+[16:12:55]   [34dbfa5b] User: '你好'
+[16:12:55]   [34dbfa5b] LLM (mode=normal)…
+Retrying request to /chat/completions in 0.456885 seconds
+Retrying request to /chat/completions in 0.967482 seconds
+[16:12:56]   [34dbfa5b] AI: '抱歉，我现在遇到了一点问题，请稍后再试。'
+[16:13:00]   [34dbfa5b] Error: no close frame received or sent
+[16:13:00] [-] Disconnected: ('10.0.0.117', 56239)
+connection closed

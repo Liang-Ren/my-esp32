@@ -1,387 +1,48 @@
-[15:57:52] Fallback TTS ready (48 frames)
-[15:57:52] WebSocket server listening on 0.0.0.0:8001
+[16:11:38] Fallback TTS ready (48 frames)
+[16:11:38] WebSocket server listening on 0.0.0.0:8001
 server listening on 0.0.0.0:8001
 connection open
-[15:58:33] [+] Connected: ('10.0.0.117', 56232)
-[15:58:33]   hello v1 session= device=device_10_0_0_117
-[15:58:33]   >> hello sent
-[15:58:33]   << listen state=start mode=realtime
-[15:58:34]   Audio started (mode=realtime)
-[15:58:35]   Max frames → processing
-[15:58:35]   [f2336203] ASR (25 frames)…
-[15:58:36] Loading Whisper model (first time may download ~500MB)...
-[15:58:37] Whisper model ready
+[16:12:35] [+] Connected: ('10.0.0.117', 56239)
+[16:12:35]   hello v1 session= device=device_10_0_0_117
+[16:12:35]   >> hello sent
+[16:12:35]   << listen state=start mode=realtime
+[16:12:36]   Audio started (mode=realtime)
+[16:12:37]   Max frames → processing
+[16:12:37]   [93dca559] ASR (25 frames)…
+[16:12:38] Loading Whisper model (first time may download ~500MB)...
+[16:12:39] Whisper model ready
 Processing audio with duration 00:01.500
-VAD filter removed 00:00.880 of audio
-[15:58:38]   [f2336203] User: '你好'
-[15:58:38]   [f2336203] LLM (mode=normal)…
-HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-[15:58:40]   [f2336203] AI: '你好！很高兴和你聊天，有什么我可以帮助你的吗？'
-{"ts": "2026-04-27T22:58:46.897400", "req": "f2336203", "device": "device_10_0_0_117", "user": "你好", "resp": "你好！很高兴和你聊天，有什么我可以帮助你的吗？", "model": "gpt-4o-mini-2024-07-18", "latency_ms": 11249, "tokens": 149}
-[15:58:46]   Audio started (mode=realtime)
-[15:58:46]   Max frames → processing
-[15:58:46]   [240f65f4] ASR (25 frames)…
+VAD filter removed 00:01.500 of audio
+[16:12:39]   [93dca559] User: ''
+{"ts": "2026-04-27T23:12:42.793613", "req": "93dca559", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 5279}
+[16:12:42]   Audio started (mode=realtime)
+[16:12:42]   Max frames → processing
+[16:12:42]   [d42e8c07] ASR (25 frames)…
 Processing audio with duration 00:01.500
 VAD filter removed 00:00.000 of audio
-[15:58:47]   [240f65f4] User: '好'
-[15:58:47]   [240f65f4] LLM (mode=normal)…
-HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-[15:58:49]   [240f65f4] AI: '很好！今天有什么特别的计划吗？'
-{"ts": "2026-04-27T22:58:54.197832", "req": "240f65f4", "device": "device_10_0_0_117", "user": "好", "resp": "很好！今天有什么特别的计划吗？", "model": "gpt-4o-mini-2024-07-18", "latency_ms": 7298, "tokens": 167}
-[15:58:54]   Audio started (mode=realtime)
-[15:58:54]   Max frames → processing
-[15:58:54]   [11367590] ASR (25 frames)…
+[16:12:43]   [d42e8c07] User: '你好'
+[16:12:43]   [d42e8c07] LLM (mode=normal)…
+Retrying request to /chat/completions in 0.445894 seconds
+Retrying request to /chat/completions in 0.897877 seconds
+[16:12:45]   [d42e8c07] AI: '抱歉，我现在遇到了一点问题，请稍后再试。'
+{"ts": "2026-04-27T23:12:50.814874", "req": "d42e8c07", "device": "device_10_0_0_117", "user": "你好", "resp": "抱歉，我现在遇到了一点问题，请稍后再试。", "model": "gpt-4o-mini", "latency_ms": 8021, "tokens": null, "error": "Connection error."}
+[16:12:50]   Audio started (mode=realtime)
+[16:12:50]   Max frames → processing
+[16:12:50]   [37e119fa] ASR (25 frames)…
 Processing audio with duration 00:01.500
 VAD filter removed 00:01.500 of audio
-[15:58:54]   [11367590] User: ''
-{"ts": "2026-04-27T22:58:57.182051", "req": "11367590", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2984}
-[15:58:57]   Audio started (mode=realtime)
-[15:58:57]   Max frames → processing
-[15:58:57]   [68a0a31b] ASR (25 frames)…
+[16:12:50]   [37e119fa] User: ''
+{"ts": "2026-04-27T23:12:53.984231", "req": "37e119fa", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 3169}
+[16:12:53]   Audio started (mode=realtime)
+[16:12:53]   Max frames → processing
+[16:12:53]   [34dbfa5b] ASR (25 frames)…
 Processing audio with duration 00:01.500
-VAD filter removed 00:00.000 of audio
-[15:58:58]   [68a0a31b] User: '你好你们听到我说'
-[15:58:58]   [68a0a31b] LLM (mode=normal)…
-HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-[15:58:59]   [68a0a31b] AI: '听到了！请问你有什么想说的或者需要帮助的吗？'
-{"ts": "2026-04-27T22:59:05.529899", "req": "68a0a31b", "device": "device_10_0_0_117", "user": "你好你们听到我说", "resp": "听到了！请问你有什么想说的或者需要帮助的吗？", "model": "gpt-4o-mini-2024-07-18", "latency_ms": 8347, "tokens": 197}
-[15:59:05]   Audio started (mode=realtime)
-[15:59:05]   Max frames → processing
-[15:59:05]   [779ebad5] ASR (25 frames)…
-Processing audio with duration 00:01.500
-VAD filter removed 00:00.000 of audio
-[15:59:07]   [779ebad5] User: '我忘了'
-[15:59:07]   [779ebad5] LLM (mode=normal)…
-HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-[15:59:09]   [779ebad5] AI: '没关系，如果想起来了，随时告诉我！我在这儿帮你。'
-[15:59:17]   [779ebad5] Error: sent 1011 (internal error) keepalive ping timeout; no close frame received
-[15:59:17] [-] Disconnected: ('10.0.0.117', 56232)
-connection closed
-connection open
-[15:59:17] [+] Connected: ('10.0.0.117', 56233)
-[15:59:17]   hello v1 session= device=device_10_0_0_117
-[15:59:17]   >> hello sent
-[15:59:17]   << listen state=start mode=realtime
-[15:59:17]   Audio started (mode=realtime)
-[15:59:19]   Max frames → processing
-[15:59:19]   [f9abbd46] ASR (25 frames)…
-Processing audio with duration 00:01.500
-VAD filter removed 00:01.072 of audio
-[15:59:20]   [f9abbd46] User: '字幕by索兰娅'
-[15:59:20]   [f9abbd46] LLM (mode=normal)…
-HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-[15:59:20]   [f9abbd46] AI: '听起来你在提到字幕或某个视频内容。想聊聊相关的内容吗？'
-{"ts": "2026-04-27T22:59:28.280243", "req": "f9abbd46", "device": "device_10_0_0_117", "user": "字幕by索兰娅", "resp": "听起来你在提到字幕或某个视频内容。想聊聊相关的内容吗？", "model": "gpt-4o-mini-2024-07-18", "latency_ms": 9277, "tokens": 238}
-[15:59:28]   Audio started (mode=realtime)
-[15:59:28]   Max frames → processing
-[15:59:28]   [c6e83b08] ASR (25 frames)…
-Processing audio with duration 00:01.500
-VAD filter removed 00:00.000 of audio
-[15:59:29]   [c6e83b08] User: '你知道我叫什么吗'
-[15:59:29]   [c6e83b08] LLM (mode=normal)…
-HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-[15:59:30]   [c6e83b08] AI: '抱歉，我不知道你的名字。如果你愿意，可以告诉我！'
-{"ts": "2026-04-27T22:59:37.178929", "req": "c6e83b08", "device": "device_10_0_0_117", "user": "你知道我叫什么吗", "resp": "抱歉，我不知道你的名字。如果你愿意，可以告诉我！", "model": "gpt-4o-mini-2024-07-18", "latency_ms": 8896, "tokens": 241}
-[15:59:37]   Audio started (mode=realtime)
-[15:59:37]   Max frames → processing
-[15:59:37]   [868672a3] ASR (25 frames)…
-Processing audio with duration 00:01.500
-VAD filter removed 00:01.500 of audio
-[15:59:37]   [868672a3] User: ''
-{"ts": "2026-04-27T22:59:40.171095", "req": "868672a3", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2992}
-[15:59:40]   Audio started (mode=realtime)
-[15:59:40]   Max frames → processing
-[15:59:40]   [b893dd0d] ASR (25 frames)…
-Processing audio with duration 00:01.500
-VAD filter removed 00:01.500 of audio
-[15:59:40]   [b893dd0d] User: ''
-{"ts": "2026-04-27T22:59:43.160421", "req": "b893dd0d", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2989}
-[15:59:43]   Audio started (mode=realtime)
-[15:59:43]   Max frames → processing
-[15:59:43]   [81feee7c] ASR (25 frames)…
-Processing audio with duration 00:01.500
-VAD filter removed 00:01.500 of audio
-[15:59:43]   [81feee7c] User: ''
-{"ts": "2026-04-27T22:59:46.099204", "req": "81feee7c", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2939}
-[15:59:46]   Audio started (mode=realtime)
-[15:59:46]   Max frames → processing
-[15:59:46]   [8cfa800f] ASR (25 frames)…
-Processing audio with duration 00:01.500
-VAD filter removed 00:01.500 of audio
-[15:59:46]   [8cfa800f] User: ''
-{"ts": "2026-04-27T22:59:49.042319", "req": "8cfa800f", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2943}
-[15:59:49]   Audio started (mode=realtime)
-[15:59:49]   Max frames → processing
-[15:59:49]   [2cc9a746] ASR (25 frames)…
-Processing audio with duration 00:01.500
-VAD filter removed 00:01.500 of audio
-[15:59:49]   [2cc9a746] User: ''
-{"ts": "2026-04-27T22:59:52.099483", "req": "2cc9a746", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 3057}
-[15:59:52]   Audio started (mode=realtime)
-[15:59:52]   Max frames → processing
-[15:59:52]   [6655aea3] ASR (25 frames)…
-Processing audio with duration 00:01.500
-VAD filter removed 00:00.080 of audio
-[15:59:53]   [6655aea3] User: '你知道我叫什么吗'
-[15:59:53]   [6655aea3] LLM (mode=normal)…
-HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-[15:59:54]   [6655aea3] AI: '我不知道你的名字，不过你可以告诉我，我会记住的！'
-[16:00:00]   [6655aea3] Error: sent 1011 (internal error) keepalive ping timeout; no close frame received
-[16:00:00] [-] Disconnected: ('10.0.0.117', 56233)
-connection closed
-connection open
-[16:00:00] [+] Connected: ('10.0.0.117', 56234)
-[16:00:00]   hello v1 session= device=device_10_0_0_117
-[16:00:00]   >> hello sent
-[16:00:00]   << listen state=start mode=realtime
-[16:00:00]   Audio started (mode=realtime)
-[16:00:01]   Max frames → processing
-[16:00:01]   [e0e86a7c] ASR (25 frames)…
-Processing audio with duration 00:01.500
-VAD filter removed 00:01.500 of audio
-[16:00:01]   [e0e86a7c] User: ''
-{"ts": "2026-04-27T23:00:04.861136", "req": "e0e86a7c", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 3072}
-[16:00:04]   Audio started (mode=realtime)
-[16:00:04]   Max frames → processing
-[16:00:04]   [87db7f38] ASR (25 frames)…
-Processing audio with duration 00:01.500
-VAD filter removed 00:01.500 of audio
-[16:00:04]   [87db7f38] User: ''
-{"ts": "2026-04-27T23:00:07.898384", "req": "87db7f38", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 3036}
-[16:00:07]   Audio started (mode=realtime)
-[16:00:07]   Max frames → processing
-[16:00:07]   [bd461f5c] ASR (25 frames)…
-Processing audio with duration 00:01.500
-VAD filter removed 00:01.500 of audio
-[16:00:07]   [bd461f5c] User: ''
-{"ts": "2026-04-27T23:00:10.865342", "req": "bd461f5c", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2967}
-[16:00:10]   Audio started (mode=realtime)
-[16:00:10]   Max frames → processing
-[16:00:10]   [86f459c2] ASR (25 frames)…
-Processing audio with duration 00:01.500
-VAD filter removed 00:01.500 of audio
-[16:00:10]   [86f459c2] User: ''
-{"ts": "2026-04-27T23:00:13.965149", "req": "86f459c2", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 3099}
-[16:00:13]   Audio started (mode=realtime)
-[16:00:13]   Max frames → processing
-[16:00:13]   [6b60bd04] ASR (25 frames)…
-Processing audio with duration 00:01.500
-VAD filter removed 00:00.912 of audio
-[16:00:15]   [6b60bd04] User: '字幕by索兰娅'
-[16:00:15]   [6b60bd04] LLM (mode=normal)…
-HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-[16:00:16]   [6b60bd04] AI: '明白了，索兰娅是个很棒的名字！有什么想聊的或者需要帮忙的地方吗？'
-{"ts": "2026-04-27T23:00:24.914217", "req": "6b60bd04", "device": "device_10_0_0_117", "user": "字幕by索兰娅", "resp": "明白了，索兰娅是个很棒的名字！有什么想聊的或者需要帮忙的地方吗？", "model": "gpt-4o-mini-2024-07-18", "latency_ms": 10947, "tokens": 267}
-[16:00:24]   Audio started (mode=realtime)
-[16:00:24]   Max frames → processing
-[16:00:24]   [46628b76] ASR (25 frames)…
-Processing audio with duration 00:01.500
-VAD filter removed 00:01.500 of audio
-[16:00:24]   [46628b76] User: ''
-{"ts": "2026-04-27T23:00:27.909917", "req": "46628b76", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2994}
-[16:00:27]   Audio started (mode=realtime)
-[16:00:27]   Max frames → processing
-[16:00:27]   [cef761fa] ASR (25 frames)…
-Processing audio with duration 00:01.500
-VAD filter removed 00:01.500 of audio
-[16:00:27]   [cef761fa] User: ''
-{"ts": "2026-04-27T23:00:30.842157", "req": "cef761fa", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2932}
-[16:00:30]   Audio started (mode=realtime)
-[16:00:30]   Max frames → processing
-[16:00:30]   [25f807d1] ASR (25 frames)…
-Processing audio with duration 00:01.500
-VAD filter removed 00:01.500 of audio
-[16:00:30]   [25f807d1] User: ''
-{"ts": "2026-04-27T23:00:33.868565", "req": "25f807d1", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 3024}
-[16:00:33]   Audio started (mode=realtime)
-[16:00:33]   Max frames → processing
-[16:00:33]   [ea5d55c2] ASR (25 frames)…
-Processing audio with duration 00:01.500
-VAD filter removed 00:01.500 of audio
-[16:00:33]   [ea5d55c2] User: ''
-{"ts": "2026-04-27T23:00:36.915259", "req": "ea5d55c2", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 3046}
-[16:00:36]   Audio started (mode=realtime)
-[16:00:36]   Max frames → processing
-[16:00:36]   [13283db2] ASR (25 frames)…
-Processing audio with duration 00:01.500
-VAD filter removed 00:01.500 of audio
-[16:00:36]   [13283db2] User: ''
-{"ts": "2026-04-27T23:00:39.966847", "req": "13283db2", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 3052}
-[16:00:39]   Audio started (mode=realtime)
-[16:00:39]   Max frames → processing
-[16:00:39]   [f3287283] ASR (25 frames)…
-Processing audio with duration 00:01.500
-VAD filter removed 00:01.500 of audio
-[16:00:40]   [f3287283] User: ''
-[16:00:50]   [f3287283] Error: sent 1011 (internal error) keepalive ping timeout; no close frame received
-[16:00:50] [-] Disconnected: ('10.0.0.117', 56234)
-connection closed
-connection open
-[16:01:39] [+] Connected: ('10.0.0.117', 56235)
-[16:01:39]   hello v1 session= device=device_10_0_0_117
-[16:01:39]   >> hello sent
-[16:01:39]   << listen state=start mode=realtime
-[16:01:40]   Audio started (mode=realtime)
-[16:01:41]   Max frames → processing
-[16:01:41]   [087d2fd5] ASR (25 frames)…
-Processing audio with duration 00:01.500
-VAD filter removed 00:01.500 of audio
-[16:01:41]   [087d2fd5] User: ''
-{"ts": "2026-04-27T23:01:44.451448", "req": "087d2fd5", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2984}
-[16:01:44]   Audio started (mode=realtime)
-[16:01:44]   Max frames → processing
-[16:01:44]   [44bd15df] ASR (25 frames)…
-Processing audio with duration 00:01.500
-VAD filter removed 00:01.500 of audio
-[16:01:44]   [44bd15df] User: ''
-{"ts": "2026-04-27T23:01:47.532646", "req": "44bd15df", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 3066}
-[16:01:47]   Audio started (mode=realtime)
-[16:01:47]   Max frames → processing
-[16:01:47]   [bf2983e7] ASR (25 frames)…
-Processing audio with duration 00:01.500
-VAD filter removed 00:00.000 of audio
-[16:01:48]   [bf2983e7] User: '你好你好'
-[16:01:48]   [bf2983e7] LLM (mode=normal)…
-HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-[16:01:49]   [bf2983e7] AI: '你好！很高兴和你聊天。有需要帮忙的地方吗？'
-{"ts": "2026-04-27T23:01:56.514518", "req": "bf2983e7", "device": "device_10_0_0_117", "user": "你好你好", "resp": "你好！很高兴和你聊天。有需要帮忙的地方吗？", "model": "gpt-4o-mini-2024-07-18", "latency_ms": 8982, "tokens": 263}
-[16:01:56]   Audio started (mode=realtime)
-[16:01:56]   Max frames → processing
-[16:01:56]   [31289de7] ASR (25 frames)…
-Processing audio with duration 00:01.500
-VAD filter removed 00:00.000 of audio
-[16:01:57]   [31289de7] User: '您好'
-[16:01:57]   [31289de7] LLM (mode=normal)…
-HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-[16:01:58]   [31289de7] AI: '你好呀！今天过得怎么样？'
-{"ts": "2026-04-27T23:02:02.560287", "req": "31289de7", "device": "device_10_0_0_117", "user": "您好", "resp": "你好呀！今天过得怎么样？", "model": "gpt-4o-mini-2024-07-18", "latency_ms": 6046, "tokens": 250}
-[16:02:02]   Audio started (mode=realtime)
-[16:02:02]   Max frames → processing
-[16:02:02]   [428b797c] ASR (25 frames)…
-Processing audio with duration 00:01.500
-VAD filter removed 00:00.000 of audio
-[16:02:05]   [428b797c] User: '你不要浪漫'
-[16:02:05]   [428b797c] LLM (mode=normal)…
-HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-[16:02:05]   [428b797c] AI: '好的，没问题！我们可以聊些实用的事情。你有什么想讨论的？'
-{"ts": "2026-04-27T23:02:13.381980", "req": "428b797c", "device": "device_10_0_0_117", "user": "你不要浪漫", "resp": "好的，没问题！我们可以聊些实用的事情。你有什么想讨论的？", "model": "gpt-4o-mini-2024-07-18", "latency_ms": 10822, "tokens": 247}
-[16:02:13]   Audio started (mode=realtime)
-[16:02:13]   Max frames → processing
-[16:02:13]   [949e0104] ASR (25 frames)…
-Processing audio with duration 00:01.500
-VAD filter removed 00:00.000 of audio
-[16:02:14]   [949e0104] User: '你好'
-[16:02:14]   [949e0104] LLM (mode=normal)…
-HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-[16:02:19]   [949e0104] AI: '你好！有什么我可以帮助你的吗？'
-[16:02:23]   [949e0104] Error: sent 1011 (internal error) keepalive ping timeout; no close frame received
-[16:02:23] [-] Disconnected: ('10.0.0.117', 56235)
-connection closed
-connection open
-[16:02:23] [+] Connected: ('10.0.0.117', 56236)
-[16:02:23]   hello v1 session= device=device_10_0_0_117
-[16:02:23]   >> hello sent
-[16:02:23]   << listen state=start mode=realtime
-[16:02:23]   Audio started (mode=realtime)
-[16:02:25]   Max frames → processing
-[16:02:25]   [943e7336] ASR (25 frames)…
-Processing audio with duration 00:01.500
-VAD filter removed 00:00.592 of audio
-[16:02:26]   [943e7336] User: '能不能'
-[16:02:26]   [943e7336] LLM (mode=normal)…
-HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-[16:02:27]   [943e7336] AI: '当然可以，你想问什么呢？'
-{"ts": "2026-04-27T23:02:31.070578", "req": "943e7336", "device": "device_10_0_0_117", "user": "能不能", "resp": "当然可以，你想问什么呢？", "model": "gpt-4o-mini-2024-07-18", "latency_ms": 5618, "tokens": 228}
-[16:02:31]   Audio started (mode=realtime)
-[16:02:31]   Max frames → processing
-[16:02:31]   [06eef422] ASR (25 frames)…
-Processing audio with duration 00:01.500
-VAD filter removed 00:00.000 of audio
-[16:02:32]   [06eef422] User: '我说话吗'
-[16:02:32]   [06eef422] LLM (mode=normal)…
-HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-[16:02:34]   [06eef422] AI: '当然可以，你可以随时说话，我在这里听着呢！'
-{"ts": "2026-04-27T23:02:40.229204", "req": "06eef422", "device": "device_10_0_0_117", "user": "我说话吗", "resp": "当然可以，你可以随时说话，我在这里听着呢！", "model": "gpt-4o-mini-2024-07-18", "latency_ms": 9159, "tokens": 214}
-[16:02:40]   Audio started (mode=realtime)
-[16:02:40]   Max frames → processing
-[16:02:40]   [98cfb49d] ASR (25 frames)…
-Processing audio with duration 00:01.500
-VAD filter removed 00:00.528 of audio
-[16:02:41]   [98cfb49d] User: '能听到我说'
-[16:02:41]   [98cfb49d] LLM (mode=normal)…
-HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-[16:02:42]   [98cfb49d] AI: '我可以听到你说话，你有什么想聊的呢？'
-{"ts": "2026-04-27T23:02:46.535473", "req": "98cfb49d", "device": "device_10_0_0_117", "user": "能听到我说", "resp": "我可以听到你说话，你有什么想聊的呢？", "model": "gpt-4o-mini-2024-07-18", "latency_ms": 6304, "tokens": 215}
-[16:02:46]   Audio started (mode=realtime)
-[16:02:46]   Max frames → processing
-[16:02:46]   [584af25d] ASR (25 frames)…
-Processing audio with duration 00:01.500
-VAD filter removed 00:00.000 of audio
-[16:02:48]   [584af25d] User: '好'
-[16:02:48]   [584af25d] LLM (mode=normal)…
-HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-[16:02:49]   [584af25d] AI: '太好了！有什么问题或者需要帮忙的地方吗？'
-{"ts": "2026-04-27T23:02:55.631513", "req": "584af25d", "device": "device_10_0_0_117", "user": "好", "resp": "太好了！有什么问题或者需要帮忙的地方吗？", "model": "gpt-4o-mini-2024-07-18", "latency_ms": 9094, "tokens": 220}
-[16:02:55]   Audio started (mode=realtime)
-[16:02:55]   Max frames → processing
-[16:02:55]   [080417e7] ASR (25 frames)…
-Processing audio with duration 00:01.500
-VAD filter removed 00:01.500 of audio
-[16:02:55]   [080417e7] User: ''
-{"ts": "2026-04-27T23:02:58.607394", "req": "080417e7", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2973}
-[16:02:58]   Audio started (mode=realtime)
-[16:02:58]   Max frames → processing
-[16:02:58]   [31e36de9] ASR (25 frames)…
-Processing audio with duration 00:01.500
-VAD filter removed 00:00.000 of audio
-[16:02:59]   [31e36de9] User: '我在哪里'
-[16:02:59]   [31e36de9] LLM (mode=normal)…
-HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-[16:03:00]   [31e36de9] AI: '我不知道你具体在哪里，但我可以帮你查找一些信息或者提供建议。你想知道哪里？'
-[16:03:13]   [31e36de9] Error: sent 1011 (internal error) keepalive ping timeout; no close frame received
-[16:03:13] [-] Disconnected: ('10.0.0.117', 56236)
-connection closed
-connection open
-[16:03:31] [+] Connected: ('10.0.0.117', 56237)
-[16:03:31]   hello v1 session= device=device_10_0_0_117
-[16:03:31]   >> hello sent
-[16:03:31]   << listen state=start mode=realtime
-[16:03:31]   Audio started (mode=realtime)
-[16:03:32]   Max frames → processing
-[16:03:32]   [6003ec71] ASR (25 frames)…
-Processing audio with duration 00:01.500
-VAD filter removed 00:00.000 of audio
-[16:03:33]   [6003ec71] User: '你能记住我的话吗'
-[16:03:33]   [6003ec71] LLM (mode=normal)…
-HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-[16:03:35]   [6003ec71] AI: '我不能记住之前的对话，每次聊天我都是从头开始。你可以随时告诉我你想说的。'
-{"ts": "2026-04-27T23:03:44.172409", "req": "6003ec71", "device": "device_10_0_0_117", "user": "你能记住我的话吗", "resp": "我不能记住之前的对话，每次聊天我都是从头开始。你可以随时告诉我你想说的。", "model": "gpt-4o-mini-2024-07-18", "latency_ms": 11322, "tokens": 246}
-[16:03:44]   Audio started (mode=realtime)
-[16:03:44]   Max frames → processing
-[16:03:44]   [d8d34955] ASR (25 frames)…
-Processing audio with duration 00:01.500
-VAD filter removed 00:00.000 of audio
-[16:03:45]   [d8d34955] User: '你可以'
-[16:03:45]   [d8d34955] LLM (mode=normal)…
-HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-[16:03:46]   [d8d34955] AI: '其实我不能记住之前的对话，每次都是新的开始。不过你可以随时告诉我你的问题或想法！'
-{"ts": "2026-04-27T23:03:55.939721", "req": "d8d34955", "device": "device_10_0_0_117", "user": "你可以", "resp": "其实我不能记住之前的对话，每次都是新的开始。不过你可以随时告诉我你的问题或想法！", "model": "gpt-4o-mini-2024-07-18", "latency_ms": 11763, "tokens": 265}
-[16:03:55]   Audio started (mode=realtime)
-[16:03:55]   Max frames → processing
-[16:03:55]   [d126f085] ASR (25 frames)…
-Processing audio with duration 00:01.500
-VAD filter removed 00:00.000 of audio
-[16:03:57]   [d126f085] User: '记住我的话吗'
-[16:03:57]   [d126f085] LLM (mode=normal)…
-HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-[16:03:58]   [d126f085] AI: '抱歉，我无法记住你的话。每次对话都是独立的。如果你有问题，随时可以告诉我！'
-{"ts": "2026-04-27T23:04:08.716798", "req": "d126f085", "device": "device_10_0_0_117", "user": "记住我的话吗", "resp": "抱歉，我无法记住你的话。每次对话都是独立的。如果你有问题，随时可以告诉我！", "model": "gpt-4o-mini-2024-07-18", "latency_ms": 12777, "tokens": 279}
-[16:04:08]   Audio started (mode=realtime)
-[16:04:08]   Max frames → processing
-[16:04:08]   [19ffd9f5] ASR (25 frames)…
-Processing audio with duration 00:01.500
-VAD filter removed 00:01.500 of audio
-[16:04:08]   [19ffd9f5] User: ''
-[16:04:21]   [19ffd9f5] Error: sent 1011 (internal error) keepalive ping timeout; no close frame received
-[16:04:21] [-] Disconnected: ('10.0.0.117', 56237)
+VAD filter removed 00:00.720 of audio
+[16:12:55]   [34dbfa5b] User: '你好'
+[16:12:55]   [34dbfa5b] LLM (mode=normal)…
+Retrying request to /chat/completions in 0.456885 seconds
+Retrying request to /chat/completions in 0.967482 seconds
+[16:12:56]   [34dbfa5b] AI: '抱歉，我现在遇到了一点问题，请稍后再试。'
+[16:13:00]   [34dbfa5b] Error: no close frame received or sent
+[16:13:00] [-] Disconnected: ('10.0.0.117', 56239)
 connection closed

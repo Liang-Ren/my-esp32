@@ -55,6 +55,37 @@ async def send_tts(ws, frames: list[bytes], text: str, session_id: str, version:
     await ws.send(json.dumps({"type": "tts", "state": "stop", "session_id": session_id}))
 
 
+async def _maybe_update_long_term(device_id: str, memory, llm):
+    """Every 5 user messages, ask LLM to extract facts and update long-term memory."""
+    count = memory.conn.execute(
+        "SELECT COUNT(*) FROM messages WHERE device_id=? AND role='user'", (device_id,)
+    ).fetchone()[0]
+    if count % 5 != 0:
+        return
+    history = memory.get_recent(device_id, limit=10)
+    if not history:
+        return
+    extract_prompt = [
+        {"role": "system", "content": (
+            "从对话中提取关于用户的重要信息。"
+            "返回JSON格式：{\"summary\":\"一句话总结用户\",\"facts\":[\"事实1\",\"事实2\"]}"
+            "如果没有新信息，返回 {\"summary\":\"\",\"facts\":[]}"
+        )},
+        *history,
+        {"role": "user", "content": "请提取上述对话中关于我的信息。"}
+    ]
+    try:
+        result, _ = await llm.complete(extract_prompt)
+        import json as _json
+        data = _json.loads(result)
+        existing = memory.get_long_term(device_id)
+        new_facts = list(dict.fromkeys(existing["facts"] + data.get("facts", [])))[:20]
+        summary = data.get("summary") or existing["summary"]
+        memory.update_long_term(device_id, summary=summary, facts=new_facts)
+    except Exception:
+        pass
+
+
 async def process_turn(
     ws,
     audio_frames: list[bytes],
@@ -92,6 +123,7 @@ async def process_turn(
             # 4. Save memory
             memory.add_message(device_id, "user", user_text)
             memory.add_message(device_id, "assistant", response_text)
+            asyncio.ensure_future(_maybe_update_long_term(device_id, memory, llm))
 
             # 5. TTS
             frames = await tts_service.generate(response_text)
