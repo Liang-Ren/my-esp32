@@ -46,3 +46,56 @@ Retrying request to /chat/completions in 0.967482 seconds
 [16:13:00]   [34dbfa5b] Error: no close frame received or sent
 [16:13:00] [-] Disconnected: ('10.0.0.117', 56239)
 connection closed
+connection open
+[16:13:19] [+] Connected: ('10.0.0.117', 55304)
+[16:13:19]   hello v1 session= device=device_10_0_0_117
+[16:13:19]   >> hello sent
+[16:13:19]   << listen state=start mode=realtime
+[16:13:19]   Audio started (mode=realtime)
+[16:13:20]   Max frames → processing
+[16:13:20]   [53950ba9] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:00.000 of audio
+[16:13:22]   [53950ba9] User: '你好 你好'
+[16:13:22]   [53950ba9] LLM (mode=normal)…
+Retrying request to /chat/completions in 0.414971 seconds
+Retrying request to /chat/completions in 0.917084 seconds
+[16:13:23]   [53950ba9] AI: '抱歉，我现在遇到了一点问题，请稍后再试。'
+Retrying request to /chat/completions in 0.386632 seconds
+Retrying request to /chat/completions in 0.913427 seconds
+{"ts": "2026-04-27T23:13:29.027991", "req": "53950ba9", "device": "device_10_0_0_117", "user": "你好 你好", "resp": "抱歉，我现在遇到了一点问题，请稍后再试。", "model": "gpt-4o-mini", "latency_ms": 8028, "tokens": null, "error": "Connection error."}
+[16:13:29]   Audio started (mode=realtime)
+[16:13:29]   Max frames → processing
+[16:13:29]   [f8b0f18e] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:00.000 of audio
+[16:13:32]   [f8b0f18e] User: '打開'
+[16:13:32]   [f8b0f18e] LLM (mode=normal)…
+Retrying request to /chat/completions in 0.485868 seconds
+Retrying request to /chat/completions in 0.752019 seconds
+[16:13:33]   [f8b0f18e] AI: '抱歉，我现在遇到了一点问题，请稍后再试。'
+{"ts": "2026-04-27T23:13:39.190772", "req": "f8b0f18e", "device": "device_10_0_0_117", "user": "打開", "resp": "抱歉，我现在遇到了一点问题，请稍后再试。", "model": "gpt-4o-mini", "latency_ms": 10161, "tokens": null, "error": "Connection error."}
+[16:13:39]   Audio started (mode=realtime)
+[16:13:39]   Max frames → processing
+[16:13:39]   [9ae02696] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[16:13:39]   [9ae02696] User: ''
+{"ts": "2026-04-27T23:13:42.102587", "req": "9ae02696", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 2912}
+[16:13:42]   Audio started (mode=realtime)
+[16:13:42]   Max frames → processing
+[16:13:42]   [060b34aa] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:01.500 of audio
+[16:13:42]   [060b34aa] User: ''
+{"ts": "2026-04-27T23:13:45.120899", "req": "060b34aa", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "latency_ms": 3018}
+[16:13:45]   Audio started (mode=realtime)
+[16:13:45]   Max frames → processing
+[16:13:45]   [a57b45bd] ASR (25 frames)…
+Processing audio with duration 00:01.500
+VAD filter removed 00:00.432 of audio
+[16:13:46]   [a57b45bd] User: '字幕by索兰娅'
+[16:13:46]   [a57b45bd] LLM (mode=normal)…
+Retrying request to /chat/completions in 0.416820 seconds
+Retrying request to /chat/completions in 0.936382 seconds
+[16:13:47]   [a57b45bd] AI: '抱歉，我现在遇到了一点问题，请稍后再试。'
