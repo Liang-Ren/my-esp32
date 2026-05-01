@@ -91,6 +91,46 @@ ESP32 (Opus audio)
 | Normal speech | Full prompt with memory |
 | ASR empty / failed | Safe fallback: "我没听清楚，请再说一遍。" |
 
+## Testing
+
+No real API keys or hardware are required. All external services are mocked.
+
+### Install test dependencies
+
+```bash
+pip install pytest pytest-asyncio
+```
+
+### Run all tests
+
+```bash
+python -m pytest
+```
+
+### Run a specific file
+
+```bash
+python -m pytest tests/test_protocol.py   # ESP32 message parsing + response format
+python -m pytest tests/test_memory.py    # Mem0 fallback + multi-device isolation
+python -m pytest tests/test_pipeline.py  # full request-flow integration
+```
+
+### Run with verbose output
+
+```bash
+python -m pytest -v
+```
+
+### Test coverage summary
+
+| File | Tests | What's covered |
+|------|-------|----------------|
+| `test_protocol.py` | 17 | hello/listen parsing (v1–v3), TTS JSON schema, Opus frame headers |
+| `test_memory.py`   | 11 | Mem0 down → SQLite fallback, memory scoped per device_id |
+| `test_pipeline.py` | 18 | memory-before-LLM ordering, memory injected into prompt, reply stored, OpenAI error → fallback TTS, full send sequence |
+
+The tests use `unittest.mock.AsyncMock` throughout. No network connections are made during `pytest`.
+
 ## Troubleshooting
 
 | Symptom | Cause | Fix |

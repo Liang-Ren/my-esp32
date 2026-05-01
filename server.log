@@ -2731,3 +2731,30 @@ HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 [16:20:51]   [83dfccb8] Error: sent 1011 (internal error) keepalive ping timeout; no close frame received
 [16:20:51] [-] Disconnected: ('10.0.0.117', 55306)
 connection closed
+[19:30:51] Fallback TTS ready (48 frames)
+[19:30:51] WebSocket server listening on 0.0.0.0:8001
+server listening on 0.0.0.0:8001
+[19:57:57] Fallback TTS ready (48 frames)
+[19:57:57] WebSocket server listening on 0.0.0.0:8001
+server listening on 0.0.0.0:8001
+[19:58:07] Fallback TTS ready (48 frames)
+[19:58:07] WebSocket server listening on 0.0.0.0:8001
+[19:58:30] Fallback TTS ready (48 frames)
+[19:58:30] WebSocket server listening on 0.0.0.0:8001
+[19:59:09] Fallback TTS ready (48 frames)
+[19:59:09] WebSocket server listening on 0.0.0.0:8001
+[19:59:46] Fallback TTS ready (48 frames)
+[19:59:46] WebSocket server listening on 0.0.0.0:8001
+server listening on 0.0.0.0:8001
+[20:09:46] Fallback TTS ready (48 frames)
+[20:09:46] WebSocket server listening on 0.0.0.0:8001
+server listening on 0.0.0.0:8001
+[20:17:55] Fallback TTS ready (48 frames)
+[20:17:55] WebSocket server listening on 0.0.0.0:8001
+server listening on 0.0.0.0:8001
+[20:24:05]   [a8420309] [asr    ] decoding 20 frames
+[20:24:05]   [a8420309] [memory ] 3 memories retrieved (42ms)
+{"ts": "2026-05-01T03:24:05.022993+00:00", "req": "a8420309", "device": "device_test", "user": "hello", "resp": "hi there", "model": "gpt-4o-mini", "parse_ms": 1, "memory_ms": 42, "llm_ms": 800, "tts_ms": 500, "total_ms": 1350, "tokens": 80}
+[20:25:36] Fallback TTS ready (48 frames)
+[20:25:36] WebSocket listening on 0.0.0.0:8001
+server listening on 0.0.0.0:8001
