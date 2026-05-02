@@ -6,6 +6,7 @@ Functions:
     log_step(req_id, step, detail) — one pipeline step with optional timing
     log_request(...)               — end-of-request JSON summary line
     new_request_id()               — 8-char hex ID
+    redact(secret)                 — register a secret to strip from all log output
 """
 import json
 import uuid
@@ -14,6 +15,38 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 _LOG_FILE = Path(__file__).parents[2] / "server.log"
+
+
+class _RedactFilter(_stdlib.Filter):
+    """Strip registered secrets from every log record before it is emitted."""
+
+    _secrets: list[str] = []   # class-level: shared across all instances
+
+    @classmethod
+    def register(cls, secret: str) -> None:
+        """Add a secret to redact. Safe to call multiple times with the same value."""
+        if secret and secret not in cls._secrets:
+            cls._secrets.append(secret)
+
+    def filter(self, record: _stdlib.LogRecord) -> bool:
+        if not self._secrets:
+            return True
+        try:
+            msg = record.getMessage()
+        except Exception:
+            return True
+        replaced = False
+        for s in self._secrets:
+            if s in msg:
+                msg = msg.replace(s, "[REDACTED]")
+                replaced = True
+        if replaced:
+            record.msg = msg
+            record.args = ()   # args already baked into msg
+        return True
+
+
+_redact_filter = _RedactFilter()
 
 _stdlib.basicConfig(
     level=_stdlib.INFO,
@@ -24,6 +57,12 @@ _stdlib.basicConfig(
     ],
 )
 _logger = _stdlib.getLogger("xiaozhi.src")
+_logger.addFilter(_redact_filter)
+
+
+def redact(secret: str) -> None:
+    """Register a secret string to strip from all future log output."""
+    _RedactFilter.register(secret)
 
 
 def new_request_id() -> str:
@@ -44,12 +83,6 @@ def log_step(
     detail: str,
     ms: float | None = None,
 ) -> None:
-    """
-    Emit one structured step line.
-
-    Format:
-        [HH:MM:SS]   [req_id] [step  ] detail (42ms)
-    """
     suffix = f" ({ms}ms)" if ms is not None else ""
     _logger.info(f"[{_ts()}]   [{request_id}] [{step:<7s}] {detail}{suffix}")
 
@@ -63,12 +96,6 @@ def log_request(
     metrics: dict,
     error: str | None = None,
 ) -> None:
-    """
-    Emit a single JSON line summarising the completed request.
-
-    metrics should contain at minimum: parse_ms, memory_ms, llm_ms, total_ms.
-    Any extra keys (asr_ms, tts_ms, tokens, …) are included as-is.
-    """
     entry: dict = {
         "ts": datetime.now(timezone.utc).isoformat(),
         "req": request_id,

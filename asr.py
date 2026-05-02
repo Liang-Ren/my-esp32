@@ -1,4 +1,5 @@
 import io
+import os
 import wave
 import ctypes
 from pyogg.opus import (
@@ -8,12 +9,12 @@ from pyogg.opus import (
 
 SAMPLE_RATE = 16000
 CHANNELS = 1
-FRAME_SAMPLES = 960  # 60ms at 16kHz
+FRAME_SAMPLES = 960  # max output buffer for Opus decoder (handles any frame size)
 
 _whisper_model = None
 
 
-def _get_model():
+def _get_local_model():
     global _whisper_model
     if _whisper_model is None:
         from faster_whisper import WhisperModel
@@ -57,10 +58,38 @@ def pcm_to_wav(pcm: bytes) -> bytes:
     return buf.read()
 
 
-async def transcribe(frames: list[bytes], client=None) -> str:
-    """Decode Opus frames and transcribe with local Whisper.
+async def _transcribe_openai(wav: bytes) -> str:
+    """Transcribe via OpenAI Whisper API — fast, accurate, handles Chinese well."""
+    import openai
+    api_key = os.getenv("OPENAI_API_KEY", "")
+    client = openai.AsyncOpenAI(api_key=api_key)
+    resp = await client.audio.transcriptions.create(
+        model="whisper-1",
+        file=("audio.wav", io.BytesIO(wav), "audio/wav"),
+        language="zh",
+    )
+    return resp.text.strip()
 
-    Returns empty string if frames is empty or transcription fails.
+
+async def _transcribe_local(wav: bytes) -> str:
+    """Transcribe with local faster-whisper — no network required."""
+    import asyncio
+    model = _get_local_model()
+    segments, _ = await asyncio.to_thread(
+        model.transcribe,
+        io.BytesIO(wav),
+        language="zh",
+        beam_size=3,
+        vad_filter=False,
+    )
+    return "".join(seg.text for seg in segments).strip()
+
+
+async def transcribe(frames: list[bytes], client=None) -> str:
+    """Decode Opus frames and transcribe to text.
+
+    Uses OpenAI Whisper API when OPENAI_API_KEY is set (faster, more accurate).
+    Falls back to local faster-whisper otherwise.
     """
     if not frames:
         return ""
@@ -69,17 +98,17 @@ async def transcribe(frames: list[bytes], client=None) -> str:
         if not pcm:
             return ""
         wav = pcm_to_wav(pcm)
-        model = _get_model()
-        segments, _ = model.transcribe(
-            io.BytesIO(wav),
-            language="zh",
-            beam_size=5,
-            vad_filter=True,
-        )
-        text = "".join(seg.text for seg in segments).strip()
-        return text
+
+        if os.getenv("OPENAI_API_KEY"):
+            return await _transcribe_openai(wav)
+        return await _transcribe_local(wav)
+
     except Exception as e:
         import traceback
         from logger import log
         log(f"ASR error: {e}\n{traceback.format_exc()}")
-        return ""
+        # Try local fallback if cloud failed
+        try:
+            return await _transcribe_local(pcm_to_wav(decode_opus_frames(frames)))
+        except Exception:
+            return ""

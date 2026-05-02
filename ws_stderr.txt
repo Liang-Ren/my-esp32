@@ -1,3 +1,308 @@
-[20:25:36] Fallback TTS ready (48 frames)
-[20:25:36] WebSocket listening on 0.0.0.0:8001
+[21:13:34] LLM: gpt-4o-mini (timeout=30.0s)
+[21:13:35] Fallback TTS ready (48 frames)
+[21:13:35] WebSocket on 0.0.0.0:8001 (ping every 20s)
 server listening on 0.0.0.0:8001
+[21:13:35] Health on 0.0.0.0:8002
+connection open
+[21:16:07] [+] ('10.0.0.117', 51017)
+[21:16:07] Mem0: self-hosted OpenMemory at http://localhost:8765
+[21:16:07]   hello v1 session= device=device_10_0_0_117 user=xiaozhi_device_10_0_0_117
+[21:16:07]   [device_10_0_0_117] << type=listen state=start mode=realtime
+[21:16:07]   [device_10_0_0_117] audio start (mode=realtime)
+[21:16:27] [-] ('10.0.0.117', 51017) disconnected
+connection closed
+connection open
+[21:19:05] [+] ('10.0.0.117', 57348)
+[21:19:05] Mem0: self-hosted OpenMemory at http://localhost:8765
+[21:19:05]   [device_10_0_0_117] reconnect after 158s — LLM thread preserved
+[21:19:05]   [device_10_0_0_117] << type=listen state=start mode=realtime
+[21:19:05]   [device_10_0_0_117] audio start (mode=realtime)
+[21:19:08]   [device_10_0_0_117] max frames → 50 frames
+[21:19:08]   [4a6fee27] [asr    ] decoding 50 Opus frame(s)…
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+[21:19:11]   [4a6fee27] [asr    ] → '你好' (2455ms)
+[21:19:11]   [4a6fee27] [parse  ] mode=normal history=10turns (0ms)
+[21:19:11]   [4a6fee27] [memory ] retrieving…
+HTTP Request: GET http://localhost:8765/api/v1/memories/?user_id=xiaozhi_device_10_0_0_117&size=5&sort_column=created_at&sort_direction=desc "HTTP/1.1 200 OK"
+  Memory lookup: 5 result(s) in 181ms [mem0]
+[21:19:11]   [4a6fee27] [memory ] 5 relevant, summary=False (181ms)
+[21:19:11]   [4a6fee27] [prompt ] instructions=188chars messages=11
+[21:19:11]   [4a6fee27] [llm    ] calling gpt-4o-mini…
+HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+[21:19:13]   [4a6fee27] [llm    ] → '你好！今天过得怎么样？有什么想聊的？' (1829ms)
+[21:19:14]   [4a6fee27] [format ] 77 Opus frames (821ms)
+[21:19:14]   [4a6fee27] [store  ] queued
+[21:19:14]   [4a6fee27] [send   ] streaming 77 frames…
+HTTP Request: POST http://localhost:8765/api/v1/memories/ "HTTP/1.1 200 OK"
+  Memory write: OK [mem0 user=xiaozhi_device_10_0_0_117]
+[21:19:19]   [4a6fee27] [send   ] done
+{"ts": "2026-05-02T04:19:19.012449+00:00", "req": "4a6fee27", "device": "device_10_0_0_117", "user": "你好", "resp": "你好！今天过得怎么样？有什么想聊的？", "model": "gpt-4o-mini-2024-07-18", "asr_ms": 2455, "parse_ms": 0, "memory_ms": 181, "llm_ms": 1829, "tokens": 431, "tts_ms": 821, "total_ms": 10212}
+[21:19:19]   [device_10_0_0_117] audio start (mode=realtime)
+[21:19:19]   [device_10_0_0_117] max frames → 50 frames
+[21:19:19]   [3b6c21f5] [asr    ] decoding 50 Opus frame(s)…
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+[21:19:20]   [3b6c21f5] [asr    ] → '聽到我說話嗎?' (1025ms)
+[21:19:20]   [3b6c21f5] [parse  ] mode=normal history=10turns (0ms)
+[21:19:20]   [3b6c21f5] [memory ] retrieving…
+HTTP Request: GET http://localhost:8765/api/v1/memories/?user_id=xiaozhi_device_10_0_0_117&size=5&sort_column=created_at&sort_direction=desc "HTTP/1.1 200 OK"
+  Memory lookup: 5 result(s) in 184ms [mem0]
+[21:19:20]   [3b6c21f5] [memory ] 5 relevant, summary=False (184ms)
+[21:19:20]   [3b6c21f5] [prompt ] instructions=188chars messages=11
+[21:19:20]   [3b6c21f5] [llm    ] calling gpt-4o-mini…
+HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+[21:19:22]   [3b6c21f5] [llm    ] → '听到了！你想聊什么呢？' (1824ms)
+[21:19:23]   [3b6c21f5] [format ] 50 Opus frames (969ms)
+[21:19:23]   [3b6c21f5] [store  ] queued
+[21:19:23]   [3b6c21f5] [send   ] streaming 50 frames…
+HTTP Request: POST http://localhost:8765/api/v1/memories/ "HTTP/1.1 200 OK"
+  Memory write: OK [mem0 user=xiaozhi_device_10_0_0_117]
+[21:19:26]   [3b6c21f5] [send   ] done
+{"ts": "2026-05-02T04:19:26.270462+00:00", "req": "3b6c21f5", "device": "device_10_0_0_117", "user": "聽到我說話嗎?", "resp": "听到了！你想聊什么呢？", "model": "gpt-4o-mini-2024-07-18", "asr_ms": 1025, "parse_ms": 0, "memory_ms": 184, "llm_ms": 1824, "tokens": 456, "tts_ms": 969, "total_ms": 7258}
+[21:19:26]   [device_10_0_0_117] audio start (mode=realtime)
+[21:19:26]   [device_10_0_0_117] max frames → 50 frames
+[21:19:26]   [d65d443f] [asr    ] decoding 50 Opus frame(s)…
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+[21:19:27]   [d65d443f] [asr    ] → '以上言論不代表本台立場' (1150ms)
+[21:19:27]   [d65d443f] [parse  ] mode=normal history=10turns (0ms)
+[21:19:27]   [d65d443f] [memory ] retrieving…
+HTTP Request: GET http://localhost:8765/api/v1/memories/?user_id=xiaozhi_device_10_0_0_117&size=5&sort_column=created_at&sort_direction=desc "HTTP/1.1 200 OK"
+  Memory lookup: 5 result(s) in 189ms [mem0]
+[21:19:27]   [d65d443f] [memory ] 5 relevant, summary=False (189ms)
+[21:19:27]   [d65d443f] [prompt ] instructions=188chars messages=11
+[21:19:27]   [d65d443f] [llm    ] calling gpt-4o-mini…
+HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+[21:19:28]   [d65d443f] [llm    ] → '明白了，你在做节目的时候会加一些这种声明吗？很有趣！' (1148ms)
+[21:19:29]   [d65d443f] [format ] 100 Opus frames (1042ms)
+[21:19:29]   [d65d443f] [store  ] queued
+[21:19:29]   [d65d443f] [send   ] streaming 100 frames…
+HTTP Request: POST http://localhost:8765/api/v1/memories/ "HTTP/1.1 200 OK"
+  Memory write: OK [mem0 user=xiaozhi_device_10_0_0_117]
+[21:19:36]   [d65d443f] [send   ] done
+{"ts": "2026-05-02T04:19:36.153330+00:00", "req": "d65d443f", "device": "device_10_0_0_117", "user": "以上言論不代表本台立場", "resp": "明白了，你在做节目的时候会加一些这种声明吗？很有趣！", "model": "gpt-4o-mini-2024-07-18", "asr_ms": 1150, "parse_ms": 0, "memory_ms": 189, "llm_ms": 1148, "tokens": 493, "tts_ms": 1042, "total_ms": 9883}
+[21:19:36]   [device_10_0_0_117] audio start (mode=realtime)
+[21:19:36]   [device_10_0_0_117] max frames → 50 frames
+[21:19:36]   [4511524b] [asr    ] decoding 50 Opus frame(s)…
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+[21:19:37]   [4511524b] [asr    ] → '您所拨打的电话已关机' (1373ms)
+[21:19:37]   [4511524b] [parse  ] mode=normal history=10turns (0ms)
+[21:19:37]   [4511524b] [memory ] retrieving…
+HTTP Request: GET http://localhost:8765/api/v1/memories/?user_id=xiaozhi_device_10_0_0_117&size=5&sort_column=created_at&sort_direction=desc "HTTP/1.1 200 OK"
+  Memory lookup: 5 result(s) in 179ms [mem0]
+[21:19:37]   [4511524b] [memory ] 5 relevant, summary=False (179ms)
+[21:19:37]   [4511524b] [prompt ] instructions=188chars messages=11
+[21:19:37]   [4511524b] [llm    ] calling gpt-4o-mini…
+HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+[21:19:38]   [4511524b] [llm    ] → '哈哈，这听起来像是提示音！你在制作搞笑视频吗？' (1234ms)
+[21:19:39]   [4511524b] [format ] 90 Opus frames (1057ms)
+[21:19:39]   [4511524b] [store  ] queued
+[21:19:39]   [4511524b] [send   ] streaming 90 frames…
+HTTP Request: POST http://localhost:8765/api/v1/memories/ "HTTP/1.1 200 OK"
+  Memory write: OK [mem0 user=xiaozhi_device_10_0_0_117]
+[21:19:45]   [4511524b] [send   ] done
+{"ts": "2026-05-02T04:19:45.823698+00:00", "req": "4511524b", "device": "device_10_0_0_117", "user": "您所拨打的电话已关机", "resp": "哈哈，这听起来像是提示音！你在制作搞笑视频吗？", "model": "gpt-4o-mini-2024-07-18", "asr_ms": 1373, "parse_ms": 0, "memory_ms": 179, "llm_ms": 1234, "tokens": 527, "tts_ms": 1057, "total_ms": 9670}
+[21:19:45]   [device_10_0_0_117] audio start (mode=realtime)
+[21:19:45]   [device_10_0_0_117] max frames → 50 frames
+[21:19:45]   [68af5f04] [asr    ] decoding 50 Opus frame(s)…
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+[21:19:47]   [68af5f04] [asr    ] → '我想聊聊我喜欢吃什么' (1410ms)
+[21:19:47]   [68af5f04] [parse  ] mode=normal history=10turns (1ms)
+[21:19:47]   [68af5f04] [memory ] retrieving…
+HTTP Request: GET http://localhost:8765/api/v1/memories/?user_id=xiaozhi_device_10_0_0_117&size=5&sort_column=created_at&sort_direction=desc "HTTP/1.1 200 OK"
+  Memory lookup: 5 result(s) in 185ms [mem0]
+[21:19:47]   [68af5f04] [memory ] 5 relevant, summary=False (185ms)
+[21:19:47]   [68af5f04] [prompt ] instructions=188chars messages=11
+[21:19:47]   [68af5f04] [llm    ] calling gpt-4o-mini…
+HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+[21:19:48]   [68af5f04] [llm    ] → '好的呀！你最喜欢吃什么水果或食物呢？' (961ms)
+[21:19:49]   [68af5f04] [format ] 72 Opus frames (979ms)
+[21:19:49]   [68af5f04] [store  ] queued
+[21:19:49]   [68af5f04] [send   ] streaming 72 frames…
+[21:19:53]   [68af5f04] [send   ] done
+{"ts": "2026-05-02T04:19:53.986775+00:00", "req": "68af5f04", "device": "device_10_0_0_117", "user": "我想聊聊我喜欢吃什么", "resp": "好的呀！你最喜欢吃什么水果或食物呢？", "model": "gpt-4o-mini-2024-07-18", "asr_ms": 1410, "parse_ms": 1, "memory_ms": 185, "llm_ms": 961, "tokens": 557, "tts_ms": 979, "total_ms": 8163}
+[21:19:53]   [device_10_0_0_117] audio start (mode=realtime)
+[21:19:53]   [device_10_0_0_117] max frames → 50 frames
+[21:19:53]   [596ec15f] [asr    ] decoding 50 Opus frame(s)…
+HTTP Request: POST http://localhost:8765/api/v1/memories/ "HTTP/1.1 200 OK"
+  Memory write: OK [mem0 user=xiaozhi_device_10_0_0_117]
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+[21:19:56]   [596ec15f] [asr    ] → '请不吝点赞 订阅 转发 打赏支持明镜与点点栏目' (2180ms)
+[21:19:56]   [596ec15f] [parse  ] mode=normal history=10turns (0ms)
+[21:19:56]   [596ec15f] [memory ] retrieving…
+HTTP Request: GET http://localhost:8765/api/v1/memories/?user_id=xiaozhi_device_10_0_0_117&size=5&sort_column=created_at&sort_direction=desc "HTTP/1.1 200 OK"
+  Memory lookup: 5 result(s) in 184ms [mem0]
+[21:19:56]   [596ec15f] [memory ] 5 relevant, summary=False (184ms)
+[21:19:56]   [596ec15f] [prompt ] instructions=188chars messages=11
+[21:19:56]   [596ec15f] [llm    ] calling gpt-4o-mini…
+HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+[21:19:57]   [596ec15f] [llm    ] → '这句台词听起来很熟悉！你在视频里用它来鼓励观众吗？' (1209ms)
+[21:19:58]   [596ec15f] [format ] 98 Opus frames (1336ms)
+[21:19:58]   [596ec15f] [store  ] queued
+[21:19:58]   [596ec15f] [send   ] streaming 98 frames…
+HTTP Request: POST http://localhost:8765/api/v1/memories/ "HTTP/1.1 200 OK"
+  Memory write: OK [mem0 user=xiaozhi_device_10_0_0_117]
+[21:20:05]   [596ec15f] [send   ] done
+{"ts": "2026-05-02T04:20:05.270313+00:00", "req": "596ec15f", "device": "device_10_0_0_117", "user": "请不吝点赞 订阅 转发 打赏支持明镜与点点栏目", "resp": "这句台词听起来很熟悉！你在视频里用它来鼓励观众吗？", "model": "gpt-4o-mini-2024-07-18", "asr_ms": 2180, "parse_ms": 0, "memory_ms": 184, "llm_ms": 1209, "tokens": 608, "tts_ms": 1336, "total_ms": 11284}
+[21:20:05]   [device_10_0_0_117] audio start (mode=realtime)
+[21:20:05]   [device_10_0_0_117] max frames → 50 frames
+[21:20:05]   [b00a923f] [asr    ] decoding 50 Opus frame(s)…
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+[21:20:06]   [b00a923f] [asr    ] → '我最喜欢吃这个' (1145ms)
+[21:20:06]   [b00a923f] [parse  ] mode=normal history=10turns (1ms)
+[21:20:06]   [b00a923f] [memory ] retrieving…
+HTTP Request: GET http://localhost:8765/api/v1/memories/?user_id=xiaozhi_device_10_0_0_117&size=5&sort_column=created_at&sort_direction=desc "HTTP/1.1 200 OK"
+  Memory lookup: 5 result(s) in 178ms [mem0]
+[21:20:06]   [b00a923f] [memory ] 5 relevant, summary=False (178ms)
+[21:20:06]   [b00a923f] [prompt ] instructions=188chars messages=11
+[21:20:06]   [b00a923f] [llm    ] calling gpt-4o-mini…
+HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+[21:20:07]   [b00a923f] [llm    ] → '那你最喜欢吃的是什么呢？分享一下吧！' (948ms)
+[21:20:08]   [b00a923f] [format ] 69 Opus frames (993ms)
+[21:20:08]   [b00a923f] [store  ] queued
+[21:20:08]   [b00a923f] [send   ] streaming 69 frames…
+[21:20:12]   [b00a923f] [send   ] done
+{"ts": "2026-05-02T04:20:12.959045+00:00", "req": "b00a923f", "device": "device_10_0_0_117", "user": "我最喜欢吃这个", "resp": "那你最喜欢吃的是什么呢？分享一下吧！", "model": "gpt-4o-mini-2024-07-18", "asr_ms": 1145, "parse_ms": 1, "memory_ms": 178, "llm_ms": 948, "tokens": 634, "tts_ms": 993, "total_ms": 7689}
+[21:20:12]   [device_10_0_0_117] audio start (mode=realtime)
+[21:20:12]   [device_10_0_0_117] max frames → 50 frames
+[21:20:12]   [46c9d4c2] [asr    ] decoding 50 Opus frame(s)…
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+[21:20:14]   [46c9d4c2] [asr    ] → '吃什么呀' (1454ms)
+[21:20:14]   [46c9d4c2] [parse  ] mode=normal history=10turns (0ms)
+[21:20:14]   [46c9d4c2] [memory ] retrieving…
+HTTP Request: POST http://localhost:8765/api/v1/memories/ "HTTP/1.1 200 OK"
+  Memory write: OK [mem0 user=xiaozhi_device_10_0_0_117]
+HTTP Request: GET http://localhost:8765/api/v1/memories/?user_id=xiaozhi_device_10_0_0_117&size=5&sort_column=created_at&sort_direction=desc "HTTP/1.1 200 OK"
+  Memory lookup: 5 result(s) in 554ms [mem0]
+[21:20:14]   [46c9d4c2] [memory ] 5 relevant, summary=False (554ms)
+[21:20:14]   [46c9d4c2] [prompt ] instructions=185chars messages=11
+[21:20:14]   [46c9d4c2] [llm    ] calling gpt-4o-mini…
+HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+[21:20:16]   [46c9d4c2] [llm    ] → '你最喜欢吃苹果，对吧？还有其他喜欢的食物吗？' (1229ms)
+[21:20:17]   [46c9d4c2] [format ] 83 Opus frames (970ms)
+[21:20:17]   [46c9d4c2] [store  ] queued
+[21:20:17]   [46c9d4c2] [send   ] streaming 83 frames…
+HTTP Request: POST http://localhost:8765/api/v1/memories/ "HTTP/1.1 200 OK"
+  Memory write: OK [mem0 user=xiaozhi_device_10_0_0_117]
+[21:20:22]   [46c9d4c2] [send   ] done
+{"ts": "2026-05-02T04:20:22.639983+00:00", "req": "46c9d4c2", "device": "device_10_0_0_117", "user": "吃什么呀", "resp": "你最喜欢吃苹果，对吧？还有其他喜欢的食物吗？", "model": "gpt-4o-mini-2024-07-18", "asr_ms": 1454, "parse_ms": 0, "memory_ms": 554, "llm_ms": 1229, "tokens": 658, "tts_ms": 970, "total_ms": 9681}
+[21:20:22]   [device_10_0_0_117] audio start (mode=realtime)
+[21:20:22]   [device_10_0_0_117] max frames → 50 frames
+[21:20:22]   [5591f4d4] [asr    ] decoding 50 Opus frame(s)…
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+[21:20:24]   [5591f4d4] [asr    ] → '請不吝點贊訂閱轉發打賞支持明鏡與點點欄目' (2224ms)
+[21:20:24]   [5591f4d4] [parse  ] mode=normal history=10turns (0ms)
+[21:20:24]   [5591f4d4] [memory ] retrieving…
+HTTP Request: GET http://localhost:8765/api/v1/memories/?user_id=xiaozhi_device_10_0_0_117&size=5&sort_column=created_at&sort_direction=desc "HTTP/1.1 200 OK"
+  Memory lookup: 5 result(s) in 174ms [mem0]
+[21:20:25]   [5591f4d4] [memory ] 5 relevant, summary=False (174ms)
+[21:20:25]   [5591f4d4] [prompt ] instructions=185chars messages=11
+[21:20:25]   [5591f4d4] [llm    ] calling gpt-4o-mini…
+HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+[21:20:26]   [5591f4d4] [llm    ] → '这句真是经典！你觉得这句话对观众的吸引力大吗？' (1297ms)
+[21:20:27]   [5591f4d4] [format ] 90 Opus frames (992ms)
+[21:20:27]   [5591f4d4] [store  ] queued
+[21:20:27]   [5591f4d4] [send   ] streaming 90 frames…
+HTTP Request: POST http://localhost:8765/api/v1/memories/ "HTTP/1.1 200 OK"
+  Memory write: OK [mem0 user=xiaozhi_device_10_0_0_117]
+[21:20:33]   [5591f4d4] [send   ] done
+{"ts": "2026-05-02T04:20:33.117818+00:00", "req": "5591f4d4", "device": "device_10_0_0_117", "user": "請不吝點贊訂閱轉發打賞支持明鏡與點點欄目", "resp": "这句真是经典！你觉得这句话对观众的吸引力大吗？", "model": "gpt-4o-mini-2024-07-18", "asr_ms": 2224, "parse_ms": 0, "memory_ms": 174, "llm_ms": 1297, "tokens": 709, "tts_ms": 992, "total_ms": 10476}
+[21:20:33]   [device_10_0_0_117] audio start (mode=realtime)
+[21:20:33]   [device_10_0_0_117] max frames → 50 frames
+[21:20:33]   [1b58e265] [asr    ] decoding 50 Opus frame(s)…
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+[21:20:34]   [1b58e265] [asr    ] → '' (1608ms)
+[21:20:34]   [1b58e265] [asr    ] empty — sending fallback
+{"ts": "2026-05-02T04:20:37.916833+00:00", "req": "1b58e265", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "asr_ms": 1608, "total_ms": 4798}
+[21:20:37]   [device_10_0_0_117] audio start (mode=realtime)
+[21:20:37]   [device_10_0_0_117] max frames → 50 frames
+[21:20:37]   [e89bf1c3] [asr    ] decoding 50 Opus frame(s)…
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+[21:20:38]   [e89bf1c3] [asr    ] → '我说我喜欢吃什么' (1068ms)
+[21:20:38]   [e89bf1c3] [parse  ] mode=normal history=10turns (0ms)
+[21:20:38]   [e89bf1c3] [memory ] retrieving…
+HTTP Request: GET http://localhost:8765/api/v1/memories/?user_id=xiaozhi_device_10_0_0_117&size=5&sort_column=created_at&sort_direction=desc "HTTP/1.1 200 OK"
+  Memory lookup: 5 result(s) in 201ms [mem0]
+[21:20:39]   [e89bf1c3] [memory ] 5 relevant, summary=False (202ms)
+[21:20:39]   [e89bf1c3] [prompt ] instructions=185chars messages=11
+[21:20:39]   [e89bf1c3] [llm    ] calling gpt-4o-mini…
+HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+[21:20:40]   [e89bf1c3] [llm    ] → '哦，抱歉！你喜欢吃什么呢？可以告诉我吗？' (1462ms)
+[21:20:41]   [e89bf1c3] [format ] 87 Opus frames (853ms)
+[21:20:41]   [e89bf1c3] [store  ] queued
+[21:20:41]   [e89bf1c3] [send   ] streaming 87 frames…
+HTTP Request: POST http://localhost:8765/api/v1/memories/ "HTTP/1.1 200 OK"
+  Memory write: OK [mem0 user=xiaozhi_device_10_0_0_117]
+[21:20:47]   [e89bf1c3] [send   ] done
+{"ts": "2026-05-02T04:20:47.332132+00:00", "req": "e89bf1c3", "device": "device_10_0_0_117", "user": "我说我喜欢吃什么", "resp": "哦，抱歉！你喜欢吃什么呢？可以告诉我吗？", "model": "gpt-4o-mini-2024-07-18", "asr_ms": 1068, "parse_ms": 0, "memory_ms": 202, "llm_ms": 1462, "tokens": 739, "tts_ms": 853, "total_ms": 9415}
+[21:20:47]   [device_10_0_0_117] audio start (mode=realtime)
+[21:20:47]   [device_10_0_0_117] max frames → 50 frames
+[21:20:47]   [dc669bc9] [asr    ] decoding 50 Opus frame(s)…
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+[21:20:49]   [dc669bc9] [asr    ] → '謝謝你們' (2053ms)
+[21:20:49]   [dc669bc9] [parse  ] mode=normal history=10turns (0ms)
+[21:20:49]   [dc669bc9] [memory ] retrieving…
+HTTP Request: GET http://localhost:8765/api/v1/memories/?user_id=xiaozhi_device_10_0_0_117&size=5&sort_column=created_at&sort_direction=desc "HTTP/1.1 200 OK"
+  Memory lookup: 5 result(s) in 181ms [mem0]
+[21:20:49]   [dc669bc9] [memory ] 5 relevant, summary=False (181ms)
+[21:20:49]   [dc669bc9] [prompt ] instructions=185chars messages=11
+[21:20:49]   [dc669bc9] [llm    ] calling gpt-4o-mini…
+HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+[21:20:50]   [dc669bc9] [llm    ] → '不客气！如果还有什么想聊的，随时告诉我哦！' (1182ms)
+[21:20:51]   [dc669bc9] [format ] 79 Opus frames (1040ms)
+[21:20:51]   [dc669bc9] [store  ] queued
+[21:20:51]   [dc669bc9] [send   ] streaming 79 frames…
+HTTP Request: POST http://localhost:8765/api/v1/memories/ "HTTP/1.1 200 OK"
+  Memory write: OK [mem0 user=xiaozhi_device_10_0_0_117]
+[21:20:57]   [dc669bc9] [send   ] done
+{"ts": "2026-05-02T04:20:57.013344+00:00", "req": "dc669bc9", "device": "device_10_0_0_117", "user": "謝謝你們", "resp": "不客气！如果还有什么想聊的，随时告诉我哦！", "model": "gpt-4o-mini-2024-07-18", "asr_ms": 2053, "parse_ms": 0, "memory_ms": 181, "llm_ms": 1182, "tokens": 768, "tts_ms": 1040, "total_ms": 9681}
+[21:20:57]   [device_10_0_0_117] audio start (mode=realtime)
+[21:20:57]   [device_10_0_0_117] max frames → 50 frames
+[21:20:57]   [2f3715c3] [asr    ] decoding 50 Opus frame(s)…
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+[21:20:59]   [2f3715c3] [asr    ] → '' (2432ms)
+[21:20:59]   [2f3715c3] [asr    ] empty — sending fallback
+{"ts": "2026-05-02T04:21:02.579964+00:00", "req": "2f3715c3", "device": "device_10_0_0_117", "user": "", "resp": "我没听清楚，请再说一遍。", "model": "?", "asr_ms": 2432, "total_ms": 5567}
+[21:21:02]   [device_10_0_0_117] audio start (mode=realtime)
+[21:21:02]   [device_10_0_0_117] max frames → 50 frames
+[21:21:02]   [28e09e7f] [asr    ] decoding 50 Opus frame(s)…
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+[21:21:03]   [28e09e7f] [asr    ] → '你不能理解中文吗?' (750ms)
+[21:21:03]   [28e09e7f] [parse  ] mode=normal history=10turns (0ms)
+[21:21:03]   [28e09e7f] [memory ] retrieving…
+HTTP Request: GET http://localhost:8765/api/v1/memories/?user_id=xiaozhi_device_10_0_0_117&size=5&sort_column=created_at&sort_direction=desc "HTTP/1.1 200 OK"
+  Memory lookup: 5 result(s) in 188ms [mem0]
+[21:21:03]   [28e09e7f] [memory ] 5 relevant, summary=False (188ms)
+[21:21:03]   [28e09e7f] [prompt ] instructions=185chars messages=11
+[21:21:03]   [28e09e7f] [llm    ] calling gpt-4o-mini…
+HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+[21:21:04]   [28e09e7f] [llm    ] → '我能理解中文！如果有什么问题或者想聊的，尽管问我。' (1219ms)
+[21:21:05]   [28e09e7f] [format ] 98 Opus frames (1167ms)
+[21:21:05]   [28e09e7f] [store  ] queued
+[21:21:05]   [28e09e7f] [send   ] streaming 98 frames…
+HTTP Request: POST http://localhost:8765/api/v1/memories/ "HTTP/1.1 200 OK"
+  Memory write: OK [mem0 user=xiaozhi_device_10_0_0_117]
+[21:21:12]   [28e09e7f] [send   ] done
+{"ts": "2026-05-02T04:21:12.522113+00:00", "req": "28e09e7f", "device": "device_10_0_0_117", "user": "你不能理解中文吗?", "resp": "我能理解中文！如果有什么问题或者想聊的，尽管问我。", "model": "gpt-4o-mini-2024-07-18", "asr_ms": 750, "parse_ms": 0, "memory_ms": 188, "llm_ms": 1219, "tokens": 800, "tts_ms": 1167, "total_ms": 9934}
+[21:21:12]   [device_10_0_0_117] audio start (mode=realtime)
+[21:21:12]   [device_10_0_0_117] max frames → 50 frames
+[21:21:12]   [a569e6fd] [asr    ] decoding 50 Opus frame(s)…
+HTTP Request: POST https://api.openai.com/v1/audio/transcriptions "HTTP/1.1 200 OK"
+[21:21:13]   [a569e6fd] [asr    ] → '謝謝' (857ms)
+[21:21:13]   [a569e6fd] [parse  ] mode=normal history=10turns (0ms)
+[21:21:13]   [a569e6fd] [memory ] retrieving…
+HTTP Request: GET http://localhost:8765/api/v1/memories/?user_id=xiaozhi_device_10_0_0_117&size=5&sort_column=created_at&sort_direction=desc "HTTP/1.1 200 OK"
+  Memory lookup: 5 result(s) in 184ms [mem0]
+[21:21:13]   [a569e6fd] [memory ] 5 relevant, summary=False (184ms)
+[21:21:13]   [a569e6fd] [prompt ] instructions=185chars messages=11
+[21:21:13]   [a569e6fd] [llm    ] calling gpt-4o-mini…
+HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+[21:21:14]   [a569e6fd] [llm    ] → '不客气！如果还有其他想聊的，随时找我哦！' (1256ms)
+[21:21:16]   [a569e6fd] [format ] 78 Opus frames (1287ms)
+[21:21:16]   [a569e6fd] [store  ] queued
+[21:21:16]   [a569e6fd] [send   ] streaming 78 frames…
+HTTP Request: POST http://localhost:8765/api/v1/memories/ "HTTP/1.1 200 OK"
+  Memory write: OK [mem0 user=xiaozhi_device_10_0_0_117]
+[21:21:24]   [a569e6fd] [ERROR  ] ConnectionClosedError: sent 1011 (internal error) keepalive ping timeout; no close frame received
+{"ts": "2026-05-02T04:21:24.145828+00:00", "req": "a569e6fd", "device": "device_10_0_0_117", "user": "謝謝", "resp": "不客气！如果还有其他想聊的，随时找我哦！", "model": "gpt-4o-mini-2024-07-18", "asr_ms": 857, "parse_ms": 0, "memory_ms": 184, "llm_ms": 1256, "tokens": 827, "tts_ms": 1287, "total_ms": 11623, "error": "ConnectionClosedError: sent 1011 (internal error) keepalive ping timeout; no close frame received"}
+[21:21:24]   [device_10_0_0_117] audio start (mode=realtime)
+[21:21:24] [-] ('10.0.0.117', 57348) disconnected
+connection closed

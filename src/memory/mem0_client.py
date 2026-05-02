@@ -2,8 +2,8 @@
 Mem0 memory backend.
 
 Two production modes (set one in .env):
-  MEM0_API_KEY     — Mem0 cloud (https://mem0.ai)
-  MEM0_SERVER_URL  — Self-hosted OpenMemory / Mem0 MCP server
+  MEM0_API_KEY     — Mem0 cloud (https://mem0.ai)  — uses mem0ai SDK
+  MEM0_SERVER_URL  — Self-hosted OpenMemory MCP server — uses direct HTTP
 
 If neither is configured, MockMem0Client is used automatically by
 gateway._build_services(). MockMem0Client stores data in-process only
@@ -24,22 +24,20 @@ def _extract_text(hit: dict) -> str:
     return hit.get("memory") or hit.get("text") or hit.get("content") or ""
 
 
-# ── Real Mem0 client ──────────────────────────────────────────────────────────
+# ── Cloud Mem0 client (mem0ai SDK) ────────────────────────────────────────────
 
 class Mem0Client:
     """
-    Thin async wrapper around the mem0ai SDK.
+    Thin async wrapper around the mem0ai SDK for Mem0 cloud.
 
-    Instantiation is lazy: the SDK is imported and the HTTP client is created
-    on the first actual call. This keeps startup fast when mem0ai is installed
-    but credentials are not yet configured.
+    Only used when MEM0_API_KEY is set. For self-hosted OpenMemory use
+    OpenMemoryClient instead.
     """
 
-    def __init__(self, api_key: str = "", server_url: str = ""):
-        if not api_key and not server_url:
-            raise ValueError("Provide MEM0_API_KEY or MEM0_SERVER_URL")
+    def __init__(self, api_key: str):
+        if not api_key:
+            raise ValueError("Provide MEM0_API_KEY for cloud mode")
         self._api_key = api_key
-        self._server_url = server_url
         self._client = None   # lazy init
 
     def _get(self):
@@ -50,19 +48,11 @@ class Mem0Client:
                 raise RuntimeError(
                     "mem0ai not installed — run: pip install mem0ai"
                 ) from exc
-
-            if self._api_key:
-                self._client = MemoryClient(api_key=self._api_key)
-                log.debug("Mem0Client: cloud mode")
-            else:
-                self._client = MemoryClient(host=self._server_url)
-                log.debug("Mem0Client: self-hosted mode (%s)", self._server_url)
+            self._client = MemoryClient(api_key=self._api_key)
+            log.debug("Mem0Client: cloud mode")
         return self._client
 
-    async def search(
-        self, query: str, user_id: str, top_k: int = 5
-    ) -> list[dict]:
-        """Semantic search. Returns list of {memory, score, ...} dicts."""
+    async def search(self, query: str, user_id: str, top_k: int = 5) -> list[dict]:
         client = self._get()
         results = await asyncio.to_thread(
             client.search, query, user_id=user_id, top_k=top_k
@@ -70,22 +60,109 @@ class Mem0Client:
         return results or []
 
     async def add(self, messages: list[dict], user_id: str) -> None:
-        """Store a conversation turn as a memory."""
         client = self._get()
         await asyncio.to_thread(
             client.add,
             messages,
             user_id=user_id,
-            output_format="v1.1",   # suppress deprecation warning
+            output_format="v1.1",
         )
 
     async def get_all(self, user_id: str) -> list[dict]:
-        """Retrieve all memories for a user."""
         client = self._get()
-        results = await asyncio.to_thread(
-            client.get_all, user_id=user_id
-        )
+        results = await asyncio.to_thread(client.get_all, user_id=user_id)
         return results or []
+
+
+# ── Self-hosted OpenMemory HTTP client ────────────────────────────────────────
+
+class OpenMemoryClient:
+    """
+    Direct HTTP adapter for self-hosted OpenMemory (mem0/openmemory-mcp).
+
+    Bypasses the mem0ai SDK — which targets /v1/ paths — and calls the
+    OpenMemory REST API at /api/v1/ directly.
+
+    Requires: httpx  (already a transitive dep of openai>=1.0)
+    """
+
+    def __init__(self, server_url: str) -> None:
+        self._base = server_url.rstrip("/")
+
+    def _http(self):
+        try:
+            import httpx
+        except ImportError as exc:
+            raise RuntimeError("httpx not installed — run: pip install httpx") from exc
+        return httpx.AsyncClient(base_url=self._base, timeout=10.0)
+
+    async def search(self, query: str, user_id: str, top_k: int = 5) -> list[dict]:
+        """
+        Return the most recent `top_k` memories for the user.
+
+        OpenMemory's REST API uses SQL ILIKE for search_query, which misses
+        semantic matches. Returning recent memories lets the LLM decide
+        relevance — adequate for small per-user stores (< 50 facts).
+        """
+        size = min(top_k, 100)
+        async with self._http() as client:
+            resp = await client.get(
+                "/api/v1/memories/",
+                params={
+                    "user_id": user_id,
+                    "size": size,
+                    "sort_column": "created_at",
+                    "sort_direction": "desc",
+                },
+            )
+            resp.raise_for_status()
+            data = resp.json()
+            items = data.get("items") or (data if isinstance(data, list) else [])
+            return [{"memory": item["content"]} for item in items if item.get("content")]
+
+    async def add(self, messages: list[dict], user_id: str) -> None:
+        """
+        Store a conversation turn as a memory.
+
+        Concatenates the message list into a single text and posts it with
+        infer=true so OpenMemory's LLM extracts discrete facts automatically.
+        """
+        parts = []
+        for msg in messages:
+            role = msg.get("role", "")
+            content = msg.get("content", "")
+            if role and content:
+                parts.append(f"{role}: {content}")
+        if not parts:
+            return
+        text = "\n".join(parts)
+        async with self._http() as client:
+            resp = await client.post(
+                "/api/v1/memories/",
+                json={"user_id": user_id, "text": text, "infer": True},
+            )
+            resp.raise_for_status()
+
+    async def get_all(self, user_id: str) -> list[dict]:
+        """Retrieve all memories for a user via GET /api/v1/memories/ (paginated, max 100/page)."""
+        results: list[dict] = []
+        page = 1
+        async with self._http() as client:
+            while True:
+                resp = await client.get(
+                    "/api/v1/memories/",
+                    params={"user_id": user_id, "size": 100, "page": page},
+                )
+                resp.raise_for_status()
+                data = resp.json()
+                items = data.get("items") or (data if isinstance(data, list) else [])
+                results.extend(
+                    {"memory": item["content"]} for item in items if item.get("content")
+                )
+                if page >= data.get("pages", 1):
+                    break
+                page += 1
+        return results
 
 
 # ── In-process fallback ───────────────────────────────────────────────────────

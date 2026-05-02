@@ -4,7 +4,7 @@ import miniaudio
 import edge_tts
 from pyogg.opus import (
     opus_encoder_create, opus_encode, opus_encoder_destroy,
-    OPUS_APPLICATION_VOIP, OPUS_OK, c_int, c_int16, c_ubyte,
+    OPUS_APPLICATION_AUDIO, OPUS_OK, c_int, c_int16, c_ubyte,
 )
 
 SAMPLE_RATE = 16000
@@ -16,7 +16,7 @@ VOICE = "zh-CN-XiaoxiaoNeural"
 
 def _pcm_to_opus(pcm: bytes) -> list[bytes]:
     err = c_int(0)
-    enc = opus_encoder_create(SAMPLE_RATE, CHANNELS, OPUS_APPLICATION_VOIP, ctypes.byref(err))
+    enc = opus_encoder_create(SAMPLE_RATE, CHANNELS, OPUS_APPLICATION_AUDIO, ctypes.byref(err))
     if err.value != OPUS_OK:
         raise RuntimeError(f"opus_encoder_create failed: {err.value}")
 

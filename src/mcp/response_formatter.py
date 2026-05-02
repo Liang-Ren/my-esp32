@@ -19,13 +19,11 @@ if str(_ROOT) not in sys.path:
     sys.path.insert(0, str(_ROOT))
 
 import tts_service
+from src.config.settings import settings
 
 # Patterns that don't translate well to voice
 _STRIP_MD = re.compile(r"[*_`#~|>\\]")
 _MULTI_SPACE = re.compile(r" {2,}")
-
-# Hard cap: edge-tts is slow on very long strings and ESP32 buffers are finite
-MAX_CHARS = 300
 
 
 @dataclass
@@ -35,16 +33,6 @@ class FormattedResponse:
 
 
 class ResponseFormatter:
-    """
-    Converts a raw LLM reply string into a FormattedResponse.
-
-    Usage:
-        formatter = ResponseFormatter()
-        result = await formatter.format(raw_llm_text)
-        # result.text      — logged, sent as TTS sentence JSON
-        # result.opus_frames — streamed as binary WebSocket frames
-    """
-
     async def format(self, raw_text: str) -> FormattedResponse:
         text = _sanitize(raw_text)
         frames = await tts_service.generate(text)
@@ -52,12 +40,12 @@ class ResponseFormatter:
 
 
 def _sanitize(text: str) -> str:
-    """Remove markdown and trim to voice-safe length."""
+    """Remove markdown and trim to MAX_VOICE_REPLY_CHARS for voice delivery."""
     text = _STRIP_MD.sub("", text)
     text = _MULTI_SPACE.sub(" ", text).strip()
-    if len(text) > MAX_CHARS:
-        # Break cleanly at the last sentence boundary within the limit
-        truncated = text[:MAX_CHARS]
+    cap = settings.MAX_VOICE_REPLY_CHARS
+    if len(text) > cap:
+        truncated = text[:cap]
         last_period = truncated.rfind("。")
         text = (truncated[:last_period + 1] if last_period > 0 else truncated) + "…"
     return text
